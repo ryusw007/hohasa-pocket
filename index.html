@@ -95,8 +95,9 @@
   </div></div>
 
 <script>
-  // 페이지 목록: 0번은 항상 커버, 이후 대화 카드
-  const PAGES = ["cards/00_cover.png", "cards/01.png", "cards/02.png", "cards/03.png", "cards/04.png", "cards/05.png", "cards/06.png"];
+  // 페이지 자동 탐지: cards/00_cover.png → 01.png → 02.png … 없으면 중단
+  // → 새 카드는 다음 번호 PNG만 올리면 자동으로 페이지가 늘어난다(index.html 수정 불필요).
+  let PAGES = [];
   let cur = 0, busy = false;
 
   const book = document.getElementById('book');
@@ -107,19 +108,32 @@
   const dots = document.getElementById('dots');
   const count = document.getElementById('count');
 
-  // 프리로드
-  PAGES.forEach(src => { const i = new Image(); i.src = src; });
-
-  // 인디케이터
-  PAGES.forEach((_, i) => { const d = document.createElement('i'); dots.appendChild(d); });
   function paint(){
+    if (!PAGES.length) return;
     baseImg.src = PAGES[cur];
     [...dots.children].forEach((d,i)=> d.classList.toggle('on', i===cur));
     count.textContent = (cur+1) + ' / ' + PAGES.length;
     prevBtn.disabled = (cur===0);
     nextBtn.disabled = (cur===PAGES.length-1);
   }
-  paint();
+  function exists(src){
+    return new Promise(res=>{ const im=new Image();
+      im.onload=()=>res(true); im.onerror=()=>res(false); im.src=src; });
+  }
+  async function discover(){
+    const found=[]; const cover='cards/00_cover.png';
+    if (await exists(cover)) found.push(cover);
+    for (let i=1;i<300;i++){
+      const p = 'cards/' + String(i).padStart(2,'0') + '.png';
+      if (await exists(p)) found.push(p); else break;
+    }
+    return found.length ? found : [cover];
+  }
+  (async () => {
+    PAGES = await discover();
+    PAGES.forEach(()=>{ const d=document.createElement('i'); dots.appendChild(d); });
+    paint();
+  })();
 
   function turn(dir){ // dir: +1 다음, -1 이전
     if (busy) return;
