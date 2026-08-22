@@ -2,197 +2,72 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0e14">
-<title>호하사 포켓 카툰</title>
+<title>호하사 데일리 다이제스트</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 데일리 다이제스트">
+<meta property="og:title" content="호하사 데일리 다이제스트">
+<meta property="og:description" content="오늘의 카툰 다이제스트 · 웹툰처럼 좌우로 넘겨 보세요">
+<meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og.png">
+<meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/">
+<meta name="twitter:card" content="summary_large_image">
 <style>
-  :root{ --accent:#f5701e; --bg:#0b0e14; --panel:rgba(15,17,22,.72); }
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
   *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
-  html,body{ margin:0; height:100%; background:var(--bg); color:#e9eaee;
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-    overflow:hidden; overscroll-behavior:none; }
-
-  /* 상단 바 */
-  .topbar{ position:fixed; top:0; left:0; right:0; z-index:30; display:flex;
-    align-items:center; justify-content:space-between; gap:12px;
-    padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;
-    background:linear-gradient(#0b0e14ee,#0b0e1400); pointer-events:none; }
-  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:720px; margin:0 auto; padding:24px 18px 60px; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
   .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
-  .date{ font-size:13px; color:#aeb1b8; font-weight:600; }
-
-  /* 무대 */
-  .stage{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
-    perspective:2200px; }
-  .book{ position:relative; width:min(96vw, 69vh); aspect-ratio:3/4; }
-  .layer{ position:absolute; inset:0; border-radius:10px; overflow:hidden;
-    background:#000; box-shadow:0 18px 50px rgba(0,0,0,.55); }
-  .layer img{ width:100%; height:100%; object-fit:contain; display:block; background:#0b0e14; }
-
-  /* 넘김용 플리퍼 */
-  .flipper{ position:absolute; inset:0; transform-origin:left center;
-    transform-style:preserve-3d; backface-visibility:hidden; border-radius:10px;
-    overflow:hidden; will-change:transform; box-shadow:0 18px 50px rgba(0,0,0,.55); }
-  .flipper img{ width:100%; height:100%; object-fit:contain; display:block; background:#0b0e14; }
-  .flipper .shade{ position:absolute; inset:0; background:linear-gradient(90deg,#0000,#0007);
-    opacity:0; transition:opacity .1s; pointer-events:none; }
-
-  /* 탭 존 */
-  .zone{ position:fixed; top:0; bottom:0; width:42%; z-index:20; }
-  .zone.left{ left:0; } .zone.right{ right:0; }
-
-  /* 화살표 */
-  .nav{ position:fixed; top:50%; transform:translateY(-50%); z-index:25;
-    width:44px; height:44px; border-radius:50%; border:none; cursor:pointer;
-    background:var(--panel); color:#fff; font-size:20px; display:grid; place-items:center;
-    backdrop-filter:blur(6px); opacity:.75; transition:opacity .2s; }
-  .nav:active{ opacity:1; } .nav.prev{ left:12px; } .nav.next{ right:12px; }
-  .nav[disabled]{ opacity:.2; pointer-events:none; }
-
-  /* 하단 인디케이터 */
-  .footer{ position:fixed; left:0; right:0; bottom:0; z-index:30;
-    padding:10px 16px calc(env(safe-area-inset-bottom) + 12px);
-    display:flex; flex-direction:column; align-items:center; gap:8px;
-    background:linear-gradient(#0b0e1400,#0b0e14ee); pointer-events:none; }
-  .dots{ display:flex; gap:7px; } .dots i{ width:7px; height:7px; border-radius:50%;
-    background:#4a4d55; transition:.2s; } .dots i.on{ background:var(--accent); width:20px; border-radius:4px; }
-  .count{ font-size:12px; color:#9a9da4; font-weight:600; }
-
-  /* 첫 진입 힌트 */
-  .hint{ position:fixed; inset:0; z-index:40; display:grid; place-items:center;
-    background:#0b0e14cc; color:#fff; font-size:15px; text-align:center;
-    transition:opacity .4s; }
-  .hint.hide{ opacity:0; pointer-events:none; }
-  .hint .box{ padding:22px 26px; border:1px solid #ffffff22; border-radius:14px;
-    background:#0b0e14; line-height:1.7; }
-  .hint b{ color:var(--accent); }
+  .hero{ margin-top:16px; border-radius:20px; overflow:hidden; background:var(--card);
+    box-shadow:0 16px 44px rgba(0,0,0,.5); }
+  .hero img{ width:100%; display:block; }
+  .hero .body{ padding:20px 20px 22px; }
+  .hero h1{ margin:0 0 6px; font-size:24px; }
+  .hero .d{ color:#9a9da4; font-weight:700; font-size:14px; margin-bottom:16px; }
+  .btn{ display:block; text-align:center; background:var(--accent); color:#fff; text-decoration:none;
+    font-weight:800; font-size:18px; padding:16px; border-radius:14px; }
+  .sec{ margin-top:34px; font-weight:800; font-size:15px; color:#c9ccd3; display:flex; align-items:center; gap:8px; }
+  .sec::before{ content:""; width:4px; height:16px; background:var(--accent); border-radius:2px; }
+  .list{ margin-top:14px; display:flex; flex-direction:column; gap:10px; }
+  .item{ display:flex; align-items:center; gap:14px; background:var(--card); border-radius:14px;
+    padding:12px 14px; text-decoration:none; color:#e9eaee; }
+  .item img{ width:52px; height:69px; object-fit:cover; border-radius:8px; background:#0b0e14; flex:none; }
+  .item .t{ font-weight:700; font-size:15px; } .item .s{ color:#9a9da4; font-size:13px; margin-top:2px; }
+  .item .go{ margin-left:auto; color:#6b6e76; font-size:20px; }
+  .empty{ color:#9a9da4; padding:20px; text-align:center; }
+  .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
 </style>
 </head>
 <body>
-  <div class="topbar">
-    <div class="brand"><span class="dot"></span><span>호하사 포켓 카툰</span></div>
-    <div class="date">2026.08.22</div>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span><span>호하사 데일리 다이제스트</span></div>
+    <div id="hero"></div>
+    <div class="sec">지난 회차</div>
+    <div class="list" id="list"><div class="empty">불러오는 중…</div></div>
+    <div class="foot">웹툰처럼 좌우로 넘겨 보세요 · Hostel Up People</div>
   </div>
-
-  <div class="stage">
-    <div class="book" id="book">
-      <div class="layer" id="base"><img id="baseImg" alt=""></div>
-    </div>
-  </div>
-
-  <button class="nav prev" id="prev" aria-label="이전">‹</button>
-  <button class="nav next" id="next" aria-label="다음">›</button>
-  <div class="zone left"  id="zl"></div>
-  <div class="zone right" id="zr"></div>
-
-  <div class="footer">
-    <div class="dots" id="dots"></div>
-    <div class="count" id="count"></div>
-  </div>
-
-  <div class="hint" id="hint"><div class="box">
-    좌우를 <b>탭</b>하거나 <b>넘겨서</b> 보세요<br>← 뒤로 · 앞으로 →
-  </div></div>
-
 <script>
-  // 페이지 자동 탐지: cards/00_cover.png → 01.png → 02.png … 없으면 중단
-  // → 새 카드는 다음 번호 PNG만 올리면 자동으로 페이지가 늘어난다(index.html 수정 불필요).
-  let PAGES = [];
-  let cur = 0, busy = false;
-
-  const book = document.getElementById('book');
-  const base = document.getElementById('base');
-  const baseImg = document.getElementById('baseImg');
-  const prevBtn = document.getElementById('prev');
-  const nextBtn = document.getElementById('next');
-  const dots = document.getElementById('dots');
-  const count = document.getElementById('count');
-
-  function paint(){
-    if (!PAGES.length) return;
-    baseImg.src = PAGES[cur];
-    [...dots.children].forEach((d,i)=> d.classList.toggle('on', i===cur));
-    count.textContent = (cur+1) + ' / ' + PAGES.length;
-    prevBtn.disabled = (cur===0);
-    nextBtn.disabled = (cur===PAGES.length-1);
-  }
-  function exists(src){
-    return new Promise(res=>{ const im=new Image();
-      im.onload=()=>res(true); im.onerror=()=>res(false); im.src=src; });
-  }
-  async function discover(){
-    const found=[]; const cover='cards/00_cover.png';
-    if (await exists(cover)) found.push(cover);
-    for (let i=1;i<300;i++){
-      const p = 'cards/' + String(i).padStart(2,'0') + '.png';
-      if (await exists(p)) found.push(p); else break;
-    }
-    return found.length ? found : [cover];
-  }
-  (async () => {
-    PAGES = await discover();
-    PAGES.forEach(()=>{ const d=document.createElement('i'); dots.appendChild(d); });
-    paint();
+  function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  const issues = [{"date": "2026-08-22", "title": "외국인 변튀 사건 · 리파이낸싱", "cover": "issues/2026-08-22/00_cover.jpg", "count": 10}, {"date": "2026-08-21", "title": "협회 발족 · 벤처인증", "cover": "issues/2026-08-21/00_cover.jpg", "count": 9}];   // 빌드 시 주입(런타임 fetch 불필요)
+  (function(){
+    if(!issues || !issues.length){ document.getElementById('list').innerHTML='<div class="empty">아직 발행된 회차가 없습니다.</div>'; return; }
+    const latest=issues[0];
+    document.getElementById('hero').innerHTML =
+      '<div class="hero">'
+      + '<img src="'+latest.cover+'" alt="">'
+      + '<div class="body"><h1>'+esc(latest.title||'오늘의 카툰 다이제스트')+'</h1>'
+      + '<div class="d">'+latest.date.replace(/-/g,".")+'</div>'
+      + '<a class="btn" href="viewer.html?d='+latest.date+'">📖 오늘의 다이제스트 보기</a></div></div>';
+    const rest=issues.slice(1);
+    document.getElementById('list').innerHTML = rest.length ? rest.map(it=>
+      '<a class="item" href="viewer.html?d='+it.date+'">'
+      + '<img src="'+it.cover+'" alt="">'
+      + '<div><div class="t">'+esc(it.title||'카툰 다이제스트')+'</div>'
+      + '<div class="s">'+it.date.replace(/-/g,".")+'</div></div>'
+      + '<div class="go">›</div></a>').join('') : '<div class="empty">지난 회차가 곧 쌓입니다.</div>';
   })();
-
-  function turn(dir){ // dir: +1 다음, -1 이전
-    if (busy) return;
-    const target = cur + dir;
-    if (target < 0 || target >= PAGES.length) return;
-    busy = true;
-
-    if (dir > 0){
-      // 다음: 아래에 target 깔고, 현재 페이지를 왼쪽으로 넘김
-      baseImg.src = PAGES[target];
-      const fl = makeFlipper(PAGES[cur]);
-      requestAnimationFrame(()=>{ fl.style.transform = 'rotateY(-180deg)';
-        fl.querySelector('.shade').style.opacity = '1'; });
-      end(fl);
-    } else {
-      // 이전: target을 왼쪽에서 펼쳐 현재를 덮음 (아래는 현재 유지)
-      const fl = makeFlipper(PAGES[target]);
-      fl.style.transform = 'rotateY(-180deg)';
-      requestAnimationFrame(()=>{ requestAnimationFrame(()=>{ fl.style.transform = 'rotateY(0deg)';
-        fl.querySelector('.shade').style.opacity = '0'; }); });
-      end(fl);
-    }
-    function end(fl){
-      let done=false;
-      const fin = ()=>{ if(done) return; done=true; cur = target; paint();
-        fl.remove(); busy=false; };
-      fl.addEventListener('transitionend', fin, {once:true});
-      setTimeout(fin, 700); // 안전장치
-    }
-  }
-
-  function makeFlipper(src){
-    const fl = document.createElement('div');
-    fl.className = 'flipper';
-    fl.innerHTML = '<img src="'+src+'" alt=""><div class="shade"></div>';
-    fl.style.transition = 'transform .62s cubic-bezier(.4,.15,.2,1)';
-    book.appendChild(fl);
-    return fl;
-  }
-
-  // 조작
-  document.getElementById('zr').onclick = ()=> turn(+1);
-  document.getElementById('zl').onclick = ()=> turn(-1);
-  nextBtn.onclick = ()=> turn(+1);
-  prevBtn.onclick = ()=> turn(-1);
-  addEventListener('keydown', e=>{ if(e.key==='ArrowRight') turn(+1);
-    if(e.key==='ArrowLeft') turn(-1); });
-
-  // 스와이프
-  let sx=0, sy=0;
-  addEventListener('touchstart', e=>{ sx=e.touches[0].clientX; sy=e.touches[0].clientY; }, {passive:true});
-  addEventListener('touchend', e=>{ const dx=e.changedTouches[0].clientX - sx;
-    const dy=e.changedTouches[0].clientY - sy;
-    if(Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) turn(dx < 0 ? +1 : -1); }, {passive:true});
-
-  // 힌트 닫기
-  const hint = document.getElementById('hint');
-  const hide = ()=> hint.classList.add('hide');
-  hint.onclick = hide; setTimeout(hide, 2600);
 </script>
 </body>
 </html>
