@@ -55,7 +55,7 @@
   </div>
 <script>
   function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
-  const issues = [{"date": "2026-08-22", "title": "외국인 변튀 사건 · 리파이낸싱", "cover": "issues/2026-08-22/00_cover.jpg", "count": 10}, {"date": "2026-08-21", "title": "협회 발족 · 벤처인증", "cover": "issues/2026-08-21/00_cover.jpg", "count": 9}];   // 빌드 시 주입(런타임 fetch 불필요)
+  const issues = [{"date": "2026-08-23", "title": "골드만삭스 명동 · 코리빙 전략", "cover": "issues/2026-08-23/00_cover.jpg", "count": 10}, {"date": "2026-08-22", "title": "외국인 변튀 사건 · 리파이낸싱", "cover": "issues/2026-08-22/00_cover.jpg", "count": 10}, {"date": "2026-08-21", "title": "협회 발족 · 벤처인증", "cover": "issues/2026-08-21/00_cover.jpg", "count": 9}];   // 빌드 시 주입(런타임 fetch 불필요)
   (function(){
     if(!issues || !issues.length){ document.getElementById('list').innerHTML='<div class="empty">아직 발행된 회차가 없습니다.</div>'; return; }
     const latest=issues[0];
