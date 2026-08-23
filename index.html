@@ -12,6 +12,11 @@
 <meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og.png">
 <meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="호하사 다이제스트">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
   *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -68,6 +73,7 @@
       + '<div class="s">'+it.date.replace(/-/g,".")+'</div></div>'
       + '<div class="go">›</div></a>').join('') : '<div class="empty">지난 회차가 곧 쌓입니다.</div>';
   })();
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
 </script>
 </body>
 </html>

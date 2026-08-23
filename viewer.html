@@ -12,6 +12,11 @@
 <meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og.png">
 <meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="호하사 다이제스트">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root{ --accent:#f5701e; --bg:#0b0e14; --panel:rgba(15,17,22,.72); }
   *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -100,6 +105,7 @@
   let sx=0,sy=0; addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY;},{passive:true});
   addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;
     if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy))turn(dx<0?1:-1);},{passive:true});
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
 </script>
 </body>
 </html>
