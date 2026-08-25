@@ -35,12 +35,19 @@
     font-weight:800; font-size:18px; padding:16px; border-radius:14px; }
   .sec{ margin-top:34px; font-weight:800; font-size:15px; color:#c9ccd3; display:flex; align-items:center; gap:8px; }
   .sec::before{ content:""; width:4px; height:16px; background:var(--accent); border-radius:2px; }
-  .list{ margin-top:14px; display:flex; flex-direction:column; gap:10px; }
-  .item{ display:flex; align-items:center; gap:14px; background:var(--card); border-radius:14px;
-    padding:12px 14px; text-decoration:none; color:#e9eaee; }
-  .item img{ width:52px; height:69px; object-fit:cover; border-radius:8px; background:#0b0e14; flex:none; }
-  .item .t{ font-weight:700; font-size:15px; } .item .s{ color:#9a9da4; font-size:13px; margin-top:2px; }
-  .item .go{ margin-left:auto; color:#6b6e76; font-size:20px; }
+  /* 가로 스크롤 회차 스트립 */
+  .strip{ margin-top:14px; display:flex; gap:12px; overflow-x:auto; padding:4px 2px 14px;
+    scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch; scrollbar-width:thin; }
+  .strip::-webkit-scrollbar{ height:6px; }
+  .strip::-webkit-scrollbar-thumb{ background:#2a2e38; border-radius:3px; }
+  .chip{ flex:0 0 auto; width:118px; scroll-snap-align:center; text-decoration:none; color:#e9eaee;
+    background:var(--card); border-radius:14px; overflow:hidden; border:2px solid transparent; transition:transform .15s; }
+  .chip:active{ transform:scale(.96); }
+  .chip.today{ border-color:var(--accent); box-shadow:0 6px 18px rgba(245,112,30,.28); }
+  .chip img{ width:118px; height:148px; object-fit:cover; display:block; background:#0b0e14; }
+  .chip .d{ font-size:12px; font-weight:700; text-align:center; padding:8px 4px; color:#c9ccd3; }
+  .chip.today .d{ color:var(--accent); }
+  .hint{ margin-top:2px; color:#6b6e76; font-size:12px; }
   .empty{ color:#9a9da4; padding:20px; text-align:center; }
   .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
 </style>
@@ -49,29 +56,34 @@
   <div class="wrap">
     <div class="brand"><span class="dot"></span><span>호하사 데일리 다이제스트</span></div>
     <div id="hero"></div>
-    <div class="sec">지난 회차</div>
-    <div class="list" id="list"><div class="empty">불러오는 중…</div></div>
+    <div class="sec">회차 넘겨보기</div>
+    <div class="hint">← 좌우로 밀어 지난 회차를 보세요</div>
+    <div class="strip" id="strip"><div class="empty">불러오는 중…</div></div>
     <div class="foot">웹툰처럼 좌우로 넘겨 보세요 · Hostel Up People</div>
   </div>
 <script>
   function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
-  const issues = [{"date": "2026-08-24", "title": "트립닷컴 세미나 · 청소 잔혹사", "cover": "issues/2026-08-24/00_cover.jpg", "count": 10}, {"date": "2026-08-23", "title": "골드만삭스 명동 · 코리빙 전략", "cover": "issues/2026-08-23/00_cover.jpg", "count": 10}, {"date": "2026-08-22", "title": "외국인 변튀 사건 · 리파이낸싱", "cover": "issues/2026-08-22/00_cover.jpg", "count": 10}, {"date": "2026-08-21", "title": "협회 발족 · 벤처인증", "cover": "issues/2026-08-21/00_cover.jpg", "count": 9}];   // 빌드 시 주입(런타임 fetch 불필요)
+  const issues = [{"date": "2026-08-24", "title": "트립닷컴 세미나 · 청소 잔혹사", "cover": "issues/2026-08-24/00_cover.jpg", "count": 10}, {"date": "2026-08-23", "title": "골드만삭스 명동 · 코리빙 전략", "cover": "issues/2026-08-23/00_cover.jpg", "count": 10}, {"date": "2026-08-22", "title": "외국인 변튀 사건 · 리파이낸싱", "cover": "issues/2026-08-22/00_cover.jpg", "count": 10}, {"date": "2026-08-21", "title": "협회 발족 · 벤처인증", "cover": "issues/2026-08-21/00_cover.jpg", "count": 9}];   // 빌드 시 주입(런타임 fetch 불필요) — newest first
   (function(){
-    if(!issues || !issues.length){ document.getElementById('list').innerHTML='<div class="empty">아직 발행된 회차가 없습니다.</div>'; return; }
-    const latest=issues[0];
+    if(!issues || !issues.length){
+      document.getElementById('strip').innerHTML='<div class="empty">아직 발행된 회차가 없습니다.</div>'; return; }
+    const latest = issues[0];
     document.getElementById('hero').innerHTML =
       '<div class="hero">'
       + '<img src="'+latest.cover+'" alt="">'
       + '<div class="body"><h1>'+esc(latest.title||'오늘의 카툰 다이제스트')+'</h1>'
       + '<div class="d">'+latest.date.replace(/-/g,".")+'</div>'
       + '<a class="btn" href="viewer.html?d='+latest.date+'">📖 오늘의 다이제스트 보기</a></div></div>';
-    const rest=issues.slice(1);
-    document.getElementById('list').innerHTML = rest.length ? rest.map(it=>
-      '<a class="item" href="viewer.html?d='+it.date+'">'
-      + '<img src="'+it.cover+'" alt="">'
-      + '<div><div class="t">'+esc(it.title||'카툰 다이제스트')+'</div>'
-      + '<div class="s">'+it.date.replace(/-/g,".")+'</div></div>'
-      + '<div class="go">›</div></a>').join('') : '<div class="empty">지난 회차가 곧 쌓입니다.</div>';
+
+    // 가로 스트립: 과거→오늘(오름차순), 오늘 강조 + 가운데 정렬
+    const asc = [...issues].reverse();
+    const strip = document.getElementById('strip');
+    strip.innerHTML = asc.map(it =>
+      '<a class="chip'+(it.date===latest.date?' today':'')+'" href="viewer.html?d='+it.date+'">'
+      + '<img src="'+it.cover+'" alt="" loading="lazy">'
+      + '<div class="d">'+it.date.slice(5).replace('-','/')+'</div></a>').join('');
+    const cur = strip.querySelector('.chip.today');
+    if (cur) cur.scrollIntoView({inline:'center', block:'nearest'});
   })();
   if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
 </script>
