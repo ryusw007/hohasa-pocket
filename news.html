@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 뉴스 브리핑</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 데일리 다이제스트">
+<meta property="og:title" content="호하사 뉴스 브리핑">
+<meta property="og:description" content="오늘의 카툰 다이제스트 · 웹툰처럼 좌우로 넘겨 보세요">
+<meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og.png">
+<meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:720px; margin:0 auto; padding:20px 18px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .home{ display:inline-flex; align-items:center; gap:6px; color:#e9eaee; text-decoration:none;
+    font-weight:800; font-size:14px; background:var(--card); padding:8px 12px; border-radius:20px; }
+  .date{ color:#9a9da4; font-weight:700; font-size:13px; }
+  h1{ font-size:24px; margin:18px 0 4px; }
+  h1 .b{ background:var(--accent); color:#fff; border-radius:8px; padding:0 8px; }
+  .sub{ color:#9a9da4; font-size:13px; margin-bottom:8px; }
+  .sec{ margin-top:26px; font-weight:800; font-size:16px; display:flex; align-items:center; gap:8px; }
+  .sec::before{ content:""; width:4px; height:18px; background:var(--accent); border-radius:2px; }
+  .item{ background:var(--card); border-radius:14px; padding:14px 16px; margin-top:10px; }
+  .item .t{ font-weight:700; font-size:16px; line-height:1.45; }
+  .item .m{ margin-top:8px; display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .item .src{ color:#9a9da4; font-size:13px; }
+  .item a.go{ color:var(--accent); font-weight:800; font-size:14px; text-decoration:none;
+    border:1px solid var(--accent); border-radius:999px; padding:6px 12px; white-space:nowrap; }
+  .empty{ color:#9a9da4; padding:30px; text-align:center; }
+  .foot{ margin-top:36px; text-align:center; color:#6b6e76; font-size:12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="home" href="index.html">← 홈</a>
+      <span class="date" id="date"></span>
+    </div>
+    <h1>오늘의 <span class="b">뉴스 브리핑</span></h1>
+    <div class="sub">숙박업 · 부동산/종부세 · 매일 밤 자동 업데이트</div>
+    <div id="body"><div class="empty">불러오는 중…</div></div>
+    <div class="foot">기사 링크는 각 매체로 이동합니다 · 호하사 데일리 다이제스트</div>
+  </div>
+<script>
+  function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  fetch('news/latest.json?t='+Date.now()).then(r=>r.json()).then(function(d){
+    if(d.date) document.getElementById('date').textContent = String(d.date).replace(/-/g,'.');
+    var secs = d.sections||[];
+    if(!secs.length){ document.getElementById('body').innerHTML='<div class="empty">오늘 브리핑이 아직 준비되지 않았습니다.</div>'; return; }
+    document.getElementById('body').innerHTML = secs.map(function(s){
+      var items=(s.items||[]).map(function(it){
+        var link = it.url ? '<a class="go" href="'+it.url+'" target="_blank" rel="noopener">기사 보기 ↗</a>' : '';
+        return '<div class="item"><div class="t">'+esc(it.title)+'</div>'
+             + '<div class="m"><span class="src">'+esc(it.source||'')+'</span>'+link+'</div></div>';
+      }).join('');
+      return '<div class="sec">'+esc(s.name)+'</div>'+items;
+    }).join('');
+  }).catch(function(){
+    document.getElementById('body').innerHTML='<div class="empty">브리핑을 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</div>';
+  });
+</script>
+</body>
+</html>
