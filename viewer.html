@@ -49,18 +49,26 @@
   .dots{ display:flex; gap:7px; flex-wrap:wrap; justify-content:center; } .dots i{ width:7px; height:7px; border-radius:50%; background:#4a4d55; }
   .dots i.on{ background:var(--accent); width:20px; border-radius:4px; }
   .count{ font-size:12px; color:#9a9da4; font-weight:600; }
+  #newsCta{ position:fixed; left:50%; transform:translateX(-50%); bottom:64px; z-index:40;
+    display:none; background:var(--accent); color:#fff; text-decoration:none; font-weight:800;
+    font-size:16px; padding:13px 22px; border-radius:999px; box-shadow:0 8px 24px rgba(245,112,30,.4); }
+  #newsCta.show{ display:block; }
 </style>
 </head>
 <body>
   <div class="topbar">
     <a class="home" href="index.html">← 홈</a>
-    <div class="date" id="date"></div>
+    <div style="display:flex;align-items:center;gap:8px;pointer-events:auto">
+      <a class="home" href="news.html" style="background:var(--accent);color:#fff">📰 뉴스</a>
+      <div class="date" id="date"></div>
+    </div>
   </div>
   <div class="stage"><div class="book" id="book"><div class="layer" id="base"><img id="baseImg" alt=""></div></div></div>
   <button class="nav prev" id="prev">‹</button>
   <button class="nav next" id="next">›</button>
   <div class="zone left" id="zl"></div><div class="zone right" id="zr"></div>
   <div class="footer"><div class="dots" id="dots"></div><div class="count" id="count"></div></div>
+  <a id="newsCta" href="news.html">📰 뉴스 브리핑 보기 →</a>
 <script>
   let PAGES = [], cur = 0, busy = false, BASE = 'cards/';
   const book=document.getElementById('book'), base=document.getElementById('base'),
@@ -72,12 +80,13 @@
     baseImg.src=PAGES[cur];
     [...dots.children].forEach((d,i)=>d.classList.toggle('on',i===cur));
     count.textContent=(cur+1)+' / '+PAGES.length;
-    prevBtn.disabled=(cur===0); nextBtn.disabled=(cur===PAGES.length-1); }
+    prevBtn.disabled=(cur===0); nextBtn.disabled=(cur===PAGES.length-1);
+    var cta=document.getElementById('newsCta'); if(cta) cta.classList.toggle('show', cur===PAGES.length-1); }
   function exists(src){ return new Promise(r=>{const im=new Image();im.onload=()=>r(true);im.onerror=()=>r(false);im.src=src;}); }
   async function tryImg(bp,name){ for(const ext of ['jpg','png']){const p=bp+name+'.'+ext; if(await exists(p)) return p;} return null; }
   async function discover(bp){ const f=[]; const c=await tryImg(bp,'00_cover'); if(c) f.push(c);
     for(let i=1;i<300;i++){const p=await tryImg(bp,String(i).padStart(2,'0')); if(p) f.push(p); else break;} return f; }
-  const LATEST = "2026-08-25";   // 빌드 시 주입(최신 회차 날짜)
+  const LATEST = "2026-08-26";   // 빌드 시 주입(최신 회차 날짜)
 
   (async()=>{
     const params=new URLSearchParams(location.search);
