@@ -1,4 +1,4 @@
-const C='hohasa-2026-08-28';
+const C='hohasa-2026-08-29';
 self.addEventListener('install',e=>self.skipWaiting());
 self.addEventListener('activate',e=>e.waitUntil(clients.claim()));
 self.addEventListener('fetch',e=>{const req=e.request; if(req.method!=='GET') return;
