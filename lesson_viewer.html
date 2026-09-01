@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#f5f2ea">
+<title>호하사 강의툰</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 강의툰">
+<meta property="og:title" content="호하사 강의툰">
+<meta property="og:description" content="호하사 톡방의 강의성 대화를 카드로 정리한 교육 아카이브">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --panel:rgba(15,17,22,.72); }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; height:100%; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    overflow:hidden; overscroll-behavior:none; }
+  .topbar{ position:fixed; top:0; left:0; right:0; z-index:30; display:flex;
+    align-items:center; justify-content:space-between; gap:12px;
+    padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;
+    background:linear-gradient(#0b0e14ee,#0b0e1400); }
+  .home{ display:flex; align-items:center; gap:6px; color:#e9eaee; text-decoration:none;
+    font-weight:800; font-size:14px; background:var(--panel); padding:7px 12px;
+    border-radius:20px; backdrop-filter:blur(6px); pointer-events:auto; }
+  .date{ font-size:13px; color:#aeb1b8; font-weight:700; }
+  .stage{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; perspective:2200px; }
+  .book{ position:relative; width:min(96vw, 69vh); aspect-ratio:4/5; }
+  .layer{ position:absolute; inset:0; border-radius:10px; overflow:hidden; background:#000; box-shadow:0 18px 50px rgba(0,0,0,.55); }
+  .layer img{ width:100%; height:100%; object-fit:contain; display:block; background:#f5f2ea; }
+  .flipper{ position:absolute; inset:0; transform-origin:left center; transform-style:preserve-3d;
+    backface-visibility:hidden; border-radius:10px; overflow:hidden; will-change:transform; box-shadow:0 18px 50px rgba(0,0,0,.55); }
+  .flipper img{ width:100%; height:100%; object-fit:contain; display:block; background:#f5f2ea; }
+  .flipper .shade{ position:absolute; inset:0; background:linear-gradient(90deg,#0000,#0007); opacity:0; }
+  .zone{ position:fixed; top:0; bottom:0; width:42%; z-index:20; } .zone.left{left:0;} .zone.right{right:0;}
+  .nav{ position:fixed; top:50%; transform:translateY(-50%); z-index:25; width:44px; height:44px;
+    border-radius:50%; border:none; cursor:pointer; background:var(--panel); color:#fff; font-size:20px;
+    display:grid; place-items:center; backdrop-filter:blur(6px); opacity:.75; }
+  .nav.prev{left:12px;} .nav.next{right:12px;} .nav[disabled]{opacity:.2; pointer-events:none;}
+  .footer{ position:fixed; left:0; right:0; bottom:0; z-index:30; padding:10px 16px calc(env(safe-area-inset-bottom) + 12px);
+    display:flex; flex-direction:column; align-items:center; gap:8px; background:linear-gradient(#0b0e1400,#0b0e14ee); pointer-events:none; }
+  .dots{ display:flex; gap:7px; flex-wrap:wrap; justify-content:center; } .dots i{ width:7px; height:7px; border-radius:50%; background:#4a4d55; }
+  .dots i.on{ background:var(--accent); width:20px; border-radius:4px; }
+  .count{ font-size:12px; color:#9a9da4; font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="home" href="lessons.html">← 강의툰 목록</a>
+    <div style="display:flex;align-items:center;gap:8px;pointer-events:auto">
+      <a class="home" href="index.html">🏠 다이제스트</a>
+      <div class="date" id="date"></div>
+    </div>
+  </div>
+  <div class="stage"><div class="book" id="book"><div class="layer" id="base"><img id="baseImg" alt=""></div></div></div>
+  <button class="nav prev" id="prev">‹</button>
+  <button class="nav next" id="next">›</button>
+  <div class="zone left" id="zl"></div><div class="zone right" id="zr"></div>
+  <div class="footer"><div class="dots" id="dots"></div><div class="count" id="count"></div></div>
+<script>
+  let PAGES = [], cur = 0, busy = false, BASE = 'lessons/';
+  const book=document.getElementById('book'), base=document.getElementById('base'),
+    baseImg=document.getElementById('baseImg'), prevBtn=document.getElementById('prev'),
+    nextBtn=document.getElementById('next'), dots=document.getElementById('dots'),
+    count=document.getElementById('count'), dateEl=document.getElementById('date');
+
+  function paint(){ if(!PAGES.length) return;
+    baseImg.src=PAGES[cur];
+    [...dots.children].forEach((d,i)=>d.classList.toggle('on',i===cur));
+    count.textContent=(cur+1)+' / '+PAGES.length;
+    prevBtn.disabled=(cur===0); nextBtn.disabled=(cur===PAGES.length-1); }
+  function exists(src){ return new Promise(r=>{const im=new Image();im.onload=()=>r(true);im.onerror=()=>r(false);im.src=src;}); }
+  async function tryImg(bp,name){ for(const ext of ['jpg','png']){const p=bp+name+'.'+ext; if(await exists(p)) return p;} return null; }
+  async function discover(bp){ const f=[]; const c=await tryImg(bp,'00_cover'); if(c) f.push(c);
+    for(let i=1;i<300;i++){const p=await tryImg(bp,String(i).padStart(2,'0')); if(p) f.push(p); else break;} return f; }
+
+  (async()=>{
+    const params=new URLSearchParams(location.search);
+    let id=params.get('id');
+    if(id){ BASE='lessons/'+id+'/'; dateEl.textContent=id; }
+    PAGES=await discover(BASE);
+    PAGES.forEach(()=>{const d=document.createElement('i');dots.appendChild(d);});
+    paint();
+  })();
+
+  function turn(dir){ if(busy) return; const t=cur+dir; if(t<0||t>=PAGES.length) return; busy=true;
+    if(dir>0){ baseImg.src=PAGES[t]; const fl=mk(PAGES[cur]);
+      requestAnimationFrame(()=>{fl.style.transform='rotateY(-180deg)';fl.querySelector('.shade').style.opacity='1';}); end(fl,t);
+    } else { const fl=mk(PAGES[t]); fl.style.transform='rotateY(-180deg)';
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{fl.style.transform='rotateY(0deg)';fl.querySelector('.shade').style.opacity='0';})); end(fl,t); } }
+  function end(fl,t){ let done=false; const fin=()=>{if(done)return;done=true;cur=t;paint();fl.remove();busy=false;};
+    fl.addEventListener('transitionend',fin,{once:true}); setTimeout(fin,700); }
+  function mk(src){ const fl=document.createElement('div'); fl.className='flipper';
+    fl.innerHTML='<img src="'+src+'"><div class="shade"></div>'; fl.style.transition='transform .62s cubic-bezier(.4,.15,.2,1)';
+    book.appendChild(fl); return fl; }
+  document.getElementById('zr').onclick=()=>turn(1); document.getElementById('zl').onclick=()=>turn(-1);
+  nextBtn.onclick=()=>turn(1); prevBtn.onclick=()=>turn(-1);
+  addEventListener('keydown',e=>{if(e.key==='ArrowRight')turn(1);if(e.key==='ArrowLeft')turn(-1);});
+  let sx=0,sy=0; addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY;},{passive:true});
+  addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;
+    if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy))turn(dx<0?1:-1);},{passive:true});
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
