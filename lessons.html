@@ -51,7 +51,7 @@
   </div>
 <script>
   function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
-  const lessons = [{"id": "lesson01", "title": "이 빠진 땅이 만든 협상의 기술", "date": "2026-09-01", "cover": "lessons/lesson01/00_cover.jpg", "count": 6}];   // 빌드 시 주입 — newest first
+  const lessons = [{"id": "lesson01", "title": "이 빠진 땅이 만든 협상의 기술", "date": "2026-09-01", "cover": "lessons/lesson01/00_cover.jpg", "count": 6}, {"id": "lesson02", "title": "북도로 하나로 건물 가치가 갈린다", "date": "2026-09-01", "cover": "lessons/lesson02/00_cover.jpg", "count": 6}];   // 빌드 시 주입 — newest first
   (function(){
     const grid = document.getElementById('grid');
     if(!lessons || !lessons.length){
