@@ -12,5 +12,12 @@
     "date": "2026-09-01",
     "cover": "lessons/lesson02/00_cover.jpg",
     "count": 6
+  },
+  {
+    "id": "lesson03",
+    "title": "그냥 시장님의 뜻입니다",
+    "date": "2026-09-01",
+    "cover": "lessons/lesson03/00_cover.jpg",
+    "count": 6
   }
 ]
