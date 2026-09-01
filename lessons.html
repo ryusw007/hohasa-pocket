@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 강의툰</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 강의툰">
+<meta property="og:title" content="호하사 강의툰">
+<meta property="og:description" content="호스텔·부동산 사업 강의를 웹툰북처럼 모아보는 교육 아카이브">
+<meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og.png">
+<meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/lessons.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#2e9e6e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:720px; margin:0 auto; padding:24px 18px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
+  .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
+  .home{ color:#9a9da4; text-decoration:none; font-weight:700; font-size:13px; background:var(--card);
+    padding:7px 12px; border-radius:20px; }
+  .lead{ margin-top:18px; color:#c9ccd3; font-size:14px; line-height:1.6; }
+  .grid{ margin-top:22px; display:flex; flex-direction:column; gap:14px; }
+  .ep{ display:flex; gap:14px; text-decoration:none; color:#e9eaee; background:var(--card);
+    border-radius:16px; overflow:hidden; padding:10px; box-shadow:0 8px 24px rgba(0,0,0,.35); }
+  .ep img{ width:84px; height:105px; object-fit:cover; border-radius:10px; flex:0 0 auto; background:#0b0e14; }
+  .ep .meta{ display:flex; flex-direction:column; justify-content:center; min-width:0; }
+  .ep .t{ font-weight:800; font-size:16px; line-height:1.35; }
+  .ep .d{ margin-top:6px; color:#8b8e96; font-size:12px; font-weight:700; }
+  .ep .n{ margin-top:4px; color:var(--accent); font-size:12px; font-weight:700; }
+  .empty{ margin-top:40px; color:#9a9da4; text-align:center; padding:20px; }
+  .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand"><span class="dot"></span><span>호하사 강의툰</span></div>
+      <a class="home" href="index.html">🏠 다이제스트</a>
+    </div>
+    <div class="lead">호스텔·부동산 사업의 실전 강의를 카드 교본으로 정리했습니다.<br>웹툰처럼 넘겨보며 필요할 때 다시 꺼내보세요.</div>
+    <div class="grid" id="grid"><div class="empty">불러오는 중…</div></div>
+    <div class="foot">Hostel Up People · 강의툰 아카이브</div>
+  </div>
+<script>
+  function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  const lessons = [{"id": "lesson01", "title": "이 빠진 땅이 만든 협상의 기술", "date": "2026-09-01", "cover": "lessons/lesson01/00_cover.jpg", "count": 6}];   // 빌드 시 주입 — newest first
+  (function(){
+    const grid = document.getElementById('grid');
+    if(!lessons || !lessons.length){
+      grid.innerHTML = '<div class="empty">아직 등록된 강의툰이 없습니다.</div>'; return; }
+    grid.innerHTML = lessons.map(it =>
+      '<a class="ep" href="lesson_viewer.html?id='+encodeURIComponent(it.id)+'">'
+      + '<img src="'+it.cover+'" alt="" loading="lazy">'
+      + '<div class="meta">'
+      + '<div class="t">'+esc(it.title||it.id)+'</div>'
+      + '<div class="d">'+(it.date||'').replace(/-/g,'.')+'</div>'
+      + '<div class="n">'+(it.count||0)+'p 보기 →</div>'
+      + '</div></a>').join('');
+  })();
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
