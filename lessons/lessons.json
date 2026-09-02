@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson04",
+    "title": "물은 낮은 곳으로, 그리고 내 건물로",
+    "date": "2026-09-02",
+    "cover": "lessons/lesson04/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson01",
     "title": "이 빠진 땅이 만든 협상의 기술",
     "date": "2026-09-01",
