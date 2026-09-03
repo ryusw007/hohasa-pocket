@@ -1,64 +1,29 @@
 {
   "date": "2026-09-03",
-  "updated": "2026-09-03T00:22:46Z",
+  "updated": "2026-09-03T14:55:41Z",
   "sections": [
     {
-      "name": "숙박업",
+      "name": "부동산·재개발",
       "items": [
         {
-          "title": "경남도의회, '잠자는 조례' 깨운다...민생조례 입법점검",
-          "source": "경남저널",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iSnFpczBWcGJwZ2diQkRPTl9iLUtsdy1UVlE3bGhmbk9CRWZWOURhM3BEdXhtN1laZ3RBT3FHMmtib1B2QmsyNDJhOHFiQzJEQkstRF9LbS14UHJ6UG0tRXE3MDdEa0RlS2dFQUtVUdIBb0FVX3lxTE5iSnFpczBWcGJwZ2diQkRPTl9iLUtsdy1UVlE3bGhmbk9CRWZWOURhM3BEdXhtN1laZ3RBT3FHMmtib1B2QmsyNDJhOHFiQzJEQkstRF9LbS14UHJ6UG0tRXE3MDdEa0RlS2dFQUtVUQ?oc=5"
+          "title": "서울시 도심복합개발(민도복) 조례 2026.1.5 시행｜공공기여 비율 증가용적률의 50%, 저평가지역은 30%로 완화",
+          "source": "서울특별시",
+          "url": "https://news.seoul.go.kr/citybuild/archives/541948"
         },
         {
-          "title": "[기획특집] 300번의 기록, 숙박업의 어제와 오늘과 내일",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xS1h3aUdnWFgyaFU4LUoteFRZRWN4dGlnS3Q5bVJIWWF4VDlsT2NMWEZHZUtBNndqcWVxU2NyLTllMzFXQWkzTDduTVFHbFZtbTRTdUhjRGZyaGFZbjNNR3oxSkpQN25Qa01qRXktLUE?oc=5"
-        },
-        {
-          "title": "정부, 생숙 1객실 영업신고 특례 부가조건 공개",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBc1lCaHlwRGduT211N2UxX3lSUk4yTVc0MnNidFZIa0loaWJFb3FKcUM4anB6dnYybzJLbXd0eFNZUkpuVTZXanhBZ3YwZ1gwdUhLT3VBYU1NV0xOYlBqbE5mQ19ZX0VYTzVMZkI1eEQ?oc=5"
-        },
-        {
-          "title": "여수시 관내 민박시설 대상 2026년 서비스·위생·안전교육 실시 > 뉴스",
-          "source": "더코리아",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNX2NMNGpiZ0FYZFhyNzREcU1pRks2ckhYeGpPSEdodkpCNlBKNFU5UFluWFFqZ3NBOWFOSEpjelVNR1J3R2tNcGFnSlJZTW1QTm9aWGNfbUtyNWZWWTdNa0xmRkxTcXhwLWFiTFM0dE4?oc=5"
-        },
-        {
-          "title": "“새단장 뒤 주말 객실점유율 85%”…확 달라진 ‘더그랜드롯데 서울’",
-          "source": "헤럴드경제",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1OTZLWUJxSXhFZjl6OVY5elRHZGpQWHBFZjIwWjRHMmdYYVh4T21aU1ZsOWZDQTVMaURISDlfUXBZTWNpNkJMNlFNYlYwdXZZS3ZmQVN3?oc=5"
+          "title": "성수동 준공업지역 지구단위계획｜붉은벽돌 신·증축 시 건폐율 최대 70%, 공개공지 조성 시 용적률 1.2배 완화",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/202405070517i"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "숙박업",
       "items": [
         {
-          "title": "[단독]부동산세제 더 완화한다… 與 “보유공제 폐지 연기”",
-          "source": "동아일보 경제",
-          "url": "https://www.donga.com/news/Politics/article/all/20260903/134595401/2"
-        },
-        {
-          "title": "송파구, 정부에 재산세 부담 완화 위한 세법 개정 건의",
-          "source": "newsis.com",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90aEd1QmV5YUZueWxpRGVkWnVmM19VSjJVOUwxRktlc1FqRmxxZVNpNlZKYTItWWpxcjBUQUdjdkh0UjhnX3BvSWIzeVRtM3ZkU0prSEJWMnMwLXp5NThhSUZRQVdkSDdHUm8tRHYwVE1WWkNIbnVtZtIBeEFVX3lxTE90aEd1QmV5YUZueWxpRGVkWnVmM19VSjJVOUwxRktlc1FqRmxxZVNpNlZKYTItWWpxcjBUQUdjdkh0UjhnX3BvSWIzeVRtM3ZkU0prSEJWMnMwLXp5NThhSUZRQVdkSDdHUm8tRHYwVE1WWkNIbnVtZg?oc=5"
-        },
-        {
-          "title": "[단독]與 \"장특공 보유혜택 폐지 연기\"…부동산세제 더 완화한다",
-          "source": "네이트",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51aHlaNm8zSF9IaHpDWHltRHVrTk03QjFJSjlTVzNTejZmMXNwTTBwc1Z3TTdNbFVxVXQ3dmRWNHlHN2pUQWdxNlJhWDdOM2hyaWVVdE9WQTZMVFhValFHUElicmZqSElzNXc?oc=5"
-        },
-        {
-          "title": "[오늘 부동산] 비거주 1주택 종부세 완화…용산 한남더힐 세부담 20% ↓",
-          "source": "데일리안",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yYUZVS0I1eUFPNXY0WHJmV3FiRjlyWGhEQ0dlQUxoWm5DMHd3bThWNlBucURLWTQwR19HSFNLcThtelNpUnNOX200SFFUSzY0bVg3Zw?oc=5"
-        },
-        {
-          "title": "비거주 1주택 종부세 완화시…반포 자이 84㎡ 내년 677만원↓",
-          "source": "karnews.or.kr",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CRmdoYV9hU0dVOVV2QlpJazBBaEhWS3Z1MGUweklzQXBNSzNSNTBLYU4wdVNpbkZTbElGQjNzWTYtZDl6QmtUdWRVUmJRSi1lVWVOOENJZjFPclloSGRNZktxRE53bTVrZ0xn?oc=5"
+          "title": "외국인 관광객 숙박 부가세 환급 특례적용관광숙박시설 2026년 1분기 모집｜2026년까지 한시 운영",
+          "source": "경북매일",
+          "url": "https://www.kbmaeil.com/article/20251217500739"
         }
       ]
     }
