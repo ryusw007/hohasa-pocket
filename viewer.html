@@ -86,7 +86,7 @@
   async function tryImg(bp,name){ for(const ext of ['jpg','png']){const p=bp+name+'.'+ext; if(await exists(p)) return p;} return null; }
   async function discover(bp){ const f=[]; const c=await tryImg(bp,'00_cover'); if(c) f.push(c);
     for(let i=1;i<300;i++){const p=await tryImg(bp,String(i).padStart(2,'0')); if(p) f.push(p); else break;} return f; }
-  const LATEST = "2026-09-03";   // 빌드 시 주입(최신 회차 날짜)
+  const LATEST = "2026-09-04";   // 빌드 시 주입(최신 회차 날짜)
 
   (async()=>{
     const params=new URLSearchParams(location.search);
