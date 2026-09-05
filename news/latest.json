@@ -1,29 +1,64 @@
 {
-  "date": "2026-09-04",
-  "updated": "2026-09-04T16:22:33Z",
+  "date": "2026-09-05",
+  "updated": "2026-09-05T00:12:35Z",
   "sections": [
-    {
-      "name": "부동산·재개발",
-      "items": [
-        {
-          "title": "서울시, 재개발·재건축 규제 완화 10건 국토부에 건의…이주비 LTV 40%→70% 확대",
-          "source": "MBC뉴스",
-          "url": "https://imnews.imbc.com/news/2026/society/article/6830231_36918.html"
-        },
-        {
-          "title": "주거중심형 민간도심복합개발(민도복) 운영기준, 6~7월 공개 예정이었으나 9월까지 지연…현장 \"불만\"",
-          "source": "이데일리",
-          "url": "https://www.edaily.co.kr/News/Read?newsId=04034406645576184"
-        }
-      ]
-    },
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "관광객 3000만명 목표인데…외국인 관광객 숙박 부가세 환급 특례 적용기한 2028년→2027년 6월로 앞당겨 종료",
-          "source": "뉴스핌",
-          "url": "https://www.newspim.com/news/view/20260807000669"
+          "title": "'바가지·취소·방 부족'…3000만 관광시대 숙박부터 바꾼다",
+          "source": "네이트",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NdURKS3hRbHc3SkUzT3lGZmQxUG5BaUVVMi13YUx1SWxoT0dYVzA1Um1nQkVJdDQ0TVZBOXdmSmo2Ykd2WTFNV25WNXpMYUd6TmxR?oc=5"
+        },
+        {
+          "title": "'외래객 3000만 시대' 숙박 비상…서울은 부족한데 지방은 남는다",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HdjN2ME5YNkdsczdGSDlTeDN6Q1hKZWo3VVdfcExCV212elhwOHNRbEhCWFlQVFBucUFYTDlldUVTcjl1WlAxQzJfdE5xd0VBaHJkS182dFZibW5wR0tubdIBZkFVX3lxTE5JZnVVVkdkN2k0SHZWR3ZteVlMa3Y5ZVBad1JVSHZJQzlwTXA0Q1Q5NlRab0ZPVWxrSlc2ZnhsOTlPMElaS01vX2RWbFhhV000anc2RlFmWm1PUnpkZHM5bDZzUEZoZw?oc=5"
+        },
+        {
+          "title": "2027년 예산안 역대 최대 9조 6,345억 원 편성! 주요 지원 정책 총정리!📑 : 네이버 블로그",
+          "source": "Naver Blog",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRFBNRTBQRU9qNVNqWnJKOXpWT3JvcHk3MmFpbmdJZ25DZVVJbUJTd2lPZHJieUVHSkZTbmp0c282MjFDemVqQWhUSXgyTTcwcDJkSXEtX29PRDdhNmpWaXZaRG45MUlVYWw4ckk1Ym9jSy1ZRnEtVHpqU25RNWVGLUJfQ1lWdENjcEJmd0VYZ1c?oc=5"
+        },
+        {
+          "title": "문체부, ‘숙박정보 통합플랫폼’으로 숙박업 관리 시동",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1scHJmSzdRamw5aTdDV193cXdXc2RJTEJDUGJUTzdFNDc2X2w3T2s1UFFnS1pSdGVmdjFxRkhQZ3Q3d3MwWF85aFdwa1JMYzNFYTNNWG1WU19jaEVrbW9PTGpIdHk3cEZ0eUtEdzZ4RGk?oc=5"
+        },
+        {
+          "title": "완주 삼례문화예술촌 ‘숙박체험관’ 운영자 찾는다",
+          "source": "경기인터넷신문",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhVjNWdTBJX2FjYW43VnFadEI2VDhVU2Jub3JBbElyNGpaX3hzdGFpNFVDbjFHYkJFX19FM3FQLTFPUk96TVVFSWYxTDd6Zy1vRWFVWA?oc=5"
+        }
+      ]
+    },
+    {
+      "name": "부동산·종부세",
+      "items": [
+        {
+          "title": "靑 \"법은 국회서 결정…부동산 세제 추가 완화 단언 못 해\"",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xUUkyNTkzZmxJbFRPbFBPdXF5TXBmUllTd29FdkhEWHh0VEJ2YVdwOVk4M2xGRHl4LTkzWmpWanhFeWVpSzY1aVJJME9zdjN5WFdDMnAxc0NtWmfSAWBBVV95cUxQVUx1TnFDdFJkTmtKajllQXUyYndFUUVfSmJLcDM2Qk1LNkxzZ2c2NVJpRC1KWkxKX2FSZ2tvVWN3TFBvNzQyNU1EMHI4aXdTcF9rUmV5M1oxVEpRcGMxcWM?oc=5"
+        },
+        {
+          "title": "조세심판원, 민생 밀접 주요 심판결정 3건 공개…위법 세무조사 자료 과세 근거 제한",
+          "source": "여성종합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kSGlMdG9pV1c0RVU2bGJzY1dCcnVWUGEyU2JsRkFDMFZKaFRTR2JtdnEwMkJzUThjYk1lOUtsZW5TdjhudTdEdnA2YXk5ZldvVUZrYnQwN2ZYWFEtRmJaY01uNzNfZXduMjdfZjZzOA?oc=5"
+        },
+        {
+          "title": "다주택자 양도세 중과세 사각지대 '조정대상지역 등록임대아파트 혜택' 없어진다 [도와줘요 자산관리]",
+          "source": "네이트",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jNFhZZEs1RDZ0M191TGoxc3NiNjRxbUdqT1BldnZLb1BzRFI0ZWlrZlVobUt4eTk3TDdUQTExV19Odm5TbVZrYU0xT3A1T0ZPdFp3?oc=5"
+        },
+        {
+          "title": "[함영진의 부동산화수분] 연이은 부동산대책 발표…내 자산관리는?",
+          "source": "주간한국",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVdzZLbmZjLVV4dFB4UjRCUHlGdi1CZlhyM2U4S1Q0RklnVk1CYjlWamdiNmo1NDFzT2FlWktWeWg0Y2Y0endrRUFmcUZRMXl0dnJjQWJVWWtwV3lmd3ZBcGNkTVJKcnBFQXNqUUpOMGXSAXRBVV95cUxOWWxmOVJEV21iYnJGNWNoNW5UOWt4WDJndFlHdG13dlBYS1VlUkNiRi1XZW1ZMEVNcGNRNHZwZW92MzlLbElyRWJTa3NFOUJYeEJQYS1LZ3RoTjJLc1dYWDFhc2YtX3BzM2NkUk95RGNjbkRaQQ?oc=5"
+        },
+        {
+          "title": "슬롯 7 카지노 무료 칩 2022 발표 능력을 통한 반성: 핵심 개념과 실제 응용",
+          "source": "Histoire pour tous",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWU9vY1lyQnRfenhCaVBhWldEa05pamJhNmo5WjYtZ2NOQVhKajVmLTRYV0g5RkVVLUgxMGdwZjQ3d0lVTmEzRkVjTW9Vc2YtUkZhSUFuTndmQW5WSHUydmU1WS1obzhnSW1Kdy1talhnU21oNXRTN1cyV3pvLWtDQ19qRTZGaEdnTnBlVFNmZU1jdGFUR3hJWnVTaUJIMmpJdFlQaUh3SUpmZEhNMTZzT20yWGFXRGxaRFI5TmhMRlpEaHRTMjB2dUtUTnY?oc=5"
         }
       ]
     }
