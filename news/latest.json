@@ -1,64 +1,24 @@
 {
-  "date": "2026-09-06",
-  "updated": "2026-09-06T00:01:13Z",
+  "date": "2026-09-05",
+  "updated": "2026-09-06T00:35:27Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "사천시, 추석 연휴 대비 농촌관광시설 안전관리 강화",
-          "source": "KNS뉴스통신",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VXzJncXR6cEZ3VXgyUXVxbVVQMmhrLWZiNGJSeEViZy1vWldFYkFmSUtyWmtkeGdxWWJhT2ViR2JGNVNFSFhseEF5YUxZTXE1NktTNlJ2aGgtc3IyTjdfTTdLeWE?oc=5"
-        },
-        {
-          "title": "[기고] 금융 환상 탈피, ‘데이터 기반 고정비 혁신’ 으로 자생력 입증하라 ⑧",
-          "source": "이트레블뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9vTjZISzN5cHk5WDJ5c0dmTUdEYV9mWnlnUjRXdTgyeXFJZ3UzUzV2LWQ1MTNESHQyMEJ3Slh3aHdScTA1?oc=5"
-        },
-        {
-          "title": "김재원 의원 , 외국인 관광객 3천만 시대 대비 관광경쟁력 높일 ‘숙박 정책’ 해법 모색",
-          "source": "경기매일",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KN25ZbHhRR0NIQ25KREptV3dSSjYwaXNKRWhOcnBLZ291NzRNQUt5S0pYelJlTTFPbVlSeUhlZkpPZVh0UXFQYWMwaEJIWGdCTFg0WmcxUDhUUVBNOEJPbnRGd1VBZXM?oc=5"
-        },
-        {
-          "title": "\"실거주 되는 줄\"…생숙 분쟁",
-          "source": "knn.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tODVvX3IxWER3eHFJVjZ2T3FZMUxQTi1wTG5wVE9PWjQ3NEoxZlNrYXNyRnpYbTFhVTFqdjRNbEZQMUxWa1JSb0JhN0JvZnFIZDZncQ?oc=5"
-        },
-        {
-          "title": "〔심층기획〕 환승센터인데 환승시설은 6%…부산 북항 복합환승센터, 무엇을 전면 재검토해야 하나",
-          "source": "복지TV부울경방송",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDRG9sVG42aExEQ3ZNWWtWNElTV0dtdkNiMml3RlJqNkNadlROckkwMDg2SGJ3Rng2ZUNUbEtmU3RKNDVUUDRjS2hHT3RVS1JCVlpCb05TSnc5a3kxYnpCUG8xaWhHREF3?oc=5"
+          "title": "외국인관광 도시민박업 규제 합리화 — 사용승인 30년 넘은 노후주택도 안전성 갖추면 등록 가능",
+          "source": "문화체육관광부",
+          "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22047"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·재개발",
       "items": [
         {
-          "title": "\"1주택자 세부담 얼마나 커지나\"…확정된 세제개편안에 다시 불붙은 논란",
-          "source": "뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50cnF4R2dZWVNoZGZTM3hZWms0aXgzRVpZYllINWxXSDE5cmJDaHJGT1FmSWR6SkhMMjVZWTEtMENIUEZnSGxhRDBOVHBvWUVDSkhUcXpBb2p0MjE4WThYRdIBeEFVX3lxTE9WWGZIbEpxUGY5NmxJZGNCOWRoeDJUVU1rVnc0Y2N4bzU1ZDNHbm9KZkszMjgySkk0RlFCa3dpb0llaTVXVUg5SnZrS0xFem5KX3VxNHlFdGdhTXJGOGVVTktRNXMtd1VWUmRCcGdmby02NVZTd0EwRg?oc=5"
-        },
-        {
-          "title": "[상속세페지범국민운동본부 성명] 중산층 재산 몰수하는 2026년 세법 개정안 전면 수정하라!",
-          "source": "엔지오프레스",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3LWFhSU8yVWFZS25ET09hbXY2c3RtdEVkUkkxYkRfOUxzZm1kS05LTTN4LUtMSmNIcUdWQVZfd0VtZTFSWnMtOUdNdWRfSjlBSS0tR3FJTWZ5YXRiWUJtN2VIZGxhVkJ4aWp3UdIBbEFVX3lxTFB3LWFhSU8yVWFZS25ET09hbXY2c3RtdEVkUkkxYkRfOUxzZm1kS05LTTN4LUtMSmNIcUdWQVZfd0VtZTFSWnMtOUdNdWRfSjlBSS0tR3FJTWZ5YXRiWUJtN2VIZGxhVkJ4aWp3UQ?oc=5"
-        },
-        {
-          "title": "종부세 개편에도…1·3주택 종부세 격",
-          "source": "이투데이",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkYmZmUWpVemNWN3V4RlVvNENheGdNMFo3N1cyRVFISDFXSWEyTG1yYUx3cEN3bEVMZ3NPSEVrbEluX3JUaFdTY0pXQWF0WVRCa0taZFVVVWF6NGtxb2IzZFh1RzBvUmI2?oc=5"
-        },
-        {
-          "title": "[손종필 칼럼] 흔들리는 부동산 세제, ‘공정과세’의 원칙을 묻다",
-          "source": "사회적경제뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5iblFneV8wbkdwQ3ZqQ213TXd3WG0wSUZxUFVHdU9GLVZaNlo0c1dZRmZuZ1IxRnVoUHFRa0pPTQ?oc=5"
-        },
-        {
-          "title": "벳블랑 토토 - 벳블랑 도메인",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxQb2pYR05lQVBDX0ZrcEJiU1BteUhfUzg3SXEwcGF1RjdfUEZ0Q0NmeGl0ellwUVQzOS1GaW1LekNkSlFGbklIMmowQTlUSUFkSXYtcjRVX19oVDdOZlAwUmdudWdXTk4tMlphSE1YcG45cWk5dmNZOFlDVS0yYUYxbXVTX2FDWXBxandqXzRtTWJ6d1VFYkcwb0ViaHlzY09xMV9JXzk4S0J6VUlzS1dMRkV4M1hMdjREOXJFMVBMNlZyQlFHbl95c0s0VnZ1aUtOQUgxcHp6UVVHYjFIOVRXOGYwdE9HOFlvSmtTWVNhXzMxODJPNWo1ZUhaS09zWWlQbFlzcGo5aW8xdHpESW55SF9va0FBZFNxb1dtMS1IclBjRlh4OFBHRG5EWm1qNHNXUnJ2Y3JjUUhxNndweXVyblB0cTlRcTh6ZlkwU19RSkVObEVPcXlWTEJqMWh1ZTlCRDJTeEJ4Wk1YYi1DbklrMDFiNnFuV3dUX3hKR3o0eENXOGhTMTlOZUZQVS1zQjlvb2NBNE9yUkt6QnpvV25OOTJzOHgxZjhoXzYwaEZpWjJ4UUVWLWQ4VkpxZUtQMC04VTVPY0FtbktVRGswRUYwbGwwMHBpNnZNUW10bDNrZ284czhBSWxGSFEzR0oyOVlOMnlKLU9B?oc=5"
+          "title": "한남뉴타운 3구역 철거 착수, 5구역 사업시행계획 인가…재개발 사업 잰걸음",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/202605183712i"
         }
       ]
     }

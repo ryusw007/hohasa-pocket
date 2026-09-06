@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson08",
+    "title": "샤워실·화장실, 따로 나눠야 할까?",
+    "date": "2026-09-05",
+    "cover": "lessons/lesson08/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson07",
     "title": "평당 공사견적, 어디까지가 '평'일까?",
     "date": "2026-09-04",
