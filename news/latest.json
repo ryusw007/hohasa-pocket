@@ -1,24 +1,64 @@
 {
-  "date": "2026-09-05",
-  "updated": "2026-09-06T00:35:27Z",
+  "date": "2026-09-07",
+  "updated": "2026-09-07T00:05:03Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "외국인관광 도시민박업 규제 합리화 — 사용승인 30년 넘은 노후주택도 안전성 갖추면 등록 가능",
-          "source": "문화체육관광부",
-          "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22047"
+          "title": "충북도, 음식점·숙박업소 가격표시 준수 강화",
+          "source": "청년투데이",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94VFNWQXBPVTFHUlY3dkpvYWhHSGxwbFR3Qklid0xBRExNZjg3TTdWWmVnYnVnV2lPUGJhcGxsY2lkazNtWEFZdldFRGV3UEozdlluQS1aRW93XzBhVjlueE8wQkJ6bW5IQnc?oc=5"
+        },
+        {
+          "title": "사천시, 추석 연휴 대비 농촌관광시설 안전관리 강화",
+          "source": "영남신문",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10S1Y4ekk0RUwyVTFvVGJhanVDdThqNC1VZ3V3Q3Z1d0NWbEYzcHEyemRfWTVFQ0VRdTkxVnRMR2c0RVAtSWh4QUsyZUtGenhEWU9DZHBRQW0zSk4xRXdleE5fc3hvcVl4REh3SElB?oc=5"
+        },
+        {
+          "title": "세계적 럭셔리 호텔 '아만', 청담동에 들어선다…38층 복합시설",
+          "source": "뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02UGNZRGQyNUNuak1teENyVWh5aVluMGpET19CTjQtd3ROcmJRZmFqSDV1Ri0yOVRwM1JRWW1scTZDOUJLblhNUW5pQWhIZGpBVGFkWGJXcXZlZzNQV25HZF91QmtCSlZXLWt0SFZPQVlqX1Fsd2xqaNIBeEFVX3lxTE02UGNZRGQyNUNuak1teENyVWh5aVluMGpET19CTjQtd3ROcmJRZmFqSDV1Ri0yOVRwM1JRWW1scTZDOUJLblhNUW5pQWhIZGpBVGFkWGJXcXZlZzNQV25HZF91QmtCSlZXLWt0SFZPQVlqX1Fsd2xqaA?oc=5"
+        },
+        {
+          "title": "내년 관광부문 예산 지방활성화에 ‘집중’",
+          "source": "traveldaily.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OMFZETDJIeUhPRHh6RTRiWG9DVVgzLUI5R3J2QzVXb0lXQUNOWkpWZURyQXNvVVdGX1FpSDFTNzFlYXN3U2ZnX0h4dnBkMGFqVGt0bXRaQXFibWF5Sk1YenphSERNLWQ1UllHUHRocmc?oc=5"
+        },
+        {
+          "title": "완주 삼례문화예술촌 ‘숙박체험관’ 운영자 찾는다",
+          "source": "전북도민일보",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcERCbEpXVmVqWjI0RC1KeDhtQTdwS25CNWhkWXgyR2wtSVF2LXZ1a1NXM1BIOWgzY1BqZmRoaGFKX0F4THFRV1VLR2dmbTFrbGJKeTBOVmd2aUNQRlRITEc5UjlNVnhjaDd4TE1ZS0w2VnhHdXMwYnUtV1JHWU1XUjcwZHBaSlU?oc=5"
         }
       ]
     },
     {
-      "name": "부동산·재개발",
+      "name": "부동산·종부세",
       "items": [
         {
-          "title": "한남뉴타운 3구역 철거 착수, 5구역 사업시행계획 인가…재개발 사업 잰걸음",
-          "source": "한국경제",
-          "url": "https://www.hankyung.com/article/202605183712i"
+          "title": "종합부동산세 내년부터 어떻게 달라지나?",
+          "source": "소셜포커스",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BWHYtNkdkRHcwU3U0OG5JZ2QzMGJlX21lRDdnaXZiYVJ6S3pnenZ1dkc2V3FGT3VXM1RvNnExM243NHpmcmlvenBvbWY0cXJFd196Zm5qbHJtaGhjM2RGX0k0SmVMUzY5TFZtZm03SlE?oc=5"
+        },
+        {
+          "title": "[그래픽] 서울 종합부동산세 부과 시뮬레이션",
+          "source": "연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rUGFKTnZuRjZtVjdUNThpaUZwcEh3N3FRdjhRaG5qMVBTSEJHS2s1VkZnSGdXbzdfemFTb05NOVE4THJ2WmZaLVJzT21qYi1scTVZQl9LY0pJYkXSAWBBVV95cUxNN0tabFFwNk4xcWs5NEVPeTJheEhobEZpVm5xQlhrSU5oNDh1YkRNMExsLWdMeVNKQXc0LTlSSW5nUU9fV2xZYXM2azhtcUhYSjN6RDZCLWFMVVhia3E1cHE?oc=5"
+        },
+        {
+          "title": "“강남 부자들만 내는 줄 알았는데”…종부세, 서울 22개구로 번지나",
+          "source": "매일경제 부동산",
+          "url": "https://www.mk.co.kr/news/realestate/12145209"
+        },
+        {
+          "title": "“집값 지금처럼 오르면… 4년뒤엔 서울 3개구 뺀 전역 종부세”",
+          "source": "동아일보 경제",
+          "url": "https://www.donga.com/news/Economy/article/all/20260906/134614768/2"
+        },
+        {
+          "title": "서울 집값 상승 지속 시 종부세, 비강남까지 ‘서울시민세’로 확대",
+          "source": "더리포트",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EMDdvTERDSk52cFZfc1o5UnROZ2FXUDhKYXFMVjJNby1mR2Z5UUUzX1NUV1NrUlk4Q1pLTnJFYjExUXdGYm1oTVdYZjRiQkc3MndGYnZVM1Zkdko5Q2JFU1pGeVB3WGRBb2g4c2h3?oc=5"
         }
       ]
     }
