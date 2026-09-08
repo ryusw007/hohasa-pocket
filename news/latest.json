@@ -1,64 +1,24 @@
 {
   "date": "2026-09-08",
-  "updated": "2026-09-08T00:31:42Z",
+  "updated": "2026-09-08T22:54:01Z",
   "sections": [
     {
-      "name": "숙박업",
+      "name": "부동산·개발",
       "items": [
         {
-          "title": "관광객 몰리자 '살 집' 사라졌다…EU, 에어비앤비 규제 나선다",
-          "source": "edaily.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNXdmdzhEMm0yd3ZmbHZtdi10OHR1UVhhMlpKNHBYLWVKSTFUVGhXQk04NkNhMW1vMHVPRVczc3EwMEhleVRzcDN6c2E4NUdGd0gzV2EzUzFHWGJuUjR4RTdCVGlBS3BxSkNGYUgyWldMQTQ1SkJEamVwXzRybWdKZw?oc=5"
-        },
-        {
-          "title": "이제 여행 가서 에어비앤비 못 쓰나…\"살 집이 없다\"는 유럽, 단기임대 규제 '초강수'",
-          "source": "네이트",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HcVlxNUVUazhYYllNMnhrZkMtQ0hWcURnMkFFNGh5UFdMU0NYX1FZcjlvZ0tJeTdhU1hxNHRXVkJ5bHZMT1lkMm9PclRhT3FFOFlr?oc=5"
-        },
-        {
-          "title": "가을 나들이 시즌…충북도, 음식·숙박 가격표시 준수 강화",
-          "source": "아이뉴스24",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uX0Z3QzhzRG5yTERjTUxPVWdqSGowTldheUlTYldNUjRjRUZ4cTBOZ1VreEZzQ1ZZbENnUzlKWnc1M0p0QTFyYWVkOA?oc=5"
-        },
-        {
-          "title": "\"표시가격보다 비싸게 받으면 영업정지\"…충북도 음식점·숙박업소 처분 강화 |",
-          "source": "충청뉴스라인",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wT0ZOWTh1LXRSaFZsbDFOT2NDTndRdGNXNE9NUkF6aXVobkw2MDN5RW8waXNHUWdLR3hDWWR3dndvZ2ZHYUpnd2JwRS1pYWczdE40UXUwRC1EYkxGSUJVTXh1bVE2TlBZQ2tTOTRyQWdUSjQ?oc=5"
-        },
-        {
-          "title": "[인터뷰] 김재원 \"'숙박 신뢰' 무너지면 韓 관광 흔들\"…예약취소 금지법 추진",
-          "source": "v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VRkkzcDkzb0lvd0xGaGV6VXZ4c1VwbnkyMEFOWmg3R21qdmtxYWhHN21oRlgyejQ4a1VqSEphNmUyMTBlb2VMMGtqLS15UXM?oc=5"
+          "title": "'재개발 20년 난항' 거여새마을, 김이탁 국토부 1차관 현장 방문…조기 착공 적극 지원",
+          "source": "아시아경제",
+          "url": "https://view.asiae.co.kr/article/2026090816514708502"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "세무·정책",
       "items": [
         {
-          "title": "오세훈, 민간임대 규제 완화 촉구…'실거주 위주 정책' 전면 재검토 요구",
-          "source": "청년일보",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85Um51Nm56ZmhwQWJmd00wV01SUFBZOUdjV1NOWjBtTE1wZVpFeGRFdGxELWZwQlFVV1RrQU1YRWx4V0tFbGhOelhxQ1hZV2liLWpxRjdlQnZQOUNsTk1LWnlWVXRVTUk?oc=5"
-        },
-        {
-          "title": "송파구, 행정안전부에 세법 개정 2건 건의",
-          "source": "한국주택경제신문",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LUVZscWtkeTlZWm93UEtsbnVBM3N2R2g1bk9RRm1VRTFmamc1ak9aai1LeUstTlU3N0xmOVM3S2tFWDZRTGJDOGhqeHFXLVNva1M4N0w5RzI2bXRHWmpfalhMQzV0LVpj?oc=5"
-        },
-        {
-          "title": "“그래서 얼마 내란 건가요?”…종부세 재손질에 집주인도 세무사도 ‘혼란’",
-          "source": "매일경제 부동산",
-          "url": "https://www.mk.co.kr/news/economy/12145870"
-        },
-        {
-          "title": "“강남 부자들만 내는 줄 알았는데”…종부세, 서울 22개구로 번지나",
-          "source": "매일경제 부동산",
-          "url": "https://www.mk.co.kr/news/realestate/12145209"
-        },
-        {
-          "title": "[데스크리포트 9월] 민주당이 부동산 보유세 올리면 선거 망칠까",
-          "source": "businesspost.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41YzRkZzIxeEhSOWZUZ2pWU3JKalFaTlhPSFdRN0pMeHpDc0FZdUpZc2lTMXQxblBiVUNVZXpMM3hMaDB2MjcyVWhZRFpBYWJZTEl2R0N5YWp4SkRULVFCVXg5ZWJvVnA0YW8tdWVBMk4xUjQ?oc=5"
+          "title": "관광객 3000만명 목표인데…외국인 숙박 부가세 환급 앞당겨 종료(2028.12→2027.6)",
+          "source": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20260807000669"
         }
       ]
     }
