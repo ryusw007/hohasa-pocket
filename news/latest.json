@@ -1,24 +1,64 @@
 {
-  "date": "2026-09-08",
-  "updated": "2026-09-08T22:54:01Z",
+  "date": "2026-09-09",
+  "updated": "2026-09-09T00:22:42Z",
   "sections": [
     {
-      "name": "부동산·개발",
+      "name": "숙박업",
       "items": [
         {
-          "title": "'재개발 20년 난항' 거여새마을, 김이탁 국토부 1차관 현장 방문…조기 착공 적극 지원",
-          "source": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026090816514708502"
+          "title": "도쿄 신주쿠, 주택가 민박 원칙적 금지 추진…숙박업 규제 강화",
+          "source": "알파경제",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FZHZlNzRYemJ1ZW1OSm8yNTdBWXBjSWlUMVN0Z3MtcExfNmVBZXhMX1ZKTzBjZVZ4V0tha1pDYVQ1dVRSWk92UkVkQThNejREaUJNUURNWDctZjl2UHJGYU9XZDVHdmlTQXkteWJ3?oc=5"
+        },
+        {
+          "title": "외국인 도시민박·한옥체험 숙박피해 사각지대 손본다…김재원, 관광진흥법 개정안 발의",
+          "source": "투데이신문",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYRzJ3X1NHVFRiWkxLc3NvSk5CSEMyX0lub05HaVo1NUZTUGNidG1BcnZ3QU0tY2tmNEhwSndyOUhxcDlxZE94RWptMEVTdENfbjR4bHV2MjdnTHJkNG0wNDdtT2N3WVRjQmJF0gFvQVVfeXFMTTliMW1FVGdGQk13NUZSTm1vNnduYW1mLVdNZk5jRlBUcHFOd0NKZFUtTGF2T2ZDS01UTFlDaXRTV2tiS19xOVo3SjJ0VGRZSElsSzVXNE5TcGhHZ1J1WTYwOUQ1RVEtU0o2V19FaFBF?oc=5"
+        },
+        {
+          "title": "EU 규제에 백기 든 구글…유럽 여행검색 개편에 엇갈린 '득실'",
+          "source": "edaily.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaEo1ZFI3SWtOQm1INXdMQXR1MEdGUUxndlM5cjhfQnVWbGk3UU0yYURTVW5CYnFkdUlXR2JiLUl4OXB0NkZ1M0cwVkNIVF9mbENVNG9nUXJaZ0xmNDRJWDVlWENMVlZzckRVbHdnM1lyeHA5SHk5VGJrUk5Bbi1jYg?oc=5"
+        },
+        {
+          "title": "[인터뷰] 김재원 \"'숙박 신뢰' 무너지면 韓 관광 흔들\"…예약취소 금지법 추진",
+          "source": "thedailymoney.com",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13V3dUSXNjT1g0aTJIcVVDVHZIY3I5YWY3UFFlWGVQRmlUVHFxTXVMSkhyRGFiYm1NNEdVMXR4d1YybksyRzZhM2RoMWs1eGNkYndPdk5kZkp3Z1BTVUQ2MVZnbldKOFVQS2pheEFTNG9YZw?oc=5"
+        },
+        {
+          "title": "제천시, 가을 나들이철·추석 대비 다중이용시설 식품·공중위생 합동 점검",
+          "source": "이뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYYUJ5dTBhMjdVSk4wcDhUT1lTdWxWNHIxSV83Q2ZkdUN5NnNPcHhYMzRmOHhUbmpLN01GZzNoa2xiRElkSTZnbFJFYlRxSFlud2xzek9hTGJMOHVQRG1sN21WVFdNNmU5WWJWTDhzWkY4c3dm0gF0QVVfeXFMUFhhQnl1MGEyN1VKTjBwOFRPWVN1bFY0cjFJXzdDZmR1Q3k2c09weFgzNGY4eFRuaks3TUZnM2hrbGJESWRJNmdsUkViVHFIWW53bHN6T2FMYkw4dVBEbWw3bVZUV002ZTlZYlZMOHNaRjhzd2Y?oc=5"
         }
       ]
     },
     {
-      "name": "세무·정책",
+      "name": "부동산·종부세",
       "items": [
         {
-          "title": "관광객 3000만명 목표인데…외국인 숙박 부가세 환급 앞당겨 종료(2028.12→2027.6)",
-          "source": "뉴스핌",
-          "url": "https://www.newspim.com/news/view/20260807000669"
+          "title": "부동산 세제개편안 발표되자…세무사회, 온오프라인 실시간 실무교육",
+          "source": "taxtimes.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLSVBkb3B1MnpucXNzNjhydGVqTDE4cHN1dGN4NEZsU1FOMF9mR24xYjFlaGkxQVVhUXhXOUlDUGhKa2l4ZU9iZ0ZoeHVLcDVUVER5dXNjb1psTUozSFE3cXhiVDc?oc=5"
+        },
+        {
+          "title": "다주택 증세 주도 이형일, 尹정부땐 “중과세 징벌적”",
+          "source": "동아일보",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tek9uREJ2ZlA1eVI4S295WVptS0tzcFh3SjRwaVJsSk05ZzB5ZTh6OVpSYkttQ0tfNkhaZE5IWjdVM2NkUGwxb3EyQm5jQXY3Y2xVSW8xN0JabHhUX2xNV1ItNzZtdFB0ZVRvdWo5c3lKYk96UlHSAWZBVV95cUxQTzhxR0o2Z3lnSklYVkhRNXphY1I4NlBXcFdlTW9IYllXUmJHa1ZQQXRma1ZQaW5UZmlnVE45cXN2SjdtcnFOYUFmcjJlNUo5clU4b29ZWlVEYVhuTlFLcFE1WFoyaHc?oc=5"
+        },
+        {
+          "title": "정부, 법인형 임대사업자의 종합부동산세 부담을 낮추는 방안을 검토 중",
+          "source": "정경시사 FOCUS",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRSkd3U1FyUV9yV3VQaEhPN1NzdjAxa1IyME1kQU1EZUZTcWdKWnQwX3Ixanp4eEJuNW9jYVpCRFA2YkFGUUZYbzFnSHNNM21ES2lEcU1NQkJWREZ3UWcxNktMVGZPcUlG?oc=5"
+        },
+        {
+          "title": "“그래서 얼마 내란 건가요?”…종부세 재손질에 집주인도 세무사도 ‘혼란’",
+          "source": "매일경제 부동산",
+          "url": "https://www.mk.co.kr/news/economy/12145870"
+        },
+        {
+          "title": "[단독]4년 새 3주택자 종부세 ‘반토막’···상위 1% 주택자산은 8.7%↑",
+          "source": "경향신문",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OSjdEMTdfNkV5ZDREdnZMcndORWhSN29UT3I1cTVTRnluVDZzeHJ3Rnc4UjYzc2dPbXQ2eU9rV3U3TFZuUjVmaXRQMENua1c3UFhRRGpYaGUwcThQZXdB0gFfQVVfeXFMTU5KN0QxN182RXlkNER2dkxyd05FaFI3b1RPcjVxNVNGeW5UNnN4cndGdzhSNjNzZ09tdDZ5T2tXdTdMVm5SNWZpdFAwQ25rVzdQWFFEalhoZTBxOFBld0E?oc=5"
         }
       ]
     }
