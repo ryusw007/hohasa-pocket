@@ -1,64 +1,24 @@
 {
-  "date": "2026-09-10",
-  "updated": "2026-09-10T00:20:14Z",
+  "date": "2026-09-09",
+  "updated": "2026-09-09T23:45:21Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "日도쿄 곳곳서 민박규제 강화…\"민폐 막으려다 관광객 줄어들라\"",
-          "source": "v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yN29jbFVFQlpDc1RWZlE0NTZlVlE0X213cTB4NnBPMmdQSTI2YTFXMFJnZkIyTTJnNVcyWHduYXduOGt2c3c?oc=5"
-        },
-        {
-          "title": "“시끄럽고 쓰레기도 막 버려”…일본 곳곳서 관광객 민박 규제 강화 속속",
-          "source": "v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NalVNRlZuLXVOeDRQMUFpRGI1R0JoWGd4UUg0QWFSOWFIdF9mbm9KdlVtUDVDSHR6SDFsWFZELUJRRThjdU1vNG1VZUZoQkk?oc=5"
-        },
-        {
-          "title": "문체부, 2027 예산안 발표 - 숙박산업 진흥 기반을 대폭 강화",
-          "source": "호텔앤레스토랑",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxeVl1UnBPZFFKbV84a2FObmFpbTRRVTBEbFFwUkV0MEUyZUl0a0x1dVBscndmS19ZNG85cTBHbEo1WWRsUXdnRHdFQTNiNVUtdjItdXhfWWw2dXpHdnNYQ3FMWk50SmtWN1dZTTRiYU9kdE5kOGc?oc=5"
-        },
-        {
-          "title": "제주 농어촌민박업계 \"한화 애월포레스트 허가 반대…숙박과잉\"",
-          "source": "연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWFNSUnlhSWpMdHBxUG1tM3UtSHMwMFZRNEJXSldjdW82bWlFSGlTNlBjTWdJaEZ2Y1o1WmJDelhnWTBSeVlzWU5xcU5peUVGTlVnOGlTelVIc21ZNlRTetIBYEFVX3lxTFBmWFNSUnlhSWpMdHBxUG1tM3UtSHMwMFZRNEJXSldjdW82bWlFSGlTNlBjTWdJaEZ2Y1o1WmJDelhnWTBSeVlzWU5xcU5peUVGTlVnOGlTelVIc21ZNlRTeg?oc=5"
-        },
-        {
-          "title": "한화 애월포레스트 사업 농어촌민박업계도 반발...\"허가 절대 불가\"",
-          "source": "헤드라인제주",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SWUNsdnFBMkNwRnd1Mlp6dkJBNm95ZUFQNFAyWGJMRzREUnppRkgzMU02MFVVTXRqQXZfMF9VZEctY0lQRmp2aGUyOWF5VDhLQ2xudl9zMGVWZDJmMGdmMTJrWm9BNHF4bHpvZ09ySHZNcEU?oc=5"
+          "title": "\"에어비앤비 더 안전해진다\"…김재원 의원, 외국인관광 도시민박·한옥체험업 안전·위생 교육 법안 통과",
+          "source": "서울뉴스통신",
+          "url": "http://www.snakorea.com/news/articleView.html?idxno=876711"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·세무",
       "items": [
         {
-          "title": "양도세 중과 넉 달…매물 7만건 쌓였는데 거래는 '3분의 1'",
-          "source": "뉴스1",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVM1dNa05Fak5rN2xaRk95Y2lLSldGTFFHTTZaTXJOUzJiVWFqNEttV3hibzlSektsWVl1aHJBdzRsZGx5MDhjN3dIMC15MHZ4NWxtWnFJOWdaYmxvYW9JStIBYEFVX3lxTFBVM1dNa05Fak5rN2xaRk95Y2lLSldGTFFHTTZaTXJOUzJiVWFqNEttV3hibzlSektsWVl1aHJBdzRsZGx5MDhjN3dIMC15MHZ4NWxtWnFJOWdaYmxvYW9JSg?oc=5"
-        },
-        {
-          "title": "\"지방주택, 대출규제 추가 완화하고 주택금융 강화해야\"",
-          "source": "국제신문",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQm1IYzhQWEFOb0FJbUw1SWJ0QkFBc1lwRmZSS283LXZkek1kbXZ1R0g1cURQTUlDVTRqTEZxc3RfS1J6WHI0VDVVZFZNWVJ3Rk9hdlB0aUVUeDA4ZkF6YVJ0RHRkZ245UXlCdk91eDVrTzdSa0M2eEMtbkpRU3JVSTZsTjYyQk5KSWRTZEpn?oc=5"
-        },
-        {
-          "title": "서강석 송파구청장, 신축주택·풍납토성 재산세 부담 완화 정부에 건의",
-          "source": "전국시민의소리",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZbGZhWWZlYWdmTi0wYy1HTEVFS0Ixa3ZmcFRXMDJSVTFoSmx2Y2tVckFuN2FYOTFWZWM0X3Y4MkNHRFZPUUhYUDJQTzNSQ1lHUW9BVUpaek83MlVuWmhNWlQzTFFGeGZVdFZDZA?oc=5"
-        },
-        {
-          "title": "부동산 관련 법률 세 가지가 개정안 심의를 위해 국회에 제출될 예정이다.",
-          "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUExNeVFLUjM1LXZaZE9QOE5mUjRsVXdmdTBHUGtsTmZTelEwbEhKaHJzX2hGQk1feWN0NzIyb0ZIWWh5b3dkWVVCdU9DTklsM2pBZi1IRjlnU2U0cU5SWFFrS2xVRlp2TzJNRW80OUNQejdLVWlRcGJ4RXloVlp1T1JmLU4?oc=5"
-        },
-        {
-          "title": "“이 집은 주택 수에서 빠진다”…다주택자 세금 갈리는 ‘예외 주택’",
-          "source": "디지털데일리",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sMWhJRlF5MnA0cFN6Zy11Q3RGcFJOdXRLVmJEMVJEM2JZQlNsUDRieVJzTUtPZDZlblBJbC1wSDlJc0E5S0FULVE0SGhFTklQT0p3a1g2MXd3S2hTSTRkQWthbUM?oc=5"
+          "title": "이형일, 尹정부 때는 다주택자 중과세 \"징벌적\" 주장…장관 후보자 되자 입장 선회 논란",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/202609080686i"
         }
       ]
     }
