@@ -1,64 +1,24 @@
 {
-  "date": "2026-09-11",
-  "updated": "2026-09-11T00:16:02Z",
+  "date": "2026-09-10",
+  "updated": "2026-09-10T23:46:41Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "도쿄 신주쿠 구청장 \"민박, 감당 가능한 수준 이미 넘어섰다\"",
-          "source": "한국경제",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MTXNtN3V2YzR1Y3RJQ3c1UW9nYzRzSkJJb3YzSXlRZFA0WXM4eEZLcWxxcDVlYmw4cVZNcDczdXpEaEZKdWlPbkhMazFkUmM4bnU1bE1XN2s0QQ?oc=5"
-        },
-        {
-          "title": "외도민과 한옥체험업도 바가지요금 과징금 50배 추진",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2bU5DbGFOcXI2ZGU5b2djWC03WXU1Q1MySHU0ZFJwRmRSbm5kRFU1eDdGOVNpWkc0akpfNWJJaUJPZklRUVFmX0hid1RJcHk1eXhuOHN2N2dVOWJlNmZiSG5LaGJ6ZE9RXy15bkJtZ3EyZw?oc=5"
-        },
-        {
-          "title": "“북항 재개발에 해수부 신청사까지”…롯데캐슬 드메르, 주거·숙박 수요 겨냥",
-          "source": "디지털데일리",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VdG9JTTFreENuNE5lYmpIV0trWmxRY2R2LTVESHRYNEZob1lmeTdoYVNEa1o1QkJia2xrbUk0b1l1cnQwTUt5X2VKLW9hRzlhVzYxV1gwYlhBa3lacURiYUtwbms?oc=5"
-        },
-        {
-          "title": "방치되던 쇠퇴 지역의 반전…경주시, '대한민국 도시대상' 국무총리상 수상",
-          "source": "이로운넷",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HT3RWR1VtN2NHY3NjWVh4bVA2VkJNeFhjN0pLU1dYSTBzeGpwLThhQmhCQ1RSVmdIeHUtZmZXQUhkWTBPX1doMVk3blVadFRlSXVXWTlqZkdscDdpNkpfa0c1Z0hJZw?oc=5"
-        },
-        {
-          "title": "천안시, 공중위생 최우수 숙박업소 89곳에 위생물품 지원",
-          "source": "경남도민뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1ZmFwN2pfcWFOTjZZVWZYbjNIVFdMRUhpcUQ2RHVlU3gtLUZuMDU2S2FEaUZpSkRlUklqd1RRQWlaUXdmaV9LRjRkbDJjQk1jc3JISFp6cWp2QkRPanhYckhwRQ?oc=5"
+          "title": "빈방 없는 관광지… '공유숙박'이 대안 [제13회 대한민국 문화콘텐츠포럼]",
+          "source": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202609101821310539"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·세무",
       "items": [
         {
-          "title": "국세청, “종부세 합산배제·과세특례 확인하세요”",
-          "source": "dt.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKeFB2a3RWSEd2eGl4eTRIRU5iSjJjdDVCRjVGcS05T0tMMDdkRjBvZjJ6bFVfNUFqbUZGckc1RjI4ZFVSS1hZOTV0OEJoQQ?oc=5"
-        },
-        {
-          "title": "[2026 종부세] 인구감소지역 주택도 주택 수에서 뺀다…중과 판정 달라져",
-          "source": "이택스뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBeVRKdHByTjFUQnU3SUhPMkJxZnh4ZmdpbG5PSHYzUkhuNWdMc3k5TGw5bjhMZ0Z3ZWVoQTIwUGlSMkhObG04QkZKUGRrR19XeFhjSHZTSFJYRm1fV2M0Nk94azQ5YVhaTkE?oc=5"
-        },
-        {
-          "title": "양도세 중과 ‘반쪽 효과’ ... 매물은 쌓여가는데 거래는 3분의 1 '뚝'",
-          "source": "Queen 이코노미퀸",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yb0psQV9SbDVtV212bW9pa1JobDBraXRFMEU3U0FHYTdSS0pLV3diOEZaNEZGM3RZWlR2LXhrb2wyTGRnVDlVMGRoeDRVdzFJQnNDYWVNZFNJWmQ2ZnN2bDk3eXM3aEtpX1E?oc=5"
-        },
-        {
-          "title": "ez카지노 가입 쿠폰 발표 능력을 통한 반성: 핵심 개념과 실제 응용",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkeWh4aWQ5eWpmdnhYRzRQMkRTcVBpejNOQkZJN0t2dDRhckZyQ3pVUU5BeTRJem0wU2tQcVVRT05BZ0ZLRmctVTNvQ1cxTXF4MDUzRGw5Wk1nMnp5VHJERTZwbmFpTVpPelE?oc=5"
-        },
-        {
-          "title": "(동영상) 세제개편 결국 원복, 비거주 1주택 종부세 12억‧세부담 상한 150%",
-          "source": "조세금융신문",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jNTliRHhjQXhabFFQbDBSeTNYM3cwbzFCdkNDWTR6MHJObGY2aFpQWWs1M2Z6cVpob3c5SmlJNFFsa19iLWJxVXZSSHpQM0JON0Q5aU9YcDFBUndZU29xZTlWcw?oc=5"
+          "title": "국세청 \"종합부동산세 합산배제·과세특례 30일까지 신청하세요\"…납세자 4.8만명 대상",
+          "source": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202609101223431923"
         }
       ]
     }
