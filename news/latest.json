@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-10",
-  "updated": "2026-09-10T23:46:41Z",
+  "date": "2026-09-11",
+  "updated": "2026-09-11T15:11:31Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "빈방 없는 관광지… '공유숙박'이 대안 [제13회 대한민국 문화콘텐츠포럼]",
-          "source": "파이낸셜뉴스",
-          "url": "https://www.fnnews.com/news/202609101821310539"
+          "title": "관광객 3000만명 목표인데…외국인 숙박 부가세 환급 앞당겨 종료",
+          "source": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20260807000669"
         }
       ]
     },
@@ -16,9 +16,9 @@
       "name": "부동산·세무",
       "items": [
         {
-          "title": "국세청 \"종합부동산세 합산배제·과세특례 30일까지 신청하세요\"…납세자 4.8만명 대상",
-          "source": "파이낸셜뉴스",
-          "url": "https://www.fnnews.com/news/202609101223431923"
+          "title": "'9월은 재산세 납부의 달'…주택(2기분)·토지 재산세 납부 잊지 마세요",
+          "source": "행정안전부",
+          "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=112341"
         }
       ]
     }
