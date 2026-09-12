@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson14",
+    "title": "에어비앤비 무단침입, 남 일이 아닙니다",
+    "date": "2026-09-12",
+    "cover": "lessons/lesson14/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson13",
     "title": "호스텔 택스리펀, 도입 전에 꼭 확인하세요",
     "date": "2026-09-11",
