@@ -1,64 +1,29 @@
 {
   "date": "2026-09-13",
-  "updated": "2026-09-13T00:04:18Z",
+  "updated": "2026-09-13T14:10:14Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "[2026 국감 이슈파이팅] 생활형숙박시설 용도변경",
-          "source": "국토교통신문",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZEhSd0FvRS15TWI2UjRlRWVLV3FLTmJsZXp0VlhIWEtUbTBMLW9nVWQzdlFSNXNqZjVmMERwNzhIakFfLWdzdGwyYTMzTW9kRGMzb1ZGN2JKWk1iQVl5UVEzaERlRHc?oc=5"
-        },
-        {
-          "title": "관광 숙박 시설을 검토하고 관리합니다.",
-          "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RQlRrekxBR0E0YXBZU1RySkxjOThCYWJ6U1JBTy1GVnoyeHhLWkZhQUx6cjBTWjY4eUxDM0xfRE1LdVJfbVFkZzAwV1RYU1R5WWhLeFRNTWZsd09GcTFDZEo0cl96SS12bTdFeEU4UFkta1pkRkU1WVljaHl3Z1U?oc=5"
-        },
-        {
-          "title": "[김덕기 박사의 한국·싱가포르 도시계획 법제 비교 제1편.] 용도변경은 왜 계획법의 사각지대에 남았는가",
-          "source": "한국도시환경헤럴드",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90NEM3aTF4VDNiWnI4dTBabGtYbUpvNWhMN0ZEY09FMFE4UkdXSFpoTWR3cTVfYUttNnhRaU5raFhuV1Zuc2xYTGpINlYxTWVLMXAtWUQzVzVmUG85TkFJek9ndHpsTkVoN0FuNWFwaWjSAXBBVV95cUxPdDRDN2kxeFQzYlpyOHUwWmxrWG1KbzVoTDdGRGNPRTBROFJHV0haaE1kd3E1X2FLbTZ4UWlOa2hYbldWbnNsWExqSDZWMU1lSzFwLVlEM1c1ZlBvOU5BSXpPZ3R6bE5FaDdBbjVhcGlo?oc=5"
-        },
-        {
-          "title": "하띤성에서 가장 활기 넘치는 지역에 숙박 시설이 들어서고 있습니다.",
-          "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObHk0OERtc2tVVzc2dnR5T3NieUdVUnpPS0YxbUxGOS14azBSd280NWxrNlBPbXhJR2VyeVNCSlpTSWR2WnI3SFZFcEp2THRQVkJHZUF5bE5Jb1N0RXBTYlY4ek0wRGU5WDJVWlR5d0hub1haVThQVjVveGdoeXhRdGNlRVpOT0Nr?oc=5"
-        },
-        {
-          "title": "테마 목록에 넣기 전에 읽는 벳365 가상축구 조작 상세 소개",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQV9Qa3lFdkFneEZJbURPOWI0eUk5bWRERlQwYUlySEhkUmdsTF84YzJIcVVoS2dMVmQ4a1g3WnN5Vy11cHpnY0NET3lNYTZsOVdEZXI4NFRESGQ2eElPWVRRRHZDMlJOSjRQYzRuenpKU0NqbXJHeFVTWWFoakxPcm9OOUc4Q0JZSkRid2xtLVJEY0Qyc3JQMUY1LXVBQkEybllJRV9FTzJXbi1ZVklIcm5CU052Z09KbHVCOXVSOGhMcUxwZV9KN2Rvdjd4MmJMdGo0SUhZTmNxN0d4eU5sWEZFV0xhOXJoSzJQeVJ3RmJhbDlkc1E?oc=5"
+          "title": "숙박요금 게시 안 하거나 더 받으면 영업정지…외국인민박도 적용",
+          "source": "헤럴드경제",
+          "url": "https://biz.heraldcorp.com/article/10822771"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·세무",
       "items": [
         {
-          "title": "이형일 \"금투세 도입, 시장 안정된 후 검토…상속·증여세 완화는 심도 있는 논의 필요\"",
-          "source": "ER 이코노믹리뷰",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6ZDRxWldMT0Y3SHJJcVVma0lKbEwxSzZqVjB3eUtITy1ZTk5aTXF0RlRxNC12QkNGcHVpU2ZSQ0RxeXJPNVR6TWNIVHdidHZ1T2dvbG1JeXFURlczUzdGOWxnUzlvSDI2QmFWTQ?oc=5"
+          "title": "9월 정기분 재산세, 30일까지 납부",
+          "source": "파이낸셜경제",
+          "url": "https://www.fnewstv.com/news/newsview.php?ncode=1065567374092359"
         },
         {
-          "title": "종합부동산세 대상 중 1주택자는 30% 미만에 불과",
-          "source": "데일리뉴스",
-          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNSUZzQy1GcVV1cGc3akUtTk1WSHBzY0NaVE5HZzlrVXJDV2E4UVRmZUFNX3pXRkZIaU5LYzgyYmVNak9lWlBTNDFMakFydkZBQklkaXUwdE1mU0lsWTl3RUl4M3JOYm05SnBmR3VrTzAtMDhfUUNOX2ZDSWU2WjlOWVh1V2lneGQxN212ZWF1OWtkQzVvSVBwX004MXctQXVnV3pxUHFPeTdQbWVlOURTVmJ1SkZwZVk0WnpCRUNNVGJDUmw0bHM4b1h6UDYxZmx4X3VrZzZzc1VXZnlSc2MtT05GMVdmQXl3VVY0N0NMdUdWVHNJREg1TnlQZmgwalV1aW5BY2UwZC14VjdjbzJwSmNlNU04TThrOEJhNVhycWlYMG1BWS1rbEw4dUpiTUg2Y3hiTkRha0Z6VmIwUDVhV3lZUFVmbllvWktkQTln?oc=5"
-        },
-        {
-          "title": "가볍게 훑어보는 게임의 골격, 마작 패 png",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYkNIN0RPdUMzUFVjVE9tc1M2cWZFQlFXY1NqTy0zRmNjSDRtZnBLelJDc3NPMEhwbThFekZfVXNnb2RLUlpiSmdPbXNOTkg0eVVicVFndnBVdjBkcFl0M2ZubnU1SGJuVXJOcjVVbHc3bEIwdVl4dk13Nmp6NTFqRzN2ZEZjeklQS25sTlpSdU5LLVpGRlE5NlNfb29CUUhxVTlWWjFqbC1GNUt6YzFwcjd1Y0lJc29XUGFPRG1pMDVTbzBFcVVIWjU5Vld0VlhnOGo2YzhKQnBlR3Z4eTBIM3VidnhPY1VybHdLNFlDb204aEZHd29DQWRHdFRRSlRGQ25rNg?oc=5"
-        },
-        {
-          "title": "'682억 허위 세금계산서' 파문… 檢 이어 감사원 국민감사 청구",
-          "source": "동방일보",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkSnZ6NUJPNzdrX3FfZm01RjZWSjQyaF9SZVhhYS1vbUlLQ1RidXlORjhrQWsxOEREOC1UNjdZM0VDQ0lpX1cya3FldU9SeUlYNDdfdGRBWGt0Z3lESFFjaklNTEdBa0tQVE51dGdGUldVeFU?oc=5"
-        },
-        {
-          "title": "같은 모양의 심벌은 모두 같을까? 무료 베팅 프로모션 코드 판정 기준",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRm52eEdteHlOVU9UbjJFaU13eWVfM0ZxLUllZVc1VjVzSlROMEVrUngxYVdBMU9jdTZpSXBYTU5XNEVUTEpxOS1yZEhUbFA4Ym9sU20xVEhZVDRza00zdVN5WnNpRlpVRXFlUzBUbVQzb2EzQkVwUHJIbFhIb1FGbHpNT0lqOG1xMmxUaG5OOVNQcjludXhvZ1FR?oc=5"
+          "title": "12월 결산법인, 법인세 중간예납 분납기한 (9/30)",
+          "source": "국세청/세무일정 안내",
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2238&cntntsId=7675"
         }
       ]
     }
