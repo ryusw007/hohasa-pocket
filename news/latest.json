@@ -1,29 +1,64 @@
 {
-  "date": "2026-09-13",
-  "updated": "2026-09-13T14:10:14Z",
+  "date": "2026-09-14",
+  "updated": "2026-09-14T00:17:25Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "숙박요금 게시 안 하거나 더 받으면 영업정지…외국인민박도 적용",
-          "source": "헤럴드경제",
-          "url": "https://biz.heraldcorp.com/article/10822771"
+          "title": "퇴직연금·IRP 절세 혜택 해부",
+          "source": "조선일보",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObTZiZVBHNlpuVnB3bEFObzNubmhrenRzMFpETUFHUXYyVVpMbUU4bzk3M3BWaWJwamRZWmFwU3RCdTA5RHJjWW5KSWxZSUFLU3hTSlNvSm8zUV9DUE4wVkZ1UUg1TkJQQjM0b3FnUnluSERWWlNJUnFaNXNSeEdnRg?oc=5"
+        },
+        {
+          "title": "서울시, 외국인 환자 위한 ‘의료친화 숙박시설’ 첫 선정",
+          "source": "이뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93UEZFQWxGdUVHXzJzcVhEcU1ETnN1b2IxOHhYM1dFWlZuS2lIdE5jWHU4d1lXeGhabnJLdkR3TXNDUGVkakVZQUROanpORFRXM053TEgwandjRGpHSnNvME9pQ1pDc3JNM1Q4aEJQdEVJd9IBdEFVX3lxTE5LVWxvYUZNRkJqUF9DT3R4ZVh5NGtHQXM2empaRFRNTFJOSjljR1FaUm95MS0yWFRPdUdmRlYtOVgzY0dwRU9BcGV5UEp6NkdRN3B0VU0tdG5KM2xOZ1g0WGdCZnJyWWJ2MUMzMm9IeHA5T21o?oc=5"
+        },
+        {
+          "title": "천안시, 공중위생 최우수 숙박업소 89곳에 위생물품 지원",
+          "source": "중도일보",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lMURfMS11R0xqS0lNWDRKaFB0R1JHbHl5aHpPM1lEMlVjY1FDYzNFdDFUMmNVYTU2ei00VjhQd25qSW1RQVc2M29WelZTSGNOazVLWm0tTFBmVXdRaS1qSHprOFRkSF80RnJIeg?oc=5"
+        },
+        {
+          "title": "15년 표류한 '서발법'…\"서비스산업을 새 성장축으로, 이제는 통과해야\"",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yTnppakxuNFIzcklYOW1Kald1dWpyaExWaDZUUjRnQmhsT0s5T1hMTXVEOEZsVC1NNl9ySUdaajdsdFBUeDVWbWRRd0xPcEFsUUQ3c1otUjY0Z9IBWkFVX3lxTE9yTnppakxuNFIzcklYOW1Kald1dWpyaExWaDZUUjRnQmhsT0s5T1hMTXVEOEZsVC1NNl9ySUdaajdsdFBUeDVWbWRRd0xPcEFsUUQ3c1otUjY0Zw?oc=5"
+        },
+        {
+          "title": "명동 따라잡은 성수…“호텔 지을 곳 없어” 에어비앤비 2년 새 3배 폭증",
+          "source": "서울경제",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fUzNFbHRpWXkzbkR4TFF2VV9rYmN2al9udWJ2d0JKYzcwcGNEeGxCWXI3VGU0ejBxOW5VSXI0WE9QR3ZhUGNpRXRkWjFqeXQxQnfSAVNBVV95cUxPU1FMcDgyUjFBV3hXalQ3bThKRGZiZm9VTExyeW5ULXlYMThlaVBtZEV4S0ViNFdYa2E4eFJXbHZWU3dlTXFsRXJra3NJZXV0bkpxaw?oc=5"
         }
       ]
     },
     {
-      "name": "부동산·세무",
+      "name": "부동산·종부세",
       "items": [
         {
-          "title": "9월 정기분 재산세, 30일까지 납부",
-          "source": "파이낸셜경제",
-          "url": "https://www.fnewstv.com/news/newsview.php?ncode=1065567374092359"
+          "title": "‘국세청을 향한 질문’ 부동산 세법해석 질의 7개월 만에 2726건…작년의 ‘91%’",
+          "source": "세정일보",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91bHp6c2FFOHZ4T1N3STJ2YlRsc2oyNFJ3YkhOSFNiWlo4Zy1kMnk5cnhwTThwbXp5SUxsLXZlVVJSejg3UUpWcVktQmxmVU9pRkxlcjVuRmRVbHNhdlJNeU9pamhkbWh2SlRqVg?oc=5"
         },
         {
-          "title": "12월 결산법인, 법인세 중간예납 분납기한 (9/30)",
-          "source": "국세청/세무일정 안내",
-          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2238&cntntsId=7675"
+          "title": "처음 보는 버전명을 확인하는 point 토토 정보 페이지",
+          "source": "Histoire pour tous",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZUJfQzNDZW9GWTJ0OTlKdVZ5VXgta3dnUW5LaVlCVTE1bUdKMG1FUWRya1B0WXU1NDdvZDVpLS1XQ0FZRjJmQnBETlN2dWJxSTdKeU02LWJsRG9NSmFseDVpWVl1R2lKazBvUXhpSGdydGNCTklMeTJleWtPbFFfbmNjZEtZd1l2STRJeW9yMkRLSGY1Skc5QTBwekI1T3FxRVE1Q283UV9PajJMbXg3OHdkd3JBazVHd3IwRFVnanBnVUtJc1Y2bnQtTnozNklnMEV6YkEzZXhSSVpiXzNaSlhMMnNPUWlrNENpLXc3LVFQNkpjMmYzNmh0R2xUeThiZmVLWnJR?oc=5"
+        },
+        {
+          "title": "이형일 “비거주=투기 아니다” 발언에…1주택 세부담 완화론 부상 [Pick코노미]",
+          "source": "서울경제",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fQlZvUU9ObG5jMEZPMUotNTZKR0FuZkw2ejdYNG41UGE5SDFGZk84aTBCQzJWalFBMVFFQ0lobVBvWXE3b3dUOFlDNVE0Z3laeUHSAVNBVV95cUxNZkEtOW5XLVRQWTVlYnhRNHc0U2RLNlRpM1k2WGpUaTFuUmJKWGs4S05KUXpkaXFEZUl5dEEwUlMzRlF2NVJ6R0JZcUU1MTBISkpvOA?oc=5"
+        },
+        {
+          "title": "고가 아파트 종합부동산세 내년에 얼마나 늘어나나",
+          "source": "2news.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tWlRtbmV3Yjh5c0xSOG02MEt3c01oSDV2bnRqVHVRT3pRMDBpY3JKdDhCdmx6U2tMZU5ESTVIMnhWeDVLa0w2akQ4VVBlbWJsRml0NTVPUVZvckFHNzZ6aXZZNHlYS1k3?oc=5"
+        },
+        {
+          "title": "시가 43억 비거주 1주택 종부세, 내년 429만원 오른다",
+          "source": "동아일보 경제",
+          "url": "https://www.donga.com/news/Economy/article/all/20260914/134660210/2"
         }
       ]
     }
