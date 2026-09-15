@@ -1,64 +1,24 @@
 {
   "date": "2026-09-15",
-  "updated": "2026-09-15T00:42:56Z",
+  "updated": "2026-09-15T23:06:09Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "“관광객은 늘었는데”…도쿄, 민박 규제 칼 빼들었다.",
-          "source": "ainews1.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83QlZsQWVMOTBYS21VWENPTGM4VHJGWFdBRmdXOU8wM0VJZVIyV2M4U2wweWFYMjRrZk5jbzIxTW9TWW1SaDFHY1c2dEZUdVNZWU1lSG1UOEFCWTVfTHBVVVk5S3BvM01KOFFn?oc=5"
-        },
-        {
-          "title": "정부, 추석 앞두고 바가지요금·가격담합 집중 단속...첫 위반부터 영업정지",
-          "source": "M이코노미뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Cc1ZjZG1ObFhEZHZWRXlJM00xYzhrSEJnQzdUcktCZG91ZFlvVVNHMmgtY2JzdGNJa0lPSlQ3cjM1WERzQXFnQTVQRFFsYVZORk5nUE5sM2VkR01uM181NG0xVWZHN2s?oc=5"
-        },
-        {
-          "title": "[현장리포트]영업정지 강화됐지만…울산 숙박업소 ‘고무줄 요금’ 여전",
-          "source": "iusm.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfd0I5U1NkQmI1MDZiWVdSelhZMDRQZENraWppMHB5WWdiRlJocUdRQWFVUkYxV2tKUnNxd2hwRndISkVvUm43NzJtekxNcEhNLVE5OWxjY093Q0NDNkZUZ3VHVDlyRzRqV2k0aXNn0gFuQVVfeXFMUF93QjlTU2RCYjUwNmJZV1J6WFkwNFBkQ2tpamkwcHlZZ2JGUmhxR1FBYVVSRjFXa0pSc3F3aHBGd0hKRW9Sbjc3Mm16TE1wSE0tUTk5bGNjT3dDQ0M2RlRndUdUOXJHNGpXaTRpc2c?oc=5"
-        },
-        {
-          "title": "정부, 추석 앞두고 전국 전통시장·관광지 합동점검... 바가지요금·담합 단속",
-          "source": "한국재난뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pVVFoM1hpYUFwNU9OZ1RfVkVDUnFHNUtJd3Myd1BUaVpod01fY2RXd2s3UW52dTdyeVBFcEhxUHhIbGx0eW1wV3NBX0tpcHg0VHVoS3hFQWdDRmVzZlhoZFZ2YnNudk82QUE?oc=5"
-        },
-        {
-          "title": "아이크루, AI 강화한 관제 ‘FMS’ 출시",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OQ1RPVDJVaXI3OUNlWTNjOWNNNWFuLVpmbDA0TVFxazBvYU15TGVGUU9PMTZZMTVTZkN5b0doN0JMRFZjMHpnb0piSTMxbHQ3eTh6UTNRaDVXNnFpT2FTaXJMRFVDcm1sUzZMQ1NqUExaUQ?oc=5"
+          "title": "서울시, 외국인 환자용 '의료친화 숙박시설' 첫 공모",
+          "source": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20260911001129"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·개발",
       "items": [
         {
-          "title": "이재홍 세무사, '2026 양도소득세·종부세 세법개정안' 핵심 강의",
-          "source": "조세금융신문",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wMElWeFFxcnVGaHgxVXZvcl8tcmk1dkpkbTZxd3VuM25mUWpyT1RDTEdjTFNoV0t4WHpyS0V6WjhvVW1FS2VOTGdQaDhwcTJIWk1wVUU3Tnk2TXRDeFctUUNzRQ?oc=5"
-        },
-        {
-          "title": "이종욱 의원 “부동산 세제 잦은 개편에 세법해석 질의 급증”",
-          "source": "경남미디어",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XNjJsQmwzMWRheUNuTFh1dENiTTF6WTlBWnd4OVZiZkp0enc4Q3hydzhwaWRsYy1zS1VFVjdncnpaMnRRcXMyQkVLczBpRzc3bWNYTy1iZlAtdm5kejdHVGY1bVB5UTRVSkE?oc=5"
-        },
-        {
-          "title": "서울 토지거래허가 신청 3012건…금리인상·대출규제·稅개편에 급감",
-          "source": "한국경제",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTnhtclJBYTJjTXlRQ3RlelV1S0U5WnlYdWxLTGI3MDE5Nk1ydFlzeFkwakNtVHViQlhWbDJtVXhkb2R2cFFSZktsSTZCNWJyU2Z2ci1tSmRXdw?oc=5"
-        },
-        {
-          "title": "비거주 1주택 과세 완화 되나…장특공제 속도 조절도 거론",
-          "source": "sedaily.com",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CQ3dUd1dyZFJjZUdYZXlTQzdlQkRaemVJWmFnNHZmX1N4aThTd21KeTNlYkF0V2tLc2R4RC1FOTl3MmE4S1g5UFlSSjgzSHRpMFHSAVNBVV95cUxPdVp2aUJ2OXpvaXJudXNxbE8xeTRaZ0hnekJkQ2lVVDFjTDl3SC05UUdGRnNyRDVpb2hmRFljemE4Q0hYUjFBbDVibEQ0VHFkMnlBMA?oc=5"
-        },
-        {
-          "title": "실거주 유예에도... 8월 서울 아파트 거래량, 전역 토허지정 이후 최저",
-          "source": "매일경제",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8tZE5GSEtWQzV3X1VSbUVuRF8wRkdtUDVBMnhKQnJmcEEyTEFkNEJOOU9Ed2dvWG00WHNCcjNEOUZQUWQwQVE?oc=5"
+          "title": "서울시, 역삼동 등 '민간도시복합개발' 첫 시범사업지 6곳 선정",
+          "source": "머니투데이",
+          "url": "https://www.mt.co.kr/estate/2026/09/15/2026091418082465885"
         }
       ]
     }
