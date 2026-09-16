@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-15",
-  "updated": "2026-09-15T23:06:09Z",
+  "date": "2026-09-16",
+  "updated": "2026-09-16T00:34:39Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "서울시, 외국인 환자용 '의료친화 숙박시설' 첫 공모",
-          "source": "뉴스핌",
-          "url": "https://www.newspim.com/news/view/20260911001129"
+          "title": "온라인 플랫폼 입점한 中企, 매출 20% 넘게 떼여",
+          "source": "동아일보 경제",
+          "url": "https://www.donga.com/news/Economy/article/all/20260915/134675374/2"
         }
       ]
     },
     {
-      "name": "부동산·개발",
+      "name": "부동산·종부세",
       "items": [
         {
-          "title": "서울시, 역삼동 등 '민간도시복합개발' 첫 시범사업지 6곳 선정",
-          "source": "머니투데이",
-          "url": "https://www.mt.co.kr/estate/2026/09/15/2026091418082465885"
+          "title": "종부세 완화된걸까 … 안심하기에는 이르다",
+          "source": "매일경제 경제",
+          "url": "https://www.mk.co.kr/news/economy/12153076"
         }
       ]
     }
