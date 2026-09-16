@@ -1,24 +1,24 @@
 {
   "date": "2026-09-16",
-  "updated": "2026-09-16T00:34:39Z",
+  "updated": "2026-09-16T15:06:22Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "온라인 플랫폼 입점한 中企, 매출 20% 넘게 떼여",
-          "source": "동아일보 경제",
-          "url": "https://www.donga.com/news/Economy/article/all/20260915/134675374/2"
+          "title": "부산시, 노후 숙박업소 시설개선에 최대 10억원 지원",
+          "source": "문화일보",
+          "url": "https://www.munhwa.com/article/11617217"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·개발",
       "items": [
         {
-          "title": "종부세 완화된걸까 … 안심하기에는 이르다",
-          "source": "매일경제 경제",
-          "url": "https://www.mk.co.kr/news/economy/12153076"
+          "title": "한남3구역, 통합심의 4개월 반 만에 통과 '역대 최단'",
+          "source": "대한경제",
+          "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609161333111440305"
         }
       ]
     }
