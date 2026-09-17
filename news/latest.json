@@ -1,24 +1,64 @@
 {
-  "date": "2026-09-16",
-  "updated": "2026-09-16T15:06:22Z",
+  "date": "2026-09-17",
+  "updated": "2026-09-17T00:40:32Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "부산시, 노후 숙박업소 시설개선에 최대 10억원 지원",
-          "source": "문화일보",
-          "url": "https://www.munhwa.com/article/11617217"
+          "title": "강원특별자치도, '2026년 규제개선 과제 공모' 시상식 개최",
+          "source": "하나뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yTmdJeHFaX3M5bmRDcU5WZjVqQ1RYWlJkejBESzBOaDJ6aW00WlBXMWhGRkppTUhnakhGRUtLOEtPVzN3a2RERV9QV2hnTUNVdkxpY2hFOFRsRUFIZGpIMk92VGVKLXhNMFBfOTF3?oc=5"
+        },
+        {
+          "title": "서대문구 북가좌6구역 12년 만에 사업시행인가…1천953세대 · 달라지는 점은?",
+          "source": "supple.kr",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JTkxZUlFmM1VTREY5Mjgwak1WNmJpYkFZcm5PR2tKdkloYUhxakJ6RkRSc0ZxUjE5djYxN0lIbnZwcGdCSGQ0clV4SnlvUEl5dWlfUUxESTRuNW9H?oc=5"
+        },
+        {
+          "title": "태국은 관광 활성화 부양책 시행을 연기하는 방안을 검토하고 있다.",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMWNlbzJWa3hnRXN3UEdqVmltbjlwZi1KUTB3bjVfQlhJMmVYNGo1Mzdjb2J4SEhWUnBjMlh4Rl9DX3BxYUNKWUlrS3Y1OVhaeEx3T2x4YlRiMlVMaEhWYkNxeTJFRS1vRHNBYlQyREp1cl9Ba1NqZVB2YU01V2d0WU40SHpVVXlGek96NWx3Qi1yTlE?oc=5"
+        },
+        {
+          "title": "세계청년대회 D-321, 숙박 공급에 학교·성당 동원…\"냉방·안전 산 넘어 산\" [숙박 없는 K-관광]②",
+          "source": "v.daum.net",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hNVkzcXFveEdNd3UwWlg3N0Zqa2lMOE9HeTF2OHpnNThYMzdjUnJjTEFhWUZDRkZGbVNESG9ScTh1NTFhTTFYQjF2aXRVX0U?oc=5"
+        },
+        {
+          "title": "인천경제청, 송도 생숙설 608실 오피스텔 전환",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tOG85ZnpfRHZHMkdIajNiQlZDMVlaTDctWnhlV25peE9HbEJrdXVUTUlsUFBqZy1HZmJjZVZIeEMtTjZOVS1ROS1TRG9rc253aTczWlFjMW9NMDBFb3ZBREhQTFA5cVNreDFpXzdRODE?oc=5"
         }
       ]
     },
     {
-      "name": "부동산·개발",
+      "name": "부동산·종부세",
       "items": [
         {
-          "title": "한남3구역, 통합심의 4개월 반 만에 통과 '역대 최단'",
-          "source": "대한경제",
-          "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609161333111440305"
+          "title": "종부세 완화된걸까 … 안심하기에는 이르다",
+          "source": "매일경제 경제",
+          "url": "https://www.mk.co.kr/news/economy/12153076"
+        },
+        {
+          "title": "어떤 기능이 포함됐는지 확인하는 포커 정석 상세 페이지",
+          "source": "Histoire pour tous",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVXFEdF9qaHFJVUJSNnZzdWU1WUh2NmhQZENNNG5yOG9uMl9CQ3RlTndKMHJKc0RJeFAtZ1ZHZ3JKemFMSDdTTkVIQVVzUXJLSUM2bFhTLVlRZnVaZVlGc21oRjVfVEpFVjA3dHBkUW5oU3lIU3lEQ1pKRzROYU5SaWZHUUtMUEF5dGo1QmV4MXBDbVY2Zkt3cXJFQzY4SnBjY3N3Nzl5ZS1uaTZGb2c?oc=5"
+        },
+        {
+          "title": "특수 심벌 수집형인지 확인하는 우리 계열 더킹 카지노 게임 구조",
+          "source": "Histoire pour tous",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeFhITHRwMVA3ckRFVGxPUy1sajU1Z1hTMkkwOEdpaUZSaksxWVVUT1ZNYUN4amJKdkRyM21neEoyNDVlcHVoNmMxNVBrSmtHdXYzU0lVTm9XNWNXRk9GSzEwcTZkUFZNS1VwY0xzR2NjdXlYRVF2Zl9kZ3lVZ3BIRjhjd1NNbmVKTWNSNVR4cEdnQTB3cUdRS1lPZFA3YzRhQzJrUFVqVWVJUF94eWM0WA?oc=5"
+        },
+        {
+          "title": "홍지선 \"수도권 토지거래허가제 유지 여부, 시장상황 파악 후 결정\"",
+          "source": "경기일보",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TVFVxbUc4VlNVMmtGc2h1azVLc2dkblBCV0hfYllKc2lrX21nMXFjTkNmdzFRaEY2WE12c2tKNTktaEV2Zmx2WlR3ZDlEMzloOUtZSmpYYlRqLXM?oc=5"
+        },
+        {
+          "title": "내달 1일 정기국회 개회…종부세 개편",
+          "source": "이투데이",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CMFFZRTAtdVAxMFloVjYta241Tzl5dDhBRmpXeWtOaWh0VDB0aDVubXhiVWFKblRMUGVtV05QMTJRenZLZnlER3dCQ0lBQnZxdVRLeVQ3OEdaZEdId3NScGlueDVndTZy?oc=5"
         }
       ]
     }
