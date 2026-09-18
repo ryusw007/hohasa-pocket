@@ -1,64 +1,24 @@
 {
-  "date": "2026-09-18",
-  "updated": "2026-09-18T00:29:47Z",
+  "date": "2026-09-17",
+  "updated": "2026-09-17T23:34:48Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "진주시, 축제 앞두고 숙박업소 요금·위생 관리 강화",
-          "source": "단디뉴스",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfWHRKUzNQXzdCbGlsS1FoU2FfbzE2SmQzMWl6aHFjREw5aEtNcnNyU21OajRWMFpzWnZCVHYxQ09TWnNPZUluejdFdkdabEs1aXR3NWtqVWxabUZKQWo0aVdSU3JuazVqbTY4?oc=5"
-        },
-        {
-          "title": "진주시, 10월 축제대비 ‘숙박업소 위생·요금’ 관리 강화",
-          "source": "시민일보",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxNDFLTEFGMEZjZUNJREJGSnExZVZTN3ZURUhWT1hPODJtZHNueTVwLXUwRmF3UnpGTDQwVnRuRUlYNDNqTWxFSUJBLUhEQ2JGME5ucGFwcW1zQU9LeTFGT2lWMENFY0hDS1U1ejVnMkVoQdIBb0FVX3lxTFBKTFFFaGR5Zm9hc1VYOGpSZElTRjlnaFk4eVZHX29UR0pubkExTHNpeUZLMGZpb3NJeFlfemdEU3hndXc5a0xDdU9iUDlmSzU0eWFRRDF6SFZRQW93WmpyOWxYa0J0cld0VDFLUzZZdw?oc=5"
-        },
-        {
-          "title": "농어촌민박 신고제→등록제 전환...농해수위, 법안 20건 의결",
-          "source": "M이코노미뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xRGJwRTFaT0xBWHFMYUc2bGcwSk1YTmg5d3Z5dlJFX3gteGZUOGNza1pfYXV6MERjbkFNR2hRcm5pOC0wdnpyMjFJSlBCWlp6MFJmSzduU2NLQUF3RG8tYVoxNkhnVmM?oc=5"
-        },
-        {
-          "title": "국회 농해수위, 농어촌민박 제도 개편안 등 20건 의결",
-          "source": "Traders Union",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFZrejBmM0tKTlVjZzA2d1B0bDVBNFFyVGg5Zjd6c3hnZGtVd2xzU2x1ckhWWF9fR0EwU0trRXBPdHZhOFdFc1JrbGdKY09DR0xIVjc0eTJkNnA5aVpteUZxV29wUEp3SWhucW1Qd2pWaGFJcmNET0VjLVJ0QWE1QkExaWNscDRqdi1xdS1uRXZOWnpWOU92YTd0aw?oc=5"
-        },
-        {
-          "title": "아이크루컴퍼니, 숙박업 무인 운영 솔루션 ‘FMS’ 출시",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43a3J2UkdfSVdZMmtOQTJsM3VQc0duMkQ0MURzWF9qTFlTcm5rUVNTbWZCUmhpeUVVNndVVTlpTzl4aUYxUi1xaFh0S09oMHIybVJReUVGMzI3QmttNlJ2elhGTWJoUWNiTDJ6UzFsMk92dw?oc=5"
+          "title": "서울 종로3가, 타임아웃 선정 '2026 세계에서 가장 멋진 동네' 1위",
+          "source": "코리아타임스",
+          "url": "https://www.koreatimes.co.kr/southkorea/20260918/seouls-jongno-3-ga-rises-to-worlds-coolest-neighborhood"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·개발",
       "items": [
         {
-          "title": "'토허제 실거주 유예 조치' 효과 제한적…잦은 손질에 신뢰도만 하락",
-          "source": "MTN 머니투데이방송",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1peXItbEZzczRVWEVOdWxUSGtwWHZRblV3dE1wbml5OFdSRVFTRU90V0ZDUklIbjRyTnhLRzZZOUYwRUItbldCX21udGplTnJuQjg1amQ2V1RxU05ubktHa0RUeWo?oc=5"
-        },
-        {
-          "title": "“이사 말고 더 살자”…재계약 늘면 신규 전세 매물 줄어들 수 [토허제 실거주 완화②]",
-          "source": "이투데이",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IYkNVLW1BT2N6VzJlNjlibUZsTVZRRExXOHBid216MUNpaGU1V1YwbFQxUnI5bllpSFNCb2hhMjFjbFFsNmg1VThkWms4SGVRU204bQ?oc=5"
-        },
-        {
-          "title": "‘형제 상속’ 이런 게 좋네…1주택자 혜택 챙기고 양도세 중과도 피하는 비결 [이세상]",
-          "source": "헤럴드경제",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94dVNLOHJmZ09yWjAxN2E3U0tKN0lPazVrZFl5Q1JPLVRNN3huSzBhUlRIU19VLWw4bzN0NFZONmhYcnVFZlFYYXF0Tk5ibF80WXMxbzV3?oc=5"
-        },
-        {
-          "title": "토지거래허가구역 내 실거주 의무 유예조치 내년말까지 연장",
-          "source": "연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rV2JjajJQMzRjdl9XQUdWS2NKVElvNWFLWFhxTzc0ak5xLXUtZExrcUFILTVwLUFHT1hjUjRjQ3F4M3ZKTEU4RTBZbEVKLU1NdE5QcXhPcTJyam_SAWBBVV95cUxNSHItdEFMc0hEZXBsWkdKVE4yZ0RpWUYyMm9vRHB5ell1elRGMVZ3YVlndEhSdkdlS185XzU2T1Babi1aWXVVQ2RqTWlwZ1p2TURSWTVCU3IwaGFEZENyTlE?oc=5"
-        },
-        {
-          "title": "프로미넌스 포커 모바일 배당선 표시 켜기 기능 확인",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQkk3WFhXRFFPSFVRcHNFUHc2dWxHVUhrbEpYNVV4Z0Z4Vi03eVJvczNFRkoxVDZ3Z2JzZEx6OGttTXQ5MXpsNUxMb216YXNmTG5uVWxqRFF3U25aUWY0NU5VaUVWbXg3TURoaU5wcnBlNURzaDhtNG5EblFMZEcxUVU2OTJzc0E1cmhfOEpZd3U0ejZqdlE?oc=5"
+          "title": "국토부, 토지거래허가구역 실거주 의무 유예조치 내년 말까지 연장",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/2026091708976"
         }
       ]
     }
