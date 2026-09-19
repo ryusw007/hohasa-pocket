@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-18",
-  "updated": "2026-09-19T01:55:50Z",
+  "date": "2026-09-19",
+  "updated": "2026-09-19T23:46:01Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "서울시, '2026 서울환대주간(가을)' 9/19~10/11 운영",
-          "source": "헤럴드경제 계열 세계일보",
-          "url": "http://seoul.thesegye.com/news/view/1065597647852840"
+          "title": "\"96억에 사서 173억에 팔았다\" 호텔 재매각 붐, 평균 보유기간 3년도 안 돼",
+          "source": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com"
         }
       ]
     },
     {
-      "name": "부동산·개발",
+      "name": "세무·부동산",
       "items": [
         {
-          "title": "DDP 일대, 'K컬처 거점'으로 재개발 정비계획 수정가결",
-          "source": "머니투데이",
-          "url": "https://www.mt.co.kr/estate/2026/09/17/2026091618234665719"
+          "title": "종합부동산세 합산배제·과세특례 신청 마감 9월 30일",
+          "source": "국세청",
+          "url": "https://www.nts.go.kr"
         }
       ]
     }
