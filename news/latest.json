@@ -1,64 +1,24 @@
 {
-  "date": "2026-09-19",
-  "updated": "2026-09-19T00:26:03Z",
+  "date": "2026-09-18",
+  "updated": "2026-09-19T01:55:50Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "야놀자·여기어때, 공정거래법 위반 혐의 전면 부인",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kUGZGQkRmUnF2MGVpOFdnal9UVVJaSWtJSEstcWQ1RTYxOENydVlxNmdwTFpUd2dQMlF6SHZqQWtGX1JyekRzRXZab0tYUTNMbGRNX2h6QUZjbTF4eE5jMXNJUmM3aTBFX0hEQW9aVWQ?oc=5"
-        },
-        {
-          "title": "롯데건설, ‘롯데캐슬 드메르’ 회사 보유분 특별공급 중",
-          "source": "서울경제TV",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VaC15TUE1VDYtY2dyWmFUU2NCcmpKMW45RFFuOWhsWWJyTkdYekpTcm5FMnRjLTVZM3pSeS0wLUV5ZDBDeTNZUU5FSFMtZ3FXWFUtVEhfelIxTDViRExuLWpWaks?oc=5"
-        },
-        {
-          "title": "숙박시설을 주택으로…부동산 불법 광고 1만여건 적발",
-          "source": "연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iakh5RkRYNWtJeGM2NWVLa2JDTjhna0d0b1hzQ3RudEZkRHhlMnhHVm1QNzVQUVg3UGxsNTZKN01Ebk5Qc2hRQWs2UmU0RUFQcE9Ea2VwUlZtVWU3U0Z1X9IBYEFVX3lxTE9iakh5RkRYNWtJeGM2NWVLa2JDTjhna0d0b1hzQ3RudEZkRHhlMnhHVm1QNzVQUVg3UGxsNTZKN01Ebk5Qc2hRQWs2UmU0RUFQcE9Ea2VwUlZtVWU3U0Z1Xw?oc=5"
-        },
-        {
-          "title": "주택인 줄 알았는데 숙박시설",
-          "source": "더리포트",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42blRnOXJhWnRQSWM3eWZIVDN5NUFQZ01FQ2NYcVZTV2NUcm1pc2RyOHdscU5CZDRBT0xJV2tueE5RQkYtNXhuZEljMWN3Y2MtWlZPNUNFS3ZSQWJCQkJLQ0lpQnp5ZzdDQll2M0V3?oc=5"
-        },
-        {
-          "title": "트립비토즈, ‘2026 대한민국 숙박세일페스타’ 참여…“최대 12만원 혜택”",
-          "source": "비즈월드",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CZThXb2tqOEtUbGxCREh6MDVaMnBKbklXZ3dmTDk1LXBCM202eTlmVXZZOThHTkNLbDJCYllQSVhPNjVuZ0ZEV0ZXZXdYTFRuUEJDUlNReVBVUGJhRnl4VHg2bExrRTI4cFE?oc=5"
+          "title": "서울시, '2026 서울환대주간(가을)' 9/19~10/11 운영",
+          "source": "헤럴드경제 계열 세계일보",
+          "url": "http://seoul.thesegye.com/news/view/1065597647852840"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·개발",
       "items": [
         {
-          "title": "[기자수첩] “집은 팔라고 했는데, 사면 바로 못 들어간다”…토허제 실거주 유예 1년 연장한 이유",
-          "source": "센머니",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OV2o2cXpudy1lMDdpRFI3d182YjlSVmVFWE1QUml5cGVFODV5MTBWLXdwMmI2YzZiVEV5c1BwdkhSNGRMTGlIRWpQcTZaRGgycFM1aV96QlNRckJObmZvMUFsc1dJVkVPV25JWg?oc=5"
-        },
-        {
-          "title": "이 대통령 말한 ‘부동산 불패’, 현실이었다…S&P수익률 넘어",
-          "source": "더스쿠프",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yWFB4U3RoZ3dLU2lPNkRwMDd4UndNazdxeVZyajV2c3dmUHh5dDNMU0E0R2diNE9nZGtFUlpSWl9JSmdiVVFGUUoxR3QyOUxlY2x3aG1MTjZQcFlnZDFrb3JIT0NaZGNyZUNYYXJn?oc=5"
-        },
-        {
-          "title": "128억→97억…고개 숙인 압구정 아파트, 초고가 '정밀 타격' 통했나",
-          "source": "스트레이트뉴스",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1TkYzb2JuNFJEaUxOeTh3SmtkRzNmdm1zaG5YNTloeWF5WXRxTzNVYTNzemVCczNjREVIZGpfN1hrdXBodG9IT3c5VXlBdEpnalVHSHRNejZ3SER1ZTBPejVSTlJKejFUUWd2OThVS0UxbGfSAXdBVV95cUxNVm5KZk1aWmhXTmdZSTA4cFFBRlBSQXhFWkVoeDl4bGR2UGJld2VrUXdWN3kzcDZ6dm1oTDQwYmEtN0dULU1HU0JjdWstLXlFUlFWeUo0S2MxNnlkSVhwWWItTEszUEY2eVkxbzNYNnByQ1F1N3FCSQ?oc=5"
-        },
-        {
-          "title": "집값 상승세 안 꺾이면...종부세 비강남권 확산 [김경민의 부동산NOW]",
-          "source": "mk.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1uaHZHazBOaFRCR3ZZZkNCRzVnS0FDd1BWTlNXNkZlblAzbFMxaUFrSjRkQkh0eXh3eGFLZzZTeE84azBheWc?oc=5"
-        },
-        {
-          "title": "李대통령 \"레버리지ETF 도입에 부족함있어...대미투자는 치열하게 협의중\"",
-          "source": "생생비즈플러스",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95Xzg5VGR2UVAzNkt5cm9HeGFuSjJUNjhkZEQybERDYm1wYV9jbDhMdHNoUlA5dDYyc0xWQVRPVGZRU3ZfaTBhdUNMYlJDSU9IOHlkMTdfTnJzREZUeEJnT1p6empXb0JxNnZOTw?oc=5"
+          "title": "DDP 일대, 'K컬처 거점'으로 재개발 정비계획 수정가결",
+          "source": "머니투데이",
+          "url": "https://www.mt.co.kr/estate/2026/09/17/2026091618234665719"
         }
       ]
     }
