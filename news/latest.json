@@ -1,24 +1,64 @@
 {
-  "date": "2026-09-20",
-  "updated": "2026-09-20T15:05:56Z",
+  "date": "2026-09-21",
+  "updated": "2026-09-21T00:19:47Z",
   "sections": [
     {
-      "name": "부동산·개발",
+      "name": "숙박업",
       "items": [
         {
-          "title": "성수동 준공업지역 지구단위계획 수정가결, 권장업종에 용적률·높이 최대 1.2배 완화",
-          "source": "머니투데이",
-          "url": "https://news.mt.co.kr/mtview.php?no=2024050707481719654"
+          "title": "\"반도체 호황에도 돈맥경화\"…中企, 국회에 32개 입법과제 전달",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kdFo5dmQ0bV9NblJuUXRVNXBrR1FZdXJsZTFRbS1Yb2R5MGFNdWNiV3NwQ1c4bTdqZ2lvX0s0eW05ZXM3eDBKSWJwQTluamhtUVU0bzZfaWpZbEdWbV9EamdR0gFiQVVfeXFMTmR0Wjl2ZDRtX01uUm5RdFU1cGtHUVl1cmxlMVFtLVhvZHkwYU11Y2JXc3BDVzhtN2pnaW9fSzR5bTllczd4MEpJYnBBOW5qaG1RVTRvNl9pallsR1ZtX0RqZ1E?oc=5"
+        },
+        {
+          "title": "게임에 익숙해지기 위한 최후의 도박 메뉴 둘러보기",
+          "source": "Calgary Roughnecks",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0pVNzRKem1NZ2o1dm9xUzZxSjZ0QU1SeXp5Vi1zNnF4MS1HakhHeDJfYlQ5SHM0SnJET3dKc21OS1Atd3E3QWUwNzljWTROOWtIRGQzOS1DT0NhaGhoVkp5dWJQRXRxd1BFdlAzc3RzTm40V0o5Wk1IWUp6Rk9HSnZZZ3JZeFZOVEVpS0x0d21wUGcwSFE5RktSNmg5X3JiY2l6cUxJelRyUQ?oc=5"
+        },
+        {
+          "title": "처음 접속한 화면에서 할 일, 토토 월드컵 먹튀",
+          "source": "Calgary Roughnecks",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2NEFLclRzVXdGQmx4eXBUYTk1MWxnOGVXZFFKS2RENkVQaDVHS1BiZjR0ZHAxNHpnNHA2dnZ4dWxkbU4tREpxb290RGZMaVhUOExsQThKZmlBWlNKMDh2RVBxdFpIRUtORHhF?oc=5"
+        },
+        {
+          "title": "‘별내자이 더 스타 이그제큐티브’ 오피스텔로 전환…즉시 입주 가능",
+          "source": "미디어파인",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LRFhzOTE1SnZxU1Jhd0ZUdGdENzYwSDVNTGpyR1labkpBZmZVNzlTSmYxLXJjNnBZZmN6NEJRa1FNbHhvSmxoYXBXOVF5RExaQnJvc1puN3BjRWx0MGJaZ24wZU0wWHJzU3lxZ05B?oc=5"
+        },
+        {
+          "title": "\"주택인 줄 알았는데 숙박시설\" 부동산 불법 광고 1만여 건 적발",
+          "source": "bvba.org",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiM3JXa201UTc3YUsycC1tc09JdVpDOTYtaU96dTlYTlFseWhuWV9aa29WaVdOeFg0c004TU45YXc3VFZvdWRjZzdZS0tlYjNpcGE1OExBb3d0amlQbWowaWpGdDhZc3dha0E?oc=5"
         }
       ]
     },
     {
-      "name": "세무",
+      "name": "부동산·종부세",
       "items": [
         {
-          "title": "\"아파트를 사무실로\" 종부세 회피 시도, 법원 \"실거주 가능하면 과세 대상\"",
-          "source": "대륜 판결분석",
-          "url": "https://www.daeryunlaw.com/trend/3118"
+          "title": "넉 달 만에 유예·한 달 만에 후퇴 부동산 정책 잦은 수정에 시장 혼선",
+          "source": "뉴스경남",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmT3lGRTRXUERwYi1RSTNBSGtuZGM0elhnZ1Njd3k0a0xUdnAzTkhGdno3cWRLWWlsQmhDWTdKUl9yMlN3Z0tQVk5BWXNVaFdkclg4dGhCSm45RjNkbmROWTRIZ09kc0ll?oc=5"
+        },
+        {
+          "title": "넉 달 만에 바뀌고 석 달 만에 완화…부동산 정책 ‘오락가락’",
+          "source": "경기일보",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42SG5DUUNwMkxBOWp3OGJfVktpNFRGaHlrLVMxZVE5dXV6X0ZHVjltNnZmZ2hxU2xkWGF3V0dPcHIxdEZuUVFCa3J6RFMtc0ktcFNqejVGOXplZm8?oc=5"
+        },
+        {
+          "title": "설정이 적용됐는지 확인하려면? 리치 마작 쉬운 역 표시 안내",
+          "source": "Calgary Roughnecks",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxck5CNldOU01naU9ZUmY5d256MHJSM3ZQTFZrQjdaRkNjUDRjRHVTaF80V2RENG1SNmVKT05mWllYOUptZGpHY1JFbU1wb29lNHJ3VnhIY2NxYjQ5bkNMVXZqUWx6T3prcTFV?oc=5"
+        },
+        {
+          "title": "'세제개편+실거주 의무 유예' 서울 아파트 매물 물꼬 터지나 - 머니투데이",
+          "source": "머니투데이",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mLWctTjA0V0F4Rk5aVG1IeDZiaVJKcDdXOW5lYm9qbmEtRVpGZV9oMGZTM2llTnlNbHV3NTZ0SmwyTGpVdTlvd1hJbzhVX0lFS3dHYVlOSHlWd3daVXU4STFEdlhaRDZxNk1yem4tSdIBb0FVX3lxTE1mLWctTjA0V0F4Rk5aVG1IeDZiaVJKcDdXOW5lYm9qbmEtRVpGZV9oMGZTM2llTnlNbHV3NTZ0SmwyTGpVdTlvd1hJbzhVX0lFS3dHYVlOSHlWd3daVXU4STFEdlhaRDZxNk1yem4tSQ?oc=5"
+        },
+        {
+          "title": "흔들리는 부동산 정책, 흔들리는 신뢰",
+          "source": "newstong.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNekFlSEI4Um5hQ1lNQ0hhTTlTLUgxMHdUOTBmNWtLRU96YXdvNlhEQ18waG9TX3JQVG9Cd3VqTWFKQXZkX2ctY0RWdW01bHgwRzJHbkRmLUxGOWJVRlg3RnhLZkpIUERwN05Ha2c4UzdyNmJpLU9YMVVTaldvVmhRRUxNUi1OSE05TGNHbFpPcVgwOEk?oc=5"
         }
       ]
     }
