@@ -25,7 +25,7 @@
   .home{ display:flex; align-items:center; gap:6px; color:#e9eaee; text-decoration:none;
     font-weight:800; font-size:14px; background:var(--panel); padding:7px 12px;
     border-radius:20px; backdrop-filter:blur(6px); pointer-events:auto; }
-  .date{ font-size:13px; color:#aeb1b8; font-weight:700; }
+  .date{ font-size:13px; color:#aeb1b8; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:60vw; }
   .stage{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; perspective:2200px; }
   .book{ position:relative; width:min(96vw, 69vh); aspect-ratio:4/5; }
   .layer{ position:absolute; inset:0; border-radius:10px; overflow:hidden; background:#000; box-shadow:0 18px 50px rgba(0,0,0,.55); }
@@ -70,17 +70,37 @@
     baseImg.src=PAGES[cur];
     [...dots.children].forEach((d,i)=>d.classList.toggle('on',i===cur));
     count.textContent=(cur+1)+' / '+PAGES.length;
-    prevBtn.disabled=(cur===0); nextBtn.disabled=(cur===PAGES.length-1); }
+    prevBtn.disabled=(cur===0); nextBtn.disabled=(cur===PAGES.length-1);
+    for(const n of [cur+1,cur+2]){ if(PAGES[n]) new Image().src=PAGES[n]; } }
   function exists(src){ return new Promise(r=>{const im=new Image();im.onload=()=>r(true);im.onerror=()=>r(false);im.src=src;}); }
   async function tryImg(bp,name){ for(const ext of ['jpg','png']){const p=bp+name+'.'+ext; if(await exists(p)) return p;} return null; }
   async function discover(bp){ const f=[]; const c=await tryImg(bp,'00_cover'); if(c) f.push(c);
     for(let i=1;i<300;i++){const p=await tryImg(bp,String(i).padStart(2,'0')); if(p) f.push(p); else break;} return f; }
+  function showNotFound(){
+    document.getElementById('book').style.display='none';
+    document.body.insertAdjacentHTML('beforeend',
+      '<div style="position:fixed;inset:0;display:grid;place-items:center;text-align:center;color:#e9eaee;">'
+      + '<div><div style="font-size:16px;font-weight:700;margin-bottom:14px;">강의툰을 찾을 수 없습니다</div>'
+      + '<a href="lessons.html" style="color:#fff;text-decoration:none;font-weight:800;font-size:14px;background:var(--panel);padding:8px 16px;border-radius:20px;">← 목록으로</a></div></div>'); }
 
   (async()=>{
     const params=new URLSearchParams(location.search);
-    let id=params.get('id');
-    if(id){ BASE='lessons/'+id+'/'; dateEl.textContent=id; }
-    PAGES=await discover(BASE);
+    const id=params.get('id');
+    let it=null;
+    try{
+      const lessons=await fetch('lessons/lessons.json?t='+Date.now()).then(r=>r.json());
+      it = id ? lessons.find(x=>x.id===id) : null;
+    }catch(_){ it=null; }
+    if(it && it.count>0){
+      BASE='lessons/'+it.id+'/';
+      dateEl.textContent=it.title||it.id;
+      document.title=it.title||it.id;
+      PAGES=[it.cover]; for(let i=1;i<it.count;i++) PAGES.push('lessons/'+it.id+'/'+String(i).padStart(2,'0')+'.jpg');
+    } else if(id){
+      BASE='lessons/'+id+'/'; dateEl.textContent=id; document.title=id;
+      PAGES=await discover(BASE);
+    }
+    if(!PAGES.length){ showNotFound(); return; }
     PAGES.forEach(()=>{const d=document.createElement('i');dots.appendChild(d);});
     paint();
   })();

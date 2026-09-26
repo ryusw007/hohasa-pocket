@@ -50,14 +50,14 @@
     <div class="foot">기사 링크는 각 매체로 이동합니다 · 호하사 데일리 다이제스트</div>
   </div>
 <script>
-  function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
   fetch('news/latest.json?t='+Date.now()).then(r=>r.json()).then(function(d){
     if(d.date) document.getElementById('date').textContent = String(d.date).replace(/-/g,'.');
     var secs = d.sections||[];
     if(!secs.length){ document.getElementById('body').innerHTML='<div class="empty">오늘 브리핑이 아직 준비되지 않았습니다.</div>'; return; }
     document.getElementById('body').innerHTML = secs.map(function(s){
       var items=(s.items||[]).map(function(it){
-        var link = it.url ? '<a class="go" href="'+it.url+'" target="_blank" rel="noopener">기사 보기 ↗</a>' : '';
+        var link = /^https?:\/\//i.test(it.url) ? '<a class="go" href="'+esc(it.url)+'" target="_blank" rel="noopener">기사 보기 ↗</a>' : '';
         return '<div class="item"><div class="t">'+esc(it.title)+'</div>'
              + '<div class="m"><span class="src">'+esc(it.source||'')+'</span>'+link+'</div></div>';
       }).join('');
