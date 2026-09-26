@@ -70,7 +70,7 @@
   <div class="footer"><div class="dots" id="dots"></div><div class="count" id="count"></div></div>
   <a id="newsCta" href="news.html">📰 뉴스 브리핑 보기 →</a>
 <script>
-  let PAGES = [], cur = 0, busy = false, BASE = 'cards/';
+  let PAGES = [], cur = 0, busy = false, BASE = 'issues/';
   const book=document.getElementById('book'), base=document.getElementById('base'),
     baseImg=document.getElementById('baseImg'), prevBtn=document.getElementById('prev'),
     nextBtn=document.getElementById('next'), dots=document.getElementById('dots'),
@@ -81,19 +81,38 @@
     [...dots.children].forEach((d,i)=>d.classList.toggle('on',i===cur));
     count.textContent=(cur+1)+' / '+PAGES.length;
     prevBtn.disabled=(cur===0); nextBtn.disabled=(cur===PAGES.length-1);
-    var cta=document.getElementById('newsCta'); if(cta) cta.classList.toggle('show', cur===PAGES.length-1); }
+    var cta=document.getElementById('newsCta'); if(cta) cta.classList.toggle('show', cur===PAGES.length-1);
+    for(const n of [cur+1,cur+2]){ if(PAGES[n]) new Image().src=PAGES[n]; } }
   function exists(src){ return new Promise(r=>{const im=new Image();im.onload=()=>r(true);im.onerror=()=>r(false);im.src=src;}); }
   async function tryImg(bp,name){ for(const ext of ['jpg','png']){const p=bp+name+'.'+ext; if(await exists(p)) return p;} return null; }
   async function discover(bp){ const f=[]; const c=await tryImg(bp,'00_cover'); if(c) f.push(c);
     for(let i=1;i<300;i++){const p=await tryImg(bp,String(i).padStart(2,'0')); if(p) f.push(p); else break;} return f; }
-  const LATEST = "2026-09-10";   // 빌드 시 주입(최신 회차 날짜)
+  function showNotFound(){
+    document.getElementById('book').style.display='none';
+    document.body.insertAdjacentHTML('beforeend',
+      '<div style="position:fixed;inset:0;display:grid;place-items:center;text-align:center;color:#e9eaee;">'
+      + '<div><div style="font-size:16px;font-weight:700;margin-bottom:14px;">회차를 찾을 수 없습니다</div>'
+      + '<a href="index.html" style="color:#fff;text-decoration:none;font-weight:800;font-size:14px;background:var(--panel);padding:8px 16px;border-radius:20px;">← 홈으로</a></div></div>'); }
 
   (async()=>{
     const params=new URLSearchParams(location.search);
-    let day=params.get('d') || LATEST;
-    if(day){ BASE='issues/'+day+'/'; dateEl.textContent=day.replace(/-/g,'.'); }
-    PAGES=await discover(BASE);
-    if(!PAGES.length){ BASE='cards/'; PAGES=await discover(BASE); }  // 구버전 폴백
+    const day=params.get('d');
+    let it=null;
+    try{
+      const issues=await fetch('issues.json?t='+Date.now()).then(r=>r.json());
+      it = day ? issues.find(x=>x.date===day) : issues[0];
+    }catch(_){ it=null; }
+    if(it && it.count>0){
+      BASE='issues/'+it.date+'/';
+      dateEl.textContent=it.date.replace(/-/g,'.');
+      document.title='호하사 데일리 다이제스트 · '+it.date.replace(/-/g,'.');
+      PAGES=[it.cover]; for(let i=1;i<it.count;i++) PAGES.push('issues/'+it.date+'/'+String(i).padStart(2,'0')+'.jpg');
+    } else if(day){
+      BASE='issues/'+day+'/'; dateEl.textContent=day.replace(/-/g,'.');
+      document.title='호하사 데일리 다이제스트 · '+day.replace(/-/g,'.');
+      PAGES=await discover(BASE);
+    }
+    if(!PAGES.length){ showNotFound(); return; }
     PAGES.forEach(()=>{const d=document.createElement('i');dots.appendChild(d);});
     paint();
   })();
