@@ -1,64 +1,24 @@
 {
-  "date": "2026-09-26",
-  "updated": "2026-09-26T00:42:10Z",
+  "date": "2026-09-27",
+  "updated": "2026-09-27T14:56:37Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "이동권 울산 북구청장 \"창평지구에 제2혁신도시…북구 미래 바꿀 기회\"",
-          "source": "v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtM3B6bjFlLUV6aWJYZmppeW5ta3BhZE5TNVRDTWptNlgzX1gyZTJFSE52SXo0bmhZUnNNWGNqak9tT25aZEJDRGJ1OVY1NVk?oc=5"
-        },
-        {
-          "title": "가수 이승철 출연한 더헤븐리조트 캠페인, 뉴욕 타임스퀘어에 등장",
-          "source": "biz.heraldcorp.com",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50aFY3TnhMTEtrVzlST2pPb0dKcE4xTnJXbEFjTm90WXQxWVl0VXY0M3AwNnRIZEVmMG5HdUtmVG1OTUZITnpSYVFGYzY0SFk5YzZTb3pn?oc=5"
-        },
-        {
-          "title": "\"반려견 23만마리 머물렀다\"…펫호텔, 객실보다 '경험'으로 승부 - 머니투데이",
-          "source": "머니투데이",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wbnkxQzhRbUg4bU01QUJSXzUzQWY4N2JkTmdIdmtZNlYwYUdYR01mdFZVeUxxVV9xYTNrYlFZbWR5M2ppMHMxbHdHOHhrOWh6VHhhSTJZb215Mjh2VXJuaG5QMnNTd211RWRNd1p4c2bSAXBBVV95cUxPcG55MUM4UW1IOG1NNUFCUl81M0FmODdiZE5nSHZrWTZWMGFHWEdNZnRWVXlMcVVfcWEza2JRWW1keTNqaTBzMWx3Rzh4azloelR4YUkyWW9teTI4dlVybmhuUDJzU3dtdUVkTXdaeHNm?oc=5"
-        },
-        {
-          "title": "특급 신라호텔 맞은편에 초특급 호텔…서울 럭셔리 전쟁 [비크닉]",
-          "source": "중앙일보",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kZ09Ya3pNVXhTWVpFZEJhZmZCdlp3VmhkdmJ1OFBXZkNBVHhrUWc0akZYNnFLaVVyOEFnNzJPakpfemNYS1lJVThiQlBmNWFFeDJSWVN3?oc=5"
-        },
-        {
-          "title": "청약홈 분양정보 분양 공고 3건 접수 시작·종료·당첨일｜2026년 09월 26일 우리 지역 청약 일정",
-          "source": "민심뉴스",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTRmRFdDVWd28tVnkxYkotT2FKWWNDQTM5Q19aNHZYcEQ1c2JsVnp3Zlo2YlRCanpPUWtDOU5EXy1iWnpSVnNvU203UWNucXhsSExsRDE0ZExtS1ZiX3BHc2x6QkIxOGhoMWQ1RQ?oc=5"
+          "title": "롯데호텔 서울, 객실 줄이고 의료시설 확대",
+          "source": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/2608942"
         }
       ]
     },
     {
-      "name": "부동산·종부세",
+      "name": "부동산·세제",
       "items": [
         {
-          "title": "50대 직장인 \"집 한 채인데 종부세 2.5배…실거주해야 할까요\"[세무 재테크 Q&A]",
-          "source": "v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zOGVyVG9fNXdZcnBzTUVQUmRyQ0RpT000Si05cmVjLThIVVRuYXlPU0ZtMm5XRnRxXzRlRHBrRUVnY0p3QThZaUNDV1NJb0E?oc=5"
-        },
-        {
-          "title": "\"같은 집에 세금 기준이 왜?\"… 비거주 1주택 종부세 불이익에 '불만'",
-          "source": "경제시그널",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lU19mZ0Y3RldDYTNJUFFqbGR4RE52dkRPaldHZW5fUWNWb2NUVGNqNVBLTHpIakozalZqS29OUFdoRjEtVGJYcWZCRDdRWEs3Mkp4WjNMREcxaXNRNUhGUjFFeWxtSW11Yjh1bXA5OHFEQjA?oc=5"
-        },
-        {
-          "title": "추석 밥상머리의 탄식… 어쩌다 나라 꼴이 이 지경이 되었는가",
-          "source": "최보식의언론",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12dEFDNE5kNkJJM2lqNlltUXpCS3M2dmdXVHBxMEtUaW41cnplVTRrUTNEYlF3OEV2WnpCYTR2QXNvVF93Y182YVdnNFBVN2h2MnFIVUxPUTNFUnZkSGlvT2ExRmN5eTNl0gFoQVVfeXFMTXZ0QUM0TmQ2QkkzaWo2WW1RekJLczZ2Z1dUcHEwS1RpbjVyemVVNGtRM0RiUXc4RXZaekJhNHZBc29UX3djXzZhV2c0UFU3aHYycUhVTE9RM0VSdmRIaW9PYTFGY3l5M2U?oc=5"
-        },
-        {
-          "title": "설명 문구에 표시된 조건을 분리해 읽는 카지노 시즌2 8회 토렌트",
-          "source": "Histoire pour tous",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR01oaG51emtiYndLYUdoQ21zc2FrSXdTR0Rzd3RBT2pqWXQ5MUZOZDRBM1d5VFNzaXZ6MnROSlNqaktHU1N5OG9yZ1pYdmlQX0lFVTB5Wm1MTC1TRTZfNEtyX1VDaGFjT3Z0ZDR1d0oxVzJ6TlZEMkFvUXkyVWNoUUpyelhYYmJFLTNwUFNxbjhnLU9ZWXM0elJxVlpHTVNZYm9ORWlia25XOWE1ZUZ3M0VOWDF4b2hSTjkycTktRy1uNmVk?oc=5"
-        },
-        {
-          "title": "세제개편 후 서울 아파트 매물 1.2만건 폭증… 절반이 '강남 3구'",
-          "source": "서울뉴스통신",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aQng1ZXV3VmNoMmM5c2FMQnBuNE15VTktWnJ2TGoyYVB4T0t6VTRUWlNRTzF4SlpwRi1mSmlNT2RTR1FiaHp1YldHTnVJZDItZWR6MFBqd2IwSHJ0ZFI3MERhdy1sRkVndXBR?oc=5"
+          "title": "2026 세제개편, 공공매입임대주택 건설용 토지 양도세 감면 확대",
+          "source": "대한전문건설신문",
+          "url": "https://www.koscaj.com/news/articleView.html?idxno=325628"
         }
       ]
     }
