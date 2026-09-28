@@ -10,6 +10,7 @@
 | `viewer.html?d=YYYY-MM-DD` | 카툰 뷰어 — `issues.json`을 읽어 페이지 목록 구성 (`d` 없으면 최신 회차) |
 | `lessons.html`, `lesson_viewer.html?id=lessonNN` | 강의툰 목록/뷰어 — `lessons/lessons.json` 사용 |
 | `news.html` + `news/latest.json` | 뉴스 브리핑 — `hohasa-news` 저장소의 워크플로가 매일 자동 갱신 |
+| `sibo.html` + `sibo/latest.json` | 서울시보 부동산 고시 — `hohasa-news`의 `sibo-collect.yml`이 매일 07:10·18:40 확인, 새 호가 있을 때만 갱신 |
 | `issues/<날짜>/00_cover.jpg, 01.jpg…` | 회차 이미지 (`issues.json`의 `count` = 표지 포함 장수) |
 | `sw.js`, `manifest.webmanifest` | 오프라인 캐시 / 앱 설치 |
 
@@ -20,7 +21,7 @@ python build_site.py --date 2026-10-07 --cover images/cover_hohasa.png \
 ```
 - `--title`을 생략하면 "호하사 데일리 다이제스트 · 10월 7일" 형식으로 자동 생성됩니다.
 - 업로드할 때 **아래 파일은 항상 함께** 올립니다(하나라도 빠지면 옛 버전이 남습니다):
-  `index.html`, `viewer.html`, `news.html`, `issues.json`, `sw.js`, `manifest.webmanifest`, `og.png`, `issues/<날짜>/`
+  `index.html`, `viewer.html`, `news.html`, `sibo.html`, `issues.json`, `sw.js`, `manifest.webmanifest`, `og.png`, `issues/<날짜>/`
 
 ## 강의툰 발행
 ```
@@ -33,7 +34,7 @@ python publish_lesson_pages.py --pages <이미지들> --id lesson26 --title "제
 ```
 python build_site.py --rebuild-only --out <사이트 폴더>
 ```
-index/viewer/news/lessons/lesson_viewer.html, sw.js, manifest를 다시 만듭니다.
+index/viewer/news/sibo/lessons/lesson_viewer.html, sw.js, manifest를 다시 만듭니다.
 
 ## 캐시 정책 (sw.js)
 - 이미지: 캐시 먼저 보여주고 뒤에서 새 버전 확인(같은 파일명으로 고쳐 올려도 다음 방문 때 반영), 최대 250장 보관
