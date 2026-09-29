@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-28",
-  "updated": "2026-09-28T14:34:39Z",
+  "date": "2026-09-29",
+  "updated": "2026-09-29T14:30:28Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "서울 외국인 대상 숙소 4년 새 5.9배 급증, 마포구 27% 집중",
-          "source": "주간경향",
-          "url": "https://weekly.khan.co.kr/article/202609220600101/"
+          "title": "명동 마이티호텔 매각 잰걸음, 호텔 재매각 시장 활기",
+          "source": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202609231016228134"
         }
       ]
     },
     {
-      "name": "부동산·시장 동향",
+      "name": "숙박업 규제",
       "items": [
         {
-          "title": "유럽 단기임대 포화發 집값 폭등, \"한국도 월세 우려 커진다\"",
-          "source": "주간경향",
-          "url": "https://weekly.khan.co.kr/article/202609220600101/"
+          "title": "숙박요금 미게시·바가지요금, 첫 적발에도 영업정지",
+          "source": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/2602970"
         }
       ]
     }
