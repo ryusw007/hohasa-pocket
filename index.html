@@ -35,6 +35,14 @@
     font-weight:800; font-size:18px; padding:16px; border-radius:14px; }
   .btn2{ display:block; text-align:center; background:#20242e; color:#e9eaee; text-decoration:none;
     font-weight:800; font-size:16px; padding:14px; border-radius:14px; margin-top:10px; border:1px solid #2c313d; }
+  /* 메뉴: 가로 2개 x 세로 3줄 */
+  .menu{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .menu a{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px;
+    min-height:76px; text-align:center; text-decoration:none; font-weight:800; font-size:15px;
+    border-radius:14px; padding:12px 8px; color:#e9eaee; background:#20242e; border:1px solid #2c313d; word-break:keep-all; }
+  .menu a .i{ font-size:22px; line-height:1; }
+  .menu a.main{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .menu a:active{ transform:scale(.97); }
   .sec{ margin-top:34px; font-weight:800; font-size:15px; color:#c9ccd3; display:flex; align-items:center; gap:8px; }
   .sec::before{ content:""; width:4px; height:16px; background:var(--accent); border-radius:2px; }
   /* 가로 스크롤 회차 스트립 */
@@ -75,11 +83,14 @@
       + '<img src="'+latest.cover+'" alt="">'
       + '<div class="body"><h1>'+esc(latest.title||'오늘의 카툰 다이제스트')+'</h1>'
       + '<div class="d">'+latest.date.replace(/-/g,".")+'</div>'
-      + '<a class="btn" href="viewer.html?d='+latest.date+'">📖 오늘의 다이제스트 보기</a>'
-      + '<a class="btn2" href="news.html">📰 오늘의 뉴스 브리핑</a>'
-      + '<a class="btn2" href="lessons.html">📚 강의툰 보기</a>'
-      + '<a class="btn2" href="venue.html">🏨 숙소챗 후기·갤러리</a>'
-      + '<a class="btn2" href="sibo.html">🏛 서울시보 부동산 고시</a></div></div>';
+      + '<div class="menu">'
+      + '<a class="main" href="viewer.html?d='+latest.date+'"><span class="i">📖</span>오늘의 다이제스트</a>'
+      + '<a href="news.html"><span class="i">📰</span>뉴스 브리핑</a>'
+      + '<a href="lessons.html"><span class="i">📚</span>강의툰 보기</a>'
+      + '<a href="comics.html"><span class="i">😆</span>4컷툰 보기</a>'
+      + '<a href="venue.html"><span class="i">🏨</span>숙소챗 후기</a>'
+      + '<a href="sibo.html"><span class="i">🏛</span>서울시보</a>'
+      + '</div></div></div>';
 
     // 가로 스트립: 과거→오늘(오름차순), 오늘 강조 + 가운데 정렬
     const asc = [...issues].reverse();

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 4컷툰</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 4컷툰">
+<meta property="og:title" content="호하사 4컷툰">
+<meta property="og:description" content="호하사 톡방의 웃픈 에피소드를 4컷 만화로 모아봅니다">
+<meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og2.png">
+<meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/comics.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:960px; margin:0 auto; padding:24px 16px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
+  .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
+  .home{ color:#9a9da4; text-decoration:none; font-weight:700; font-size:13px; background:var(--card); padding:7px 12px; border-radius:20px; }
+  .lead{ margin-top:18px; color:#c9ccd3; font-size:14px; line-height:1.6; }
+  .total{ margin-top:20px; color:#8b8e96; font-size:12px; font-weight:700; }
+  .grid{ margin-top:10px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 12px; }
+  @media (min-width:600px){ .grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
+  @media (min-width:900px){ .grid{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+  .ep{ display:block; color:#e9eaee; cursor:pointer; min-width:0; }
+  .ep .thumb{ border-radius:14px; overflow:hidden; background:var(--card); box-shadow:0 8px 22px rgba(0,0,0,.4); transition:transform .15s; }
+  .ep:active .thumb{ transform:scale(.97); }
+  .ep img{ width:100%; aspect-ratio:4/5; object-fit:cover; object-position:top; display:block; background:#0b0e14; }
+  .ep .d{ margin-top:8px; color:#8b8e96; font-size:12px; font-weight:700; }
+  .ep .new{ display:inline-block; margin-left:6px; background:var(--accent); color:#fff; font-size:10px; font-weight:800; padding:1px 6px; border-radius:8px; }
+  .empty{ margin-top:40px; color:#9a9da4; text-align:center; padding:20px; }
+  .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
+  #lb{ position:fixed; inset:0; z-index:50; background:rgba(5,6,9,.94); display:none; flex-direction:column; align-items:center; justify-content:center; padding:16px; }
+  #lb.on{ display:flex; }
+  #lb img{ max-width:100%; max-height:80vh; border-radius:10px; }
+  #lb .bar{ margin-top:12px; display:flex; gap:10px; align-items:center; }
+  #lb .bar span{ color:#aeb1b8; font-size:13px; font-weight:700; }
+  #lb .bar a{ color:#fff; text-decoration:none; font-weight:800; font-size:13px; background:var(--accent); padding:7px 14px; border-radius:18px; }
+  #lb .x{ position:absolute; top:16px; right:16px; width:40px; height:40px; border-radius:50%; border:none; background:rgba(255,255,255,.12); color:#fff; font-size:20px; }
+  #lb .nv{ position:absolute; top:45%; width:44px; height:44px; border-radius:50%; border:none; background:rgba(255,255,255,.12); color:#fff; font-size:22px; }
+  #lb .pv{ left:12px; } #lb .nx{ right:12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand"><span class="dot"></span><span>호하사 4컷툰</span></div>
+      <a class="home" href="index.html">🏠 다이제스트</a>
+    </div>
+    <div class="lead">호하사 톡방의 웃픈 에피소드를 4컷 만화로 모았습니다. 눌러서 크게 보세요.</div>
+    <div class="total" id="total"></div>
+    <div class="grid" id="grid"><div class="empty">불러오는 중…</div></div>
+    <div class="foot">Hostel Up People · 4컷툰 아카이브</div>
+  </div>
+  <div id="lb">
+    <button class="x" id="lbX">✕</button>
+    <button class="nv pv" id="lbPv">‹</button>
+    <img id="lbImg" alt="">
+    <div class="bar"><span id="lbD"></span><a id="lbGo" href="#">이 회차 다이제스트 보기 →</a></div>
+    <button class="nv nx" id="lbNx">›</button>
+  </div>
+<script>
+  const comics = [{"date": "2026-10-02", "img": "issues/2026-10-02/07.jpg"}, {"date": "2026-09-29", "img": "issues/2026-09-29/07.jpg"}, {"date": "2026-09-28", "img": "issues/2026-09-28/07.jpg"}, {"date": "2026-09-23", "img": "issues/2026-09-23/07.jpg"}, {"date": "2026-09-22", "img": "issues/2026-09-22/07.jpg"}, {"date": "2026-09-21", "img": "issues/2026-09-21/07.jpg"}, {"date": "2026-09-20", "img": "issues/2026-09-20/07.jpg"}, {"date": "2026-09-19", "img": "issues/2026-09-19/07.jpg"}, {"date": "2026-09-18", "img": "issues/2026-09-18/07.jpg"}, {"date": "2026-09-17", "img": "issues/2026-09-17/07.jpg"}, {"date": "2026-09-16", "img": "issues/2026-09-16/07.jpg"}, {"date": "2026-09-15", "img": "issues/2026-09-15/07.jpg"}, {"date": "2026-09-14", "img": "issues/2026-09-14/07.jpg"}, {"date": "2026-09-13", "img": "issues/2026-09-13/07.jpg"}, {"date": "2026-09-13", "img": "issues/2026-09-13/08.jpg"}, {"date": "2026-09-12", "img": "issues/2026-09-12/07.jpg"}, {"date": "2026-09-11", "img": "issues/2026-09-11/07.jpg"}, {"date": "2026-09-10", "img": "issues/2026-09-10/07.jpg"}, {"date": "2026-09-09", "img": "issues/2026-09-09/07.jpg"}, {"date": "2026-09-08", "img": "issues/2026-09-08/07.jpg"}, {"date": "2026-09-07", "img": "issues/2026-09-07/07.jpg"}, {"date": "2026-09-05", "img": "issues/2026-09-05/07.jpg"}, {"date": "2026-09-04", "img": "issues/2026-09-04/07.jpg"}, {"date": "2026-09-03", "img": "issues/2026-09-03/07.jpg"}, {"date": "2026-09-02", "img": "issues/2026-09-02/07.jpg"}, {"date": "2026-09-01", "img": "issues/2026-09-01/07.jpg"}, {"date": "2026-08-31", "img": "issues/2026-08-31/07.jpg"}, {"date": "2026-08-30", "img": "issues/2026-08-30/07.jpg"}, {"date": "2026-08-29", "img": "issues/2026-08-29/07.jpg"}, {"date": "2026-08-28", "img": "issues/2026-08-28/07.jpg"}, {"date": "2026-08-27", "img": "issues/2026-08-27/08.jpg"}, {"date": "2026-08-26", "img": "issues/2026-08-26/08.jpg"}, {"date": "2026-08-26", "img": "issues/2026-08-26/09.jpg"}, {"date": "2026-08-25", "img": "issues/2026-08-25/07.jpg"}];   // 빌드 시 주입 — newest first. [{date, img, page}]
+  let cur = 0;
+  const $ = id => document.getElementById(id);
+  function show(i){ cur=(i+comics.length)%comics.length; const c=comics[cur];
+    $('lbImg').src=c.img; $('lbD').textContent=c.date.replace(/-/g,'.');
+    $('lbGo').href='viewer.html?d='+c.date; $('lb').classList.add('on'); }
+  $('lbX').onclick=()=>$('lb').classList.remove('on');
+  $('lbPv').onclick=()=>show(cur-1); $('lbNx').onclick=()=>show(cur+1);
+  $('lb').addEventListener('click',e=>{ if(e.target.id==='lb') $('lb').classList.remove('on'); });
+  addEventListener('keydown',e=>{ if(!$('lb').classList.contains('on')) return;
+    if(e.key==='Escape') $('lb').classList.remove('on'); if(e.key==='ArrowRight') show(cur+1); if(e.key==='ArrowLeft') show(cur-1); });
+  let sx=0; addEventListener('touchstart',e=>{sx=e.touches[0].clientX;},{passive:true});
+  addEventListener('touchend',e=>{ if(!$('lb').classList.contains('on')) return; const dx=e.changedTouches[0].clientX-sx;
+    if(Math.abs(dx)>50) show(cur+(dx<0?1:-1)); },{passive:true});
+  (function(){
+    const g=$('grid');
+    if(!comics.length){ g.innerHTML='<div class="empty">아직 등록된 4컷툰이 없습니다.</div>'; return; }
+    $('total').textContent='전체 '+comics.length+'편';
+    const newest=comics[0].date;
+    g.innerHTML=comics.map((c,i)=>'<div class="ep" data-i="'+i+'"><div class="thumb"><img src="'+c.img+'" alt="" loading="lazy"></div>'
+      +'<div class="d">'+c.date.replace(/-/g,'.')+(c.date===newest?'<span class="new">NEW</span>':'')+'</div></div>').join('');
+    g.querySelectorAll('.ep').forEach(el=>el.onclick=()=>show(+el.dataset.i));
+  })();
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
