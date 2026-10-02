@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-29",
-  "updated": "2026-09-29T14:30:28Z",
+  "date": "2026-10-02",
+  "updated": "2026-10-02T15:46:04Z",
   "sections": [
     {
       "name": "숙박업",
       "items": [
         {
-          "title": "명동 마이티호텔 매각 잰걸음, 호텔 재매각 시장 활기",
-          "source": "파이낸셜뉴스",
-          "url": "https://www.fnnews.com/news/202609231016228134"
+          "title": "방한 외래객 역대 최대…명동 호텔 '귀한 몸'",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/202610017947i"
         }
       ]
     },
     {
-      "name": "숙박업 규제",
+      "name": "관광 동향",
       "items": [
         {
-          "title": "숙박요금 미게시·바가지요금, 첫 적발에도 영업정지",
-          "source": "이투데이",
-          "url": "https://www.etoday.co.kr/news/view/2602970"
+          "title": "中 국경절 연휴, 20대 개별 여행객이 명동 채운다",
+          "source": "뉴스1",
+          "url": "https://www.news1.kr/industry/hotel-tourism/6307944"
         }
       ]
     }

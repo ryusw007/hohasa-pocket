@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 숙소챗 후기·갤러리</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 숙소챗 후기·갤러리">
+<meta property="og:title" content="호하사 숙소챗 후기·갤러리">
+<meta property="og:description" content="회원 숙소를 둘러보고 노하우를 나누는 숙소챗 — 회차별 후기와 현장 사진을 모아봅니다">
+<meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og2.png">
+<meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/venue.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:960px; margin:0 auto; padding:24px 16px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
+  .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
+  .home{ color:#9a9da4; text-decoration:none; font-weight:700; font-size:13px; background:var(--card);
+    padding:7px 12px; border-radius:20px; }
+  .lead{ margin-top:18px; color:#c9ccd3; font-size:14px; line-height:1.6; }
+  .total{ margin-top:20px; color:#8b8e96; font-size:12px; font-weight:700; }
+  .grid{ margin-top:10px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 12px; }
+  @media (min-width:600px){ .grid{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px 16px; } }
+  @media (min-width:900px){ .grid{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+  .ep{ display:block; text-decoration:none; color:#e9eaee; min-width:0; }
+  .ep .thumb{ position:relative; border-radius:14px; overflow:hidden; background:var(--card);
+    box-shadow:0 8px 22px rgba(0,0,0,.4); transition:transform .15s; }
+  .ep:active .thumb{ transform:scale(.97); }
+  @media (hover:hover){ .ep:hover .thumb{ transform:translateY(-3px); } }
+  .ep img{ width:100%; aspect-ratio:4/5; object-fit:cover; display:block; background:#0b0e14; }
+  .ep .new{ display:inline-block; margin-left:6px; background:var(--accent); color:#fff; vertical-align:1px;
+    font-size:10px; font-weight:800; padding:1px 6px; border-radius:8px; letter-spacing:.3px; }
+  .ep .t{ margin-top:9px; font-weight:800; font-size:14px; line-height:1.4;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; word-break:keep-all; }
+  .ep .h{ margin-top:2px; color:#aeb1b8; font-size:12px; font-weight:700; }
+  .ep .d{ margin-top:4px; color:#8b8e96; font-size:12px; font-weight:700; display:flex; gap:8px; align-items:center; }
+  .ep .d b{ color:var(--accent); font-weight:700; }
+  .ep .badges{ margin-top:6px; display:flex; gap:6px; flex-wrap:wrap; }
+  .ep .badge{ font-size:11px; font-weight:700; color:#c9ccd3; background:#20242e; border:1px solid #2c313d;
+    padding:2px 8px; border-radius:10px; }
+  .empty{ margin-top:40px; color:#9a9da4; text-align:center; padding:20px; }
+  .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand"><span class="dot"></span><span>호하사 숙소챗</span></div>
+      <a class="home" href="index.html">🏠 다이제스트</a>
+    </div>
+    <div class="lead">회원 숙소를 직접 둘러보고 인허가·인테리어·운영 노하우를 나누는 숙소챗 — 회차별 후기와 현장 사진을 모아봅니다.</div>
+    <div class="total" id="total"></div>
+    <div class="grid" id="grid"><div class="empty">불러오는 중…</div></div>
+    <div class="foot">Hostel Up People · 숙소챗 후기 아카이브</div>
+  </div>
+<script>
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  const venues = [{"id": "venue01", "date": "2026-10-02", "title": "명동 스테이 다솜 현장챗 (공사챗)", "host": "명동/다솜", "location": "서울 중구 명동·충무로 사이", "summary": "명동과 충무로 사이 평지, 1~5층 통건물 임차로 총 10객실 구성 중인 공사 현장. 복도 제외 87평으로 맞춰 스프링클러 면제, 층별로 다른 객실 구성(1층 라운지·베란다룸, 2층 2인실, 3층 벙커 다인실, 4층 퀸 더블룸), 5층 남산타워뷰 테라스 + 실내 조적욕조. 엘리베이터 없는 대신 상주 인원 배치 계획. 인테리어 대표님이 직접 자재·구조를 설명.", "cover": "venue/venue01/cover.jpg", "review_count": 14, "photo_count": 0}];   // 빌드 시 주입 — newest first
+  (function(){
+    const grid = document.getElementById('grid');
+    if(!venues || !venues.length){
+      grid.innerHTML = '<div class="empty">아직 등록된 숙소챗 후기가 없습니다.</div>'; return; }
+    const newest = venues[0].date;
+    document.getElementById('total').textContent = '전체 '+venues.length+'회차';
+    grid.innerHTML = venues.map(it =>
+      '<a class="ep" href="venue_detail.html?id='+encodeURIComponent(it.id)+'">'
+      + '<div class="thumb"><img src="'+esc(it.cover)+'" alt="'+esc(it.title||it.id)+'" loading="lazy">'
+      + '</div>'
+      + '<div class="t">'+esc(it.title||it.id)+'</div>'
+      + '<div class="h">'+esc(it.host||'')+'</div>'
+      + '<div class="d">'+(it.date||'').slice(5).replace('-','.')
+      + (it.date===newest ? '<span class="new">NEW</span>' : '') + '</div>'
+      + '<div class="badges">'
+      + '<span class="badge">💬 후기 '+(it.review_count||0)+'</span>'
+      + '<span class="badge">📷 사진 '+(it.photo_count||0)+'</span>'
+      + '</div>'
+      + '</a>').join('');
+  })();
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>

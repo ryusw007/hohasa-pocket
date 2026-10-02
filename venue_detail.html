@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 숙소챗</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 숙소챗">
+<meta property="og:title" content="호하사 숙소챗">
+<meta property="og:description" content="숙소챗 현장 후기와 사진">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:960px; margin:0 auto; padding:16px 16px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  .home{ display:flex; align-items:center; gap:6px; color:#e9eaee; text-decoration:none;
+    font-weight:800; font-size:13px; background:var(--card); padding:7px 12px; border-radius:20px; }
+  .hero{ margin-top:16px; border-radius:18px; overflow:hidden; background:var(--card);
+    box-shadow:0 14px 38px rgba(0,0,0,.45); }
+  .hero img{ width:100%; aspect-ratio:16/9; object-fit:cover; display:block; background:#0b0e14; }
+  .hero .body{ padding:18px 20px 20px; }
+  .hero h1{ margin:0 0 8px; font-size:21px; line-height:1.35; word-break:keep-all; }
+  .meta{ display:flex; flex-wrap:wrap; gap:8px; color:#aeb1b8; font-size:13px; font-weight:700; }
+  .meta span{ background:#20242e; border:1px solid #2c313d; padding:4px 10px; border-radius:10px; }
+  .summary{ margin-top:12px; font-size:14px; line-height:1.65; color:#c9ccd3; white-space:pre-wrap; word-break:keep-all; }
+  .sec{ margin-top:34px; font-weight:800; font-size:16px; color:#c9ccd3; display:flex; align-items:center; gap:8px; }
+  .sec::before{ content:""; width:4px; height:16px; background:var(--accent); border-radius:2px; }
+  .sec .cnt{ font-weight:700; font-size:12px; color:#8b8e96; }
+  /* 갤러리 */
+  .gal{ margin-top:14px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+  @media (min-width:600px){ .gal{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+  .gal a{ display:block; border-radius:10px; overflow:hidden; background:var(--card); }
+  .gal img{ width:100%; aspect-ratio:1/1; object-fit:cover; display:block; transition:transform .15s; }
+  .gal a:active img{ transform:scale(.95); }
+  /* 후기 게시판 */
+  .board{ margin-top:14px; display:flex; flex-direction:column; gap:10px; }
+  .post{ background:var(--card); border-radius:14px; padding:14px 16px; box-shadow:0 6px 18px rgba(0,0,0,.3); }
+  .post .ph{ display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:6px; }
+  .post .author{ font-weight:800; font-size:13px; color:var(--accent); }
+  .post .date{ font-size:11px; color:#8b8e96; font-weight:700; white-space:nowrap; }
+  .post .text{ font-size:14px; line-height:1.6; color:#e4e6ea; white-space:pre-wrap; word-break:break-word; }
+  .empty{ margin-top:14px; color:#9a9da4; text-align:center; padding:26px; background:var(--card); border-radius:14px; }
+  .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
+  /* 라이트박스 */
+  #lb{ position:fixed; inset:0; z-index:50; background:rgba(5,6,9,.92); display:none;
+    align-items:center; justify-content:center; padding:20px; }
+  #lb.on{ display:flex; }
+  #lb img{ max-width:100%; max-height:88vh; border-radius:10px; box-shadow:0 20px 60px rgba(0,0,0,.6); }
+  #lb .x{ position:absolute; top:18px; right:18px; width:40px; height:40px; border-radius:50%; border:none;
+    background:rgba(255,255,255,.12); color:#fff; font-size:20px; cursor:pointer; }
+  #lb .nv{ position:absolute; top:50%; transform:translateY(-50%); width:44px; height:44px; border-radius:50%;
+    border:none; background:rgba(255,255,255,.12); color:#fff; font-size:20px; cursor:pointer; }
+  #lb .pv{ left:16px; } #lb .nx{ right:16px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="home" href="venue.html">← 숙소챗 목록</a>
+      <a class="home" href="index.html">🏠 다이제스트</a>
+    </div>
+    <div id="hero"></div>
+
+    <div class="sec">사진 갤러리 <span class="cnt" id="galCnt"></span></div>
+    <div class="gal" id="gal"></div>
+
+    <div class="sec">후기 게시판 <span class="cnt" id="boardCnt"></span></div>
+    <div class="board" id="board"><div class="empty">불러오는 중…</div></div>
+
+    <div class="foot">Hostel Up People · 숙소챗 후기 아카이브</div>
+  </div>
+
+  <div id="lb">
+    <button class="x" id="lbX">✕</button>
+    <button class="nv pv" id="lbPv">‹</button>
+    <img id="lbImg" alt="">
+    <button class="nv nx" id="lbNx">›</button>
+  </div>
+
+<script>
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  let PHOTOS = [], lbIdx = 0;
+
+  function openLb(i){ lbIdx = i; document.getElementById('lbImg').src = PHOTOS[i]; document.getElementById('lb').classList.add('on'); }
+  function closeLb(){ document.getElementById('lb').classList.remove('on'); }
+  function stepLb(d){ lbIdx = (lbIdx + d + PHOTOS.length) % PHOTOS.length; document.getElementById('lbImg').src = PHOTOS[lbIdx]; }
+  document.getElementById('lbX').onclick = closeLb;
+  document.getElementById('lbPv').onclick = () => stepLb(-1);
+  document.getElementById('lbNx').onclick = () => stepLb(1);
+  document.getElementById('lb').addEventListener('click', e => { if(e.target.id === 'lb') closeLb(); });
+  addEventListener('keydown', e => {
+    if(!document.getElementById('lb').classList.contains('on')) return;
+    if(e.key === 'Escape') closeLb();
+    if(e.key === 'ArrowRight') stepLb(1);
+    if(e.key === 'ArrowLeft') stepLb(-1);
+  });
+
+  (async () => {
+    const params = new URLSearchParams(location.search);
+    const id = params.get('id');
+    const heroEl = document.getElementById('hero');
+    const galEl = document.getElementById('gal');
+    const boardEl = document.getElementById('board');
+    if(!id){ heroEl.innerHTML = '<div class="empty">회차를 찾을 수 없습니다.</div>'; return; }
+
+    let it = null;
+    try{
+      const venues = await fetch('venue/venue_index.json?t=' + Date.now()).then(r => r.json());
+      it = venues.find(x => x.id === id);
+    }catch(_){ it = null; }
+    if(!it){ heroEl.innerHTML = '<div class="empty">회차를 찾을 수 없습니다.</div>'; return; }
+
+    document.title = it.title || id;
+    heroEl.innerHTML =
+      '<div class="hero"><img src="' + esc(it.cover) + '" alt="">'
+      + '<div class="body"><h1>' + esc(it.title || id) + '</h1>'
+      + '<div class="meta">'
+      + '<span>📅 ' + esc((it.date || '').replace(/-/g, '.')) + '</span>'
+      + (it.host ? '<span>🏨 ' + esc(it.host) + '</span>' : '')
+      + (it.location ? '<span>📍 ' + esc(it.location) + '</span>' : '')
+      + '</div>'
+      + (it.summary ? '<div class="summary">' + esc(it.summary) + '</div>' : '')
+      + '</div></div>';
+
+    // 갤러리
+    try{
+      const gallery = await fetch('venue/' + id + '/gallery.json?t=' + Date.now()).then(r => r.json());
+      document.getElementById('galCnt').textContent = gallery.length ? '· ' + gallery.length + '장' : '';
+      if(gallery.length){
+        PHOTOS = gallery.map(g => 'venue/' + id + '/gallery/' + g.file);
+        galEl.innerHTML = PHOTOS.map((src, i) =>
+          '<a href="javascript:void(0)" data-i="' + i + '"><img src="' + src + '" alt="" loading="lazy"></a>').join('');
+        galEl.querySelectorAll('a').forEach(a => a.onclick = () => openLb(parseInt(a.dataset.i, 10)));
+      } else {
+        galEl.innerHTML = '<div class="empty" style="grid-column:1/-1">아직 업로드된 사진이 없습니다.</div>';
+      }
+    }catch(_){
+      galEl.innerHTML = '<div class="empty" style="grid-column:1/-1">아직 업로드된 사진이 없습니다.</div>';
+    }
+
+    // 후기 게시판
+    try{
+      const reviews = await fetch('venue/' + id + '/reviews.json?t=' + Date.now()).then(r => r.json());
+      document.getElementById('boardCnt').textContent = reviews.length ? '· ' + reviews.length + '건' : '';
+      if(reviews.length){
+        boardEl.innerHTML = reviews.map(r =>
+          '<div class="post"><div class="ph"><span class="author">' + esc(r.author || '익명') + '</span>'
+          + '<span class="date">' + esc((r.date || '').replace(/-/g, '.')) + '</span></div>'
+          + '<div class="text">' + esc(r.text || '') + '</div></div>').join('');
+      } else {
+        boardEl.innerHTML = '<div class="empty">아직 등록된 후기가 없습니다.</div>';
+      }
+    }catch(_){
+      boardEl.innerHTML = '<div class="empty">아직 등록된 후기가 없습니다.</div>';
+    }
+  })();
+
+  if('serviceWorker' in navigator){ addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {})); }
+</script>
+</body>
+</html>
