@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson30",
+    "title": "도시가스 없는 숙소, 온수는 어떻게?",
+    "date": "2026-10-03",
+    "cover": "lessons/lesson30/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson29",
     "title": "권리금, 세금계산서 끊을까 말까?",
     "date": "2026-10-02",
