@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-04",
-  "updated": "2026-10-03T16:10:33Z",
+  "date": "2026-10-05",
+  "updated": "2026-10-04T21:51:52Z",
   "sections": [
     {
       "name": "📌 호하사 오늘의 픽",
       "items": [
         {
-          "title": "11월 12일부터 미신고 숙소 중개 플랫폼에 건당 500만원 과태료",
-          "source": "매일신문",
-          "url": "https://www.imaeil.com/page/view/2026100307190111877"
+          "title": "숙박업중앙회·야놀자·여기어때, 수수료 상생 실무협의체 검토",
+          "source": "숙박매거진",
+          "url": "http://www.sukbakmagazine.com/news/articleView.html?idxno=69583"
         },
         {
-          "title": "서울시, 숙박업 등록·신고번호 전국 표준화 건의",
-          "source": "대한경제",
-          "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610011058470460114"
+          "title": "방한객 1900만 시대, 관광지 외국인 범죄 피해 최대 70% 급증",
+          "source": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/2630391"
         }
       ]
     },
@@ -21,24 +21,9 @@
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "반도그룹 관계 시행사, 종로 브룩클린호스텔 인수",
-          "source": "딜북뉴스",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcTFZLWJabGtmdG8tWVVucFJ1cWZPWlo0SGM1am16dnNnSk52TGtxQ3RxWWM1RXdFS3RkbzVEbHZkczFINmV6V1EtQWxDdkd6cnFQMkNMd0w3Vkk5RTBmNG5wV2E1TkJDZzJoekZ6VGRFemhKTjhac1FzNjUxVC1KUGRQQnpab3hTVlp4ZlZ4ZUZOMDQ1WGc?oc=5"
-        },
-        {
-          "title": "“예약 전 숙소 등록 확인”…국내 숙박업 조회법",
-          "source": "비건뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VdGRuTk5Rb2tzbGQ2WUJYSHItaUlUNXphZHR2Z19iNFAxbVdHRDk3cW13NTF3LVlsSnZMdzh6Y1ZIMm5mLWQ2WW94cFYtZU9sekV3MElwODNaOEFQUU0td1lBZ3NkUQ?oc=5"
-        },
-        {
-          "title": "울산 남구, 게스트하우스·고래잠 등 공공숙박시설 이재민 주거지로 지정",
-          "source": "BBS불교방송",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxbkU1YmJvQThxTXZfWHh0cjR1VU5SOTRqQU83d2FyNlpiNjVLOWRmcFNXMk1tZmU1bGxMSUljUG1Hamc1eUdiSHdzeXNqUHZlWHg3QTB5VFhfT2tLM1hsZEpZbXFhZmNCUElB?oc=5"
-        },
-        {
-          "title": "“잠만 자던 관광은 옛말”… 울산 남구, 숙박·체험 묶은 ‘체류형 관광’으로 체질 개선 나선다",
-          "source": "news21tongsin.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vQWlNX051bUo3eFl0dTdaZ01RZmVJX0VvWjlsZXRMeDMwb3ptTEJFM2xodUZ3dzlvdXNpcUZLd3ZQck5NRjNpMkZPNmlOcDV0RXlwb21B?oc=5"
+          "title": "제주올레 할망숙소 시즌 2 ‘할망스테이’ 오픈...새로운 시작을 함께 할 숙박 체험단 모집",
+          "source": "뉴스N제주",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oYWx3WGtVLXp3UVhFWUxDWGdkcS1qSTFlemxUS0NvcGVvN05kc1phZzh4M0pINllndVBkNGo4NGY0NmtFeHZpeEJCNXBzbEw0TW94cnY4ZmFFYTgybzBqajFzckFTR0JKMU9qSw?oc=5"
         }
       ]
     },
@@ -46,29 +31,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "“명동 고객 70%가 외국인”…LF 헤지스, ‘K-패션’ 열풍 업고 관광 성수기 ‘공략’",
-          "source": "더퍼블릭",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tMW9rd0RiVFFjOGpsMzB1ZXltbElyOFZGaEVXN293bVRDNTNCV3NxSG1PMno4cVlhUWJmWnEyU3ZsRkRuVi0zQ1d6LTVGeTZOV0hwSjI4YnJaSk1tRTZsWUJzd1kxSmNBdG5R0gFvQVVfeXFMTldBUFBYX2hsWDNFRE1VMGVEempxUGNnLVNLTXBvbW9meFJMbTRYY2RqX3ROTnBKdFZQaDc1REY3OGFwSlNRVjcwRVMyUEFkLUtGd0lHWmp1d1FRVWxuUktkcVFfMktvb3FjcXZTS3BB?oc=5"
+          "title": "신세계 박주형 '방한 성수기' 마케팅 총력전, '중국·명품 공식' 넘어 '외국인 매출 1조' 문 연다",
+          "source": "비즈니스포스트",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBISWVfakxhSmZ6ZDg2azV1b19VQ0p2UG9QMW1WT2ppUTU2dDNOdGVxc2RDWGxidE5VZDIzUzYxbXoyV2p2bXJsQmVPclFFdHlWRTJHdVl3bG1reUZfRU9UcjBDaUhiRHZwTmpndXlIZnBFdVk?oc=5"
         },
         {
-          "title": "“외국인 관광객 발길 잡는다”…옴부즈만, 경기 골목상권 규제 애로 해소 나선다",
-          "source": "아시아투데이",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZSkV2UUtPVm9sZm5qM0F5bUNROVVkNUY0NFZRYlFaaEFyTXZ0Q3ExT2ZHNFl3RU5ITzVzbTBzUEszRTJjc2xjbG5NVmNzXy01YWZqX2FNVzVtUFJCbXg4R2s1UmJFbTdWY3NkTnlB?oc=5"
+          "title": "'완주와일드&로컬푸드축제' 찾은 외국인 관광객",
+          "source": "뉴스핌",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qUDg4R1pDSzN1Ujc4YmJwTWZLT3B2ZlFfWFN4ZDZmY3hITjZ5bFFnNVZ2bnd1akhVWW1VbGdSTnhFZFpfZXVEbDBtT1htSXMtNTA2Qk1sZV9Yb2px?oc=5"
         },
         {
-          "title": "서울시, ‘글로벌 문화·관광도시’ 가로막는 규제 푼다…문화·관광 3건 대정부 건의",
-          "source": "국민기자뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGTUN4SVJvSTRqTDlmTTM4aFB5WXZDZmd6NjVFTmo0bmt4LV9kZmptOThZeFI5M0dKRVdnVkMwN2N0cWFPaVdVdDRVdklUTkhBVGF1M0V4aUFQc2VmTjZiNjFYSjVCMVHSAWdBVV95cUxQRk1DeElSb0k0akw5Zk0zOGhQeVl2Q2ZnejY1RU5qNG5reC1fZGZqbTk4WXhSOTNHSkVXZ1ZDMDdjdHFhT2lXVXQ0VXZJVE5IQVRhdTNFeGlBUHNlZk42YjYxWEo1QjFR?oc=5"
+          "title": "올해 방한객 1천 500만 명 돌파…외국인 관광 소비 14조 원 - 사진 | 멀티미디어",
+          "source": "korea.kr",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc0YtVS1FUldpWnF1Skp0bmV2Uk5URmZtYzZManVTekRPQUZDQlJuZzNYSDdOa0VKejU5aGNveWRhMU5qZkg4QkItakFlbmNPMGhyVUdremNndTdDbE1EWHBoTkJmRWdBajJZaEswRW56aF81NktQYlAyNk1XT1NfRmQ4MC1Udw?oc=5"
         },
         {
-          "title": "최시원이 제지했건만 또…외국인 관광객, 경복궁 경내서 전자담배 흡연 논란",
-          "source": "newsis.com",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YR0hkQS0xZkVRcV80bkZqV0JKeE9yZGpNNks1T2RjX0NyV2JVeG14dlFja055REl5TW1xSV9hRUo2dlNZYVRveV94S1A5eFVxVU1STG5sb3dLZjdlNS14LdIBeEFVX3lxTE1LUXUyMlFSUzhMaUV4amlCLUw5LS0zMTlSX0wxNGhHRVdpbDFEelhwRUV6Y0RFMzlZTWF3RDg3bFEyWGIyaHlUN2s3T1hCMnN0N2JuZjFxbUR3VUZCTmlrNGFQWDM4UUhTY2FfVHFUakRUYTBpSjN3eA?oc=5"
+          "title": "‘APEC 1년’ 70만 외국인 들른 경주… 세계 10대 관광도시 뛴다",
+          "source": "서울신문",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBldzVyd0h5ZHpuallmeTFXbVJsR3VQN2xZMlBpQ3Y3a09UR1QwX0JOZ29DR1JxMVNBOWRMeTAwVktLYXVoZ0hmM0k0aDNtTlNvVnhZ?oc=5"
         },
         {
-          "title": "갤러리아百, 中 국경절 맞아 외국인 관광객 공략",
-          "source": "싱글리스트",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZW1IOWd5Qjktems4aGVxcFRhTEVjY2ZPR09fMUxwUFVQZ2VBRnFzOVRvbVVxTVNNSXR2eXVxOHEwYTRtMmUxNlN0QldBLWI1d21VdURkNE5VZjUzNWpxS3g5ZVczQQ?oc=5"
+          "title": "中 관광객 3천 명 동시 입국…400만 원 싹쓸이 쇼핑",
+          "source": "채널A 뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RbHN4V0FEZzFiYkh0MlpWblJleUhMcWxVeXVsVUFzVzk4Um5IUWVVc0tjOWltb05zNExIc3pfQXFGSngwUHlnRTA3RjFYOEFKaVBYRy03dERnMWhTT2pOVHE5NNIBY0FVX3lxTE5RbHN4V0FEZzFiYkh0MlpWblJleUhMcWxVeXVsVUFzVzk4Um5IUWVVc0tjOWltb05zNExIc3pfQXFGSngwUHlnRTA3RjFYOEFKaVBYRy03dERnMWhTT2pOVHE5NA?oc=5"
         }
       ]
     }

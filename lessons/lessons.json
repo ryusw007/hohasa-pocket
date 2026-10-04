@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson31",
+    "title": "메이저가 소형 호스텔로 내려온다",
+    "date": "2026-10-04",
+    "cover": "lessons/lesson31/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson30",
     "title": "도시가스 없는 숙소, 온수는 어떻게?",
     "date": "2026-10-03",
