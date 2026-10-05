@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-05",
-  "updated": "2026-10-04T21:51:52Z",
+  "date": "2026-10-06",
+  "updated": "2026-10-05T15:27:31Z",
   "sections": [
     {
       "name": "📌 호하사 오늘의 픽",
       "items": [
         {
-          "title": "숙박업중앙회·야놀자·여기어때, 수수료 상생 실무협의체 검토",
+          "title": "농어촌민박 신고제→등록제, 도농교류법 국회 통과",
           "source": "숙박매거진",
-          "url": "http://www.sukbakmagazine.com/news/articleView.html?idxno=69583"
+          "url": "http://www.sukbakmagazine.com/news/articleView.html?idxno=69585"
         },
         {
-          "title": "방한객 1900만 시대, 관광지 외국인 범죄 피해 최대 70% 급증",
-          "source": "이투데이",
-          "url": "https://www.etoday.co.kr/news/view/2630391"
+          "title": "숙박업중앙회 \"소비자만 평가하는 별점제 개선해야\"",
+          "source": "숙박매거진",
+          "url": "http://www.sukbakmagazine.com/news/articleView.html?idxno=69584"
         }
       ]
     },
@@ -21,8 +21,13 @@
       "name": "🏨 숙박업",
       "items": [
         {
+          "title": "울산 남구, 장생포 고래잠 등 ‘공공 숙박시설’ 이재민 임시주거시설로 지정",
+          "source": "iusm.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wdnNHN0dVWVZRXzBQWldiR0lld0JRVWdSYWhaZklGVlRVSVdWVERrU2xhZUxjc2wwOU9fTGJFcWpQd0ZVT292amRudUsxVUdkMEpIdlhVQnNyWjZjTWJGWFNFQjVUbUM1VXfSAW5BVV95cUxNZlIxbFlLcTF4cGxEYjVSajJwSUdmMzZTWEVsVmpwWDFwczJMdU9LWHlYMHQ3aE5DRjF1ZTJidlJ5WWdpaUtUVnlwMTlud2ZwUml0bTloLUdyaXpnRGlHVVBnRE1lcmVRamdvd1J2UQ?oc=5"
+        },
+        {
           "title": "제주올레 할망숙소 시즌 2 ‘할망스테이’ 오픈...새로운 시작을 함께 할 숙박 체험단 모집",
-          "source": "뉴스N제주",
+          "source": "newsnjeju.com",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oYWx3WGtVLXp3UVhFWUxDWGdkcS1qSTFlemxUS0NvcGVvN05kc1phZzh4M0pINllndVBkNGo4NGY0NmtFeHZpeEJCNXBzbEw0TW94cnY4ZmFFYTgybzBqajFzckFTR0JKMU9qSw?oc=5"
         }
       ]
@@ -31,29 +36,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "신세계 박주형 '방한 성수기' 마케팅 총력전, '중국·명품 공식' 넘어 '외국인 매출 1조' 문 연다",
-          "source": "비즈니스포스트",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBISWVfakxhSmZ6ZDg2azV1b19VQ0p2UG9QMW1WT2ppUTU2dDNOdGVxc2RDWGxidE5VZDIzUzYxbXoyV2p2bXJsQmVPclFFdHlWRTJHdVl3bG1reUZfRU9UcjBDaUhiRHZwTmpndXlIZnBFdVk?oc=5"
+          "title": "서울관협, ‘서울 건전관광 실천대회’ 개최",
+          "source": "트래블데일리",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GNHhic0Y0OEJkeUgyRUpHLTJOdEJpTWZPNzI3OFN2akVhX25qRjFwOHNaR2k4aTU3SmFMbmxOSGlraXExN2ZTM0M3VTVIT3ByZ3JmUlY3QVc5TXdoNC1odzZiWlg3OG9ld3h5SXhnSEU?oc=5"
         },
         {
-          "title": "'완주와일드&로컬푸드축제' 찾은 외국인 관광객",
-          "source": "뉴스핌",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qUDg4R1pDSzN1Ujc4YmJwTWZLT3B2ZlFfWFN4ZDZmY3hITjZ5bFFnNVZ2bnd1akhVWW1VbGdSTnhFZFpfZXVEbDBtT1htSXMtNTA2Qk1sZV9Yb2px?oc=5"
+          "title": "'한강 라면' 이제 외국인 서울 코스…한강 편의점서 가장 많이 팔려",
+          "source": "네이트",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wNUM3Y3dJcXRhYl9vTm83MmcyOXlNUUhYaDFVaDVrYlNjUk1jQXAtMjMwTlIzOUJKYkFrWXRQbHlWc1JHazFoay1pVlIwU0tTamlyazdOU1BKZTJDVUZqOWJFWldpTGhxUmd3UGFnaG1iWWVuVTNvcA?oc=5"
         },
         {
-          "title": "올해 방한객 1천 500만 명 돌파…외국인 관광 소비 14조 원 - 사진 | 멀티미디어",
-          "source": "korea.kr",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc0YtVS1FUldpWnF1Skp0bmV2Uk5URmZtYzZManVTekRPQUZDQlJuZzNYSDdOa0VKejU5aGNveWRhMU5qZkg4QkItakFlbmNPMGhyVUdremNndTdDbE1EWHBoTkJmRWdBajJZaEswRW56aF81NktQYlAyNk1XT1NfRmQ4MC1Udw?oc=5"
+          "title": "외국인 관광객 발길 이어지는 경복궁",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ZbnhadlNqNExUZU1iY25QX1ZGcFQ1YWNjUzVsMnVmVzRhaVZlV0F2ZEFDcFRZa29xckVsQVRjcG00aGhZMUdYYVFpWQ?oc=5"
         },
         {
-          "title": "‘APEC 1년’ 70만 외국인 들른 경주… 세계 10대 관광도시 뛴다",
-          "source": "서울신문",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBldzVyd0h5ZHpuallmeTFXbVJsR3VQN2xZMlBpQ3Y3a09UR1QwX0JOZ29DR1JxMVNBOWRMeTAwVktLYXVoZ0hmM0k0aDNtTlNvVnhZ?oc=5"
+          "title": "한의약 기반 치유 프로그램…“외국인 관광객에 통했다” > 뉴스",
+          "source": "한의신문",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdUUtRFo1THl1cmxJSVQwekJnMDFlYjdjdjlFYmhmaFdGTFhsV0pxU295eEZqVHlseWpaQmNBOWEtdG1RbTRZVDZSYmQwakQ1ZjVxWHRZQmI1SVB6N2ZlcVV3SFk1QWdsdWJ3WUJLelBYM29UNXZueUQ0d3pQU3Mydl92b1JsdG1iYzlGdGNiSG1UbUVVQjZwTDFfWnI2UzJxVHlwMDNSZlBKUlBYR0k1dXNhOHJ6WE5YeUlweEV2eXpUbzV3MlpXM2pvZC1Zakh6TEluc1RfbEM5MEhDcEw4R2NCdXhIejRlaWMzaUFRdkZUMmpCM2VxS2wzR1A3MzRN?oc=5"
         },
         {
-          "title": "中 관광객 3천 명 동시 입국…400만 원 싹쓸이 쇼핑",
-          "source": "채널A 뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RbHN4V0FEZzFiYkh0MlpWblJleUhMcWxVeXVsVUFzVzk4Um5IUWVVc0tjOWltb05zNExIc3pfQXFGSngwUHlnRTA3RjFYOEFKaVBYRy03dERnMWhTT2pOVHE5NNIBY0FVX3lxTE5RbHN4V0FEZzFiYkh0MlpWblJleUhMcWxVeXVsVUFzVzk4Um5IUWVVc0tjOWltb05zNExIc3pfQXFGSngwUHlnRTA3RjFYOEFKaVBYRy03dERnMWhTT2pOVHE5NA?oc=5"
+          "title": "외국인 K패션 매출 55%↑…롯데면세점, 명동본점 쇼핑영토 넓힌다",
+          "source": "미디어펜",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kSzM4eDN6V0gtSmtpM2lrU2FWY193clFueDI3cDV5V3huWEdEdmVyMFZQUkxnenkweDVjeVVENWRhQWxYZEN6MkszZjRvcEV0SHl3ZnlKZkPSAVhBVV95cUxOZEszOHgzeldILUpraTNpa1NhVmNfd3JRbngyN3A1eVd4blhHRHZlcjBWUFJMZ3p5MHg1Y3lVRDVkYUFsWGRDejJLM2Y0b3BFdEh5d2Z5SmZD?oc=5"
         }
       ]
     }

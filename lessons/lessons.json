@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson32",
+    "title": "완강기, 디자인을 지키면서 다는 법",
+    "date": "2026-10-05",
+    "cover": "lessons/lesson32/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson31",
     "title": "메이저가 소형 호스텔로 내려온다",
     "date": "2026-10-04",
