@@ -1,8 +1,16 @@
 {
-  "updated": "2026-10-01T01:15:37Z",
+  "updated": "2026-10-08T01:50:06Z",
   "source": "https://data.seoul.go.kr/dataList/OA-23063/S/1/datasetView.do",
   "note": "서울시보 목차에서 추출한 고시·공고. 분류는 제목 키워드 기준이라 누락·오분류 가능. 원문 확인 필수.",
   "issues": [
+    {
+      "no": "제4184호",
+      "date": "2026-10-08",
+      "pdf": "https://www.seoul.go.kr/func/seoulsibo/fileDownload.do?fileName=seoulsibo_20261007142751_12293.pdf",
+      "mb": 12,
+      "pages": 349,
+      "items": []
+    },
     {
       "no": "제4183호",
       "date": "2026-10-01",
