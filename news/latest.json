@@ -1,19 +1,14 @@
 {
-  "date": "2026-10-07",
-  "updated": "2026-10-07T14:50:22Z",
+  "date": "2026-10-09",
+  "updated": "2026-10-08T16:07:05Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "주택처럼 속인 ‘생활숙박시설’ 불법광고 적발",
-          "source": "뉴스후플러스",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14M195aFFTMUF3ZFNRMGtyY0ozczRlZDZOWDNuTW93ZWlrLTBYNXZwYmhrcktXc040NElQaEdoYzlBTGpadjM4QXJOYU9BWXZnZE1hZTdWNDJLeG9wMzVUUTdkTWpsYVRIUmt1VUN3?oc=5"
-        },
-        {
-          "title": "제주, 호텔 수영장 염소가스 유출 관련 재방방지책 마련",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1clpnZEd6T25zM01zM2hsbkhIZ042TmpJM2tpUDU5b1EwY0RSX2NLSG5VZkdBbGpPa3NYYzAtd1pOMmFIanlWdkZVeklCUFBjWHh4SlZWUVBlY1dfTW9wcDJXQ2dzaUEyUWNkdmVuazI?oc=5"
+          "title": "덱스, '기안84의 기묘한 게스트하우스' 문 여는 법에 누리꾼 '폭소'… \"역시 덱스다!\"",
+          "source": "Kagit",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhUjVoZVEwZnhLenJfamt2YmZhT0F5bkhmdEM1UFFURDRTQm1ZeTlza05JMk9VZ25DSUJJY2hqNVVxY0owMk93SEgzbVhYdWxUdWlVbEU2UUhKVzRfdEE?oc=5"
         }
       ]
     },
@@ -21,29 +16,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "서울 온 외국인 관광객 매달 1조 원 썼다… 성수동, 도산공원 등 골목상권 소비 증가세",
-          "source": "한국일보",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PV1JJLVk1WkliU3hFTkFMOTJnMDFKa1E1cTBFTHV0dExCb1ZTZWZFYWtyOElpNTBySjlpeDdkNGRpTXc5LUNUNXdPNUlMbFpOOWozaTRMekw0TDR1SkxmRlJObVJaNTJ0bW43d0FtUG1JcDTSAXNBVV95cUxNT1dSSS1ZNVpJYlN4RU5BTDkyZzAxSmtRNXEwRUx1dHRMQm9WU2VmRWFrcjhJaTUwcko5aXg3ZDRkaU13OS1DVDV3TzVJTGxaTjlqM2k0THpMNEw0dUpMZkZSTm1SWjUydG1uN3dBbVBtSXA0?oc=5"
+          "title": "강남 넘어 명동까지! 외국인 관광객 사로잡은 ’K-의료 쇼핑’ 열풍",
+          "source": "채널A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ycEhITnpiVG5zZGhiU05jYkwxenRyVmU3WkdEVi1OTVMzMUdEZ2ZnN21pSG5LVHFQRUU5YXh4aGpyYmY2ZEczb1EzdnhhQno0UkNYX2lOaUUtMU1nbkpn?oc=5"
         },
         {
-          "title": "현대백화점, 서울 강남 삼성역 일대 외국인 관광객 대상 '월드패스' 선봬",
-          "source": "시사브리핑",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uaENEalZiY3JCN01wVWZHc1ZLYUc0dUYxX2lPOVhZQmctTkFON2ZOX3N6djBETDNTNlBrcUtkR0RxQUNXbFhxSVRqeFJKQmZjaW9OYklLTXpJZDViaGE1OTBEWnVRTnk4?oc=5"
+          "title": "위홈, 서울 홍대서 내·외국인 대상 무료 짐보관 이벤트 진행",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWRC1rQkc1YlpnUkpfVkY4cHZUZFlZMm82RjBPTnNUNUR3ZTlaME16Vld4X0dYYXdlYUh5YW9URmEzODhGbkc0eDZteDBqbUJqYUVRQV91UGYxWEl2YjJmbS1FU1RGYWpkbVJBQ3ZobWw?oc=5"
         },
         {
-          "title": "1~8월 서울방문 외국인 관광객 21.6% 늘 때 카드소비는 59.9% 증가",
-          "source": "국민기자뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CM2M1NXRLakYxN2tBSFFiX1NyNG1Dd2otcW0zbERPRUQ0U1hQTzJlYjBWcXloM2lRWjBlUzlQRUpLb2p1cU5MR0pCOXZOYVZWSUJDMHdCQWp1NGxjTkJuai00ONIBZ0FVX3lxTE5pVXIySUZ2ZWxMQkNhd0U5OEtlbWt5Y3JSY0ZVdldaZ09PUEVLVWhaU2haaXN1anZHM3hmZm13OFNqMENENWI4LU5LOGlueFUxcHAyXzEwV3dha3Y1T0hKOWtDTFpMb2c?oc=5"
+          "title": "서울 외국인 관광객 1156만명…오세훈 관광 성과, 지방으로 확대",
+          "source": "아주경제",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YUG4wX1JYN1ZwTm5zZWFQWktDVThmOV9KSnZnZUg1R0xXUnZfSmJJQ2RhSE1RZ0tjSG1GdTRiTDA0ZVRXdUxvdGJqRXFsUUloX1JjUnR1LU7SAVhBVV95cUxPWFBuMF9SWDdWcE5uc2VhUFpLQ1U4ZjlfSkp2Z2VINUdMV1J2X0piSUNkYUhNUWdLY0htRnU0YkwwNGVUV3VMb3RiakVxbFFJaF9SY1J0dS1O?oc=5"
         },
         {
-          "title": "서울 외국인 관광객 172만명 ‘역대 최대’…카드소비 58% 급증",
-          "source": "포커스경제",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WdXJZV184Rk0zb0NMRWpITG5uSGUyellZMGZRU3pwNGRjN2xlZEhBMXZnR1Flc29fQUZyU2hVallXUEpDSlFoWk9EMlhEbGtEZ0NzeU1wVjV4ZzQ2aGVhcnI1d0FTQXhzXzdMR9IBcEFVX3lxTFB6SUVQTFFpTUxXYnNRMHRUZmdXU0pfYjNGNjQxTmppRHl3SXJ4R3k5TW5GeTd6aVB3bEMwSHlsQURyQlJLa0lfTC1SSDJFclZHR3A1T0IxT3JzQ3B5QThQYllzN1V4NjJ5RG85LTZrd08?oc=5"
+          "title": "외국인 관광객도 반한 서울굿즈, 코엑스 팝업에 1만5000여 명 ‘북적’",
+          "source": "이뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43OXJOY21fU2RBajJBT0ktZmVkdU9mcjgwWS10aGtSdkE3eVY4OXIzN21SYmgxRC1oSm9FdHp2OF9nWFNPcTM3dGdHWEVUNnFUVEM2cC1wZFI0N0FJSlM2bVRuS2hfZXd2MGY1YmtOR29ZUQ?oc=5"
         },
         {
-          "title": "방한객·관광소비 역대 최대인데... 외국인 돈 70%는 서울로",
-          "source": "민중의소리",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuZUM1TjVsSHBJYmI3X1FRUTJaaFZqX0dkdXlrNWtuXzNYdWE2bXprRWVMVVIwTjh4SnlPV2VNWTlycmp1b1lmY0pYNA?oc=5"
+          "title": "현대백화점, 외국인 관광객 동선 잡는다…삼성역 일대 '월드패스'로 묶어",
+          "source": "위키리크스한국",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCUF9ieUFXS1haS0ozVEhHSFVxNTg0V0JjeXZVamQzNUE5MGpGOEpmQ2QzaHRNdDlUNEFlT2xBbjU4aVNxWFRnSkZHUnhQZEZrMEtyTGFySHR0RDVKdTdGd2I5STcwdjdzVDY3eEdydmo?oc=5"
         }
       ]
     },
@@ -51,29 +46,29 @@
       "name": "🏢 부동산·정책",
       "items": [
         {
+          "title": "호텔 업계의 성장과 AI 도구가 에어비앤비 주가에 미칠 영향",
+          "source": "Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzFrQW4wQkVnSnQ2MGJmbGNFQ0xXZXlFaHh0WU9LWU1sRXJlZkZqSlhBZ2xZNlUzUEZPcF9pRi1OUk94ZS1OWVcycXl1V3IzdlJWTUpUamRpNjhFZ2ZMa3JodXUwTEozUXpfQ0dZOEs0MFBUbV94R2lEV2hJUjRTZU5uQWdKbTF4RmRNa2RiWG5GTXpJejNvcdIBngFBVV95cUxOQ051LUttSHlSNHdpWG84Ry1udThMQ2hYd01RRXJ2V2ZXTXo1a2szSEZhV0llVm9HbEFZU2JZZ1JnNTdQU0pBc3ozalp5dmV1TnVBekVKdjFEdWp5ZHJPN3JqQTFyVWUtVWVhVVBNMW45LUdtUkUxaFFuSllQeHlLdVBKN2s0dHFlUXdURFV2cjZNSE5TM0lDRzktLW1Sdw?oc=5"
+        },
+        {
+          "title": "종로보령빌딩 매각 입찰에 5곳 참여...한화호텔앤드리조트 '눈길'",
+          "source": "딜북뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVleHlQSENsREdiN2oydXBCNmFodDZFNDFrVkZqc0RlWXg4a3FkWDZkN3Jmb3BQZEZGd2tNVXcyYkxZbGF5bzdJaFFBRnd4a0Y3cFhKS2RSUm5aWnBpZXh1am1EN1RCd3l4R21lQi1Nc2FiaUF4S1hIb2xtSTdGT0phTVF0WkMwUzZrMVU0UlA3X0FDS1M4d1dRQzVmb2lPcV9va3lKYXN3ZWc?oc=5"
+        },
+        {
+          "title": "HVS스타일로프와 손잡은 쿠시먼, 옛 모두투어리츠의 서울 독산동·동탄 호텔 매각자문사로 선정",
+          "source": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyQWxqZklYd2RmbWxxMjUzUWpPSEdkV3k0ODJ2RVdJRG1BM185ck01b0M0RlhiTFhFWk05djZQd3dXdXdDeUUyYWNQNmhwM3FKanVSVTZsTmxxeFk?oc=5"
+        },
+        {
           "title": "양산시, 노후 숙박업소 5곳 시설 개선 지",
           "source": "숙박매거진",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LUmZ5eTZIcGhtSHRzRndUdGxhSU53eVBUVlF6Y2FEcVV6VzJrd2lBYnBrWXdIZmJUVWJ1eDZpem5BN2Y0bWtuY1NVaHRzUXZSMlZiQS1oTmloYWtoMkk1WjFDRWRkMjlKM08xTUk0SEU?oc=5"
         },
         {
-          "title": "[단독] 장충동 풀만 호텔, 브랜드 변경 검토… 후보군은 어떤 브랜드?",
-          "source": "시사위크",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43VlZ2RVh0Ykt0bDhMdjRuXzYxYWJ5UHhYclZ0c1dyeW5pUlVCTlduUlN6ZWpRMHpHeVRab2lELUw5WHJLR2FiVm9wWURFYUdfdkVrSVQzOEdKTjAxazlCbDFhZlBqWnk4SFZZWkRZONIBb0FVX3lxTE43VlZ2RVh0Ykt0bDhMdjRuXzYxYWJ5UHhYclZ0c1dyeW5pUlVCTlduUlN6ZWpRMHpHeVRab2lELUw5WHJLR2FiVm9wWURFYUdfdkVrSVQzOEdKTjAxazlCbDFhZlBqWnk4SFZZWkRZOA?oc=5"
-        },
-        {
-          "title": "한화호텔앤드리조트, 유동성 보강 총력…김동선 ‘성장전략’ 시험대",
-          "source": "ESG경제",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiSkJQTHpwTmR1ZXhuQlhyOTFheHJsNVY0MFlRZFdxWm52RU1Oay1fMUV4VTJZRGptVmVDUFNINm1OLVg5OUNsdUJqVEJzcVduLTdVelNRclNDUEdIMHp1OEJ3VTNnenB3cmx0Sw?oc=5"
-        },
-        {
-          "title": "[김동선의 뉴한화] 한화호텔앤드리조트, 이자보상배율 0.6배…M&A 여파 유동성 확충 '골머리'",
+          "title": "[김동선의 뉴한화] 한화호텔앤드리조트, 토지 장부가 1.4조…자산 유동화 촉각",
           "source": "딜사이트",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1EdW82NUtUUFBYZFh5dGo1UmsyTzJmUEx6QndCclVWazJ1a1RnOGdaUllXclZZdkpwMVN4Mld0ZWszNVlRcE1JUEJpRU02ZUU?oc=5"
-        },
-        {
-          "title": "축구표 한 장이 식당·호텔·관광까지 움직인다",
-          "source": "한국공공정책신문",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9ReVNLV2hwb2RZMDY5dDJGWTV4RzkxVzNNdzQ2RnZTWEdmUmRLQThFcUxfRDhIeDF2WWtSOWJlaGhWbzA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtZmY1Y09LMWRocU5HbVNldkFBbGRLMDR2eUhHdTM4b0pEb3hXTlY0b3o3Tlh0UnY4U0V3ZHVqMG9OWmV1NFFxZlhGSVFlbEk?oc=5"
         }
       ]
     }
