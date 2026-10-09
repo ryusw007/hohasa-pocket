@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson36",
+    "title": "호스텔, 처음 시작하는 순서",
+    "date": "2026-10-09",
+    "cover": "lessons/lesson36/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson35",
     "title": "공사 기성금, 공정 따라 나눠 준다",
     "date": "2026-10-08",
