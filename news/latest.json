@@ -1,10 +1,15 @@
 {
-  "date": "2026-10-09",
-  "updated": "2026-10-09T14:31:28Z",
+  "date": "2026-10-10",
+  "updated": "2026-10-10T14:41:46Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
+        {
+          "title": "남는 방에서 찾은 두 번째 소득…공유숙박에 눈 돌리는 N잡러",
+          "source": "이투데이",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhUXplOWFLdU84NHdxUGljMTQzM1JmaFJsSjBPZ2Q5VUxCVHBCUzRvSk00c2QwTEhNSXM1YTA2cWVkSTBUWGpoM25JLTdFbzJjMmp5X3UxS2lTVDFGWGpVRF8zVHhsaTllTHFJaQ?oc=5"
+        },
         {
           "title": "공유숙박도 ‘산업’ 됐다…‘K-Stay EXPO 2026’ 첫날 사전등록 8000명 몰려",
           "source": "뉴스탭",
@@ -24,11 +29,6 @@
           "title": "게스트하우스는 ‘길벗쉼터’, 쿠키영상은 ‘꼬리영상’…울산 학생들이 바꾼 우리말",
           "source": "한겨레",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56dTVmMzN1QS1nWnZBVVZSdFVLTExtcHFMN0M1SGVQbF91MlMzWUtFeTV6SlhIS2JwcFNFWlVwcEM0TE5FTzZVMGk5c0lBajVOWHpZZXlJb0pwa0tTZ3U5X3lUdWQ?oc=5"
-        },
-        {
-          "title": "박물관·스튜디오·게스트하우스 한곳에…광주 충장로 ‘영화·영상 플라자’ 추진 논의",
-          "source": "www.thepowernews.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NU2NhLUZkaUN2WUt1ODA1YXhZenNKWHc0NktfWllDQTVPUjRuYTRPZGpDTDdjZzRTSXdFN0NBTVFhbDAzZzZKRHVILU15dXVkcE52OTNjTWozRlBWRm4ySGR5b1AzMHRDTGlQYk0tSHBKd0c2dkRFYTdwNnkxdw?oc=5"
         }
       ]
     },
@@ -36,19 +36,14 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "강남 넘어 명동까지! 외국인 관광객 사로잡은 ’K-의료 쇼핑’ 열풍",
-          "source": "채널A",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ycEhITnpiVG5zZGhiU05jYkwxenRyVmU3WkdEVi1OTVMzMUdEZ2ZnN21pSG5LVHFQRUU5YXh4aGpyYmY2ZEczb1EzdnhhQno0UkNYX2lOaUUtMU1nbkpn?oc=5"
+          "title": "[맛집 리뷰] 언주역 BBQ 빌리지 논현점, 겉은 바삭 속은 촉촉한 황금올리브… K-치킨 찾는 외국인 발길 잇는 서울 BBQ",
+          "source": "CEO경제신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Wbzl2eGNFV1p6VldvajA1WEktRlRsQWJ5bExnaVdKdGhyS204bklDMnd0OWdxRmt6eTdwV0ppTHIxNndZTjAtek1fNkU3N1BJaVB5emp4RXJlY1JtNkluSnJ1QnRORlowd2F5Ug?oc=5"
         },
         {
-          "title": "위홈, 서울 홍대서 내·외국인 대상 무료 짐보관 이벤트 진행",
-          "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qR2M5OGJ6UXI0SFpCZEs0c0NMMFhZaTB4SDBzbEItWHJBR0p4azQ2WDFGMW5qTm9MZTFSTTkxam1uZ0pwSE0wUmhxTmlBSklHczFvckdTSm9SN3dwcEhzeXVJZHlLYWJkN1N4djU0bmJ0UQ?oc=5"
-        },
-        {
-          "title": "서울 외국인 관광객 1156만명…오세훈 관광 성과, 지방으로 확대",
-          "source": "아주경제",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YUG4wX1JYN1ZwTm5zZWFQWktDVThmOV9KSnZnZUg1R0xXUnZfSmJJQ2RhSE1RZ0tjSG1GdTRiTDA0ZVRXdUxvdGJqRXFsUUloX1JjUnR1LU7SAVhBVV95cUxPWFBuMF9SWDdWcE5uc2VhUFpLQ1U4ZjlfSkp2Z2VINUdMV1J2X0piSUNkYUhNUWdLY0htRnU0YkwwNGVUV3VMb3RiakVxbFFJaF9SY1J0dS1O?oc=5"
+          "title": "서울 방문한 외국인, 지난해보다 22% 증가…카드 소비는 60% 증가",
+          "source": "위키트리",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04NHIwNzhLSVhBbnozRXBjWVVscWNsYk5WWkFzaTBvSXo3N3JBWlZZTzkyQTR6V1k0WXI5QThhSTI0bEtqcW5kUU53dl9fbEJUblB3WFRR?oc=5"
         },
         {
           "title": "외국인 관광객도 반한 상어 '부캉이'…주둥이 상처에 걱정도",
@@ -56,9 +51,14 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vNUJ3NGQzU21lb3hmQ1NnWGFTa3h5ZkozaHJSbVBsaFpBd3gtc3RLSDhkUno5OGFqNXBSWHdDeEJWODVfX2NEU1FLTnN1VjQydndkeWpMeVJqSkdPNnFZU0hhTkRCdXEtSWJ1Qw?oc=5"
         },
         {
-          "title": "올해 1~8월 서울 찾은 외국인, 월평균 1조원씩 카드 긁었다",
-          "source": "헤럴드경제",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sX1dyTE9zOGpndGk5RVZUQjdLcnZ1MmMzVnlDNTYydlRDWkRMZ0pxcUlieklmZkNZVzh3YmxaWHAxUzdhZUgyU3RNZzJlRU0wb25RdFdB?oc=5"
+          "title": "경복궁에서 휴일 즐기는 시민들과 외국인 관광객",
+          "source": "뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2WVBpQUUxWER2Z1VJR2ZuazgxUEJDSElrcm9BRlZ6VDkzdy1wVmVPVXUyY2piSlVSZTNmYVF1OTh5MUlPQkxtbHgxel9DZVBteTRyeFhfNnRac0pUbTl5Rg?oc=5"
+        },
+        {
+          "title": "[문상윤의 미식관광 산업 읽기] ① 먹으러 와서 덜 쓰고 간다",
+          "source": "프레시안",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpRGhNTnJrUGZHblp6cWZUMU1VeVJYZnJYeTMwMXI1UXp1S1lkV2xoQTFlS0d1dlJYQmlyenZRTnBHZ3pnMmtlUTQxaHVNbGdmWlZxdFVhQVZQT3ZGWjRRWTdhOGlrTE9ObmJn?oc=5"
         }
       ]
     },
@@ -66,29 +66,14 @@
       "name": "🏢 부동산·정책",
       "items": [
         {
-          "title": "종로보령빌딩 매각 입찰에 5곳 참여...한화호텔앤드리조트 '눈길'",
-          "source": "딜북뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTVleHlQSENsREdiN2oydXBCNmFodDZFNDFrVkZqc0RlWXg4a3FkWDZkN3Jmb3BQZEZGd2tNVXcyYkxZbGF5bzdJaFFBRnd4a0Y3cFhKS2RSUm5aWnBpZXh1am1EN1RCd3l4R21lQi1Nc2FiaUF4S1hIb2xtSTdGT0phTVF0WkMwUzZrMVU0UlA3X0FDS1M4d1dRQzVmb2lPcV9va3lKYXN3ZWc?oc=5"
-        },
-        {
-          "title": "30년역사 호텔이 주차장·창고와 동급?…수백억 상속세 내라는 개편안",
+          "title": "호텔업 稅개편 직격탄 …\"상속세 0 → 109억\"",
           "source": "매일경제",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oNkVIZlJ1ZWZkMjRkRHpGaDZTTnpqYVl2VXB4cTVDbnZPRkNQTkVyVzExN21KcTZhQ2JqYVpDYnhwSkZTcEpKRXZfU1NNZFRLVWthcQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PM0xFRng4eDdrMnVsVXRldTR5bTEtZkxVbkVJRGprdDhxSFhaX2t0aG56Z0hiU2p5emZjM242U2YtRWxwYkp1cHdaOGVFcHFESllHQQ?oc=5"
         },
         {
           "title": "[강화군청, 이렇게 일한다③] 관광만 있는 게 아니다…문화·복지·환경까지 책임지는 문화복지국",
           "source": "한국뉴스",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBranJpS3ZjdDBDWGFTTDZpeHB6cFcxV1VMcmlSZlNrQ0t1NDB0ZnlKMjBEdHF6V3RkRGEtd0dSaUEtWjNveXR6bVphUVZPSTFkN2FYVG5vOC1MV2lDZERXQXRPLVpiZnfSAWtBVV95cUxQbHNVVG9ic2EtMkpvTU1MdjdzX3VlTDhpZmtkY3ppbmFENVZLaE9nVWYxMUkwSmRTdFFYREJvT3FoUzRYU3lWdWtiYzd6aFN3TWpGRlJzNkY1RDFLQTZhN3M5QndYNGxrVkNYOA?oc=5"
-        },
-        {
-          "title": "한국 관광 세계 12위…오기는 편한데 머물기는 불편하다",
-          "source": "ER 이코노믹리뷰",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kQWhfdEF4Ny1nMVplUVBOY0xLeVViNFBHX3pxZ3pra0Nva2Y0MFgzRVJPWjY5RUJYYUI0ejlNanBPbC1oTG9Nd0RYRTczWWJobFlLcm13amU1ZmVob093Yi1zMEg1aVhrS3Z0bg?oc=5"
-        },
-        {
-          "title": "킹스마겐, 부산 영남권 호텔·리조트 자산 전략 자문 강화",
-          "source": "경상일보",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wRTR5M2tMai0xaHB4a2p1bWtyVTVIeFF0Tzk0WW0yMHNQc3hqcUZ1eVM2NDhMZGtpWE9pdXVBUVEyeTN3cVBYTFBDWkVKZlJkbUNQZ0VDYmZ0bnVLeG15T1AxMU04cnpRRjRKdQ?oc=5"
         }
       ]
     }
