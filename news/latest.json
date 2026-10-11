@@ -1,34 +1,24 @@
 {
-  "date": "2026-10-10",
-  "updated": "2026-10-10T14:41:46Z",
+  "date": "2026-10-11",
+  "updated": "2026-10-11T14:30:36Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "남는 방에서 찾은 두 번째 소득…공유숙박에 눈 돌리는 N잡러",
-          "source": "이투데이",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhUXplOWFLdU84NHdxUGljMTQzM1JmaFJsSjBPZ2Q5VUxCVHBCUzRvSk00c2QwTEhNSXM1YTA2cWVkSTBUWGpoM25JLTdFbzJjMmp5X3UxS2lTVDFGWGpVRF8zVHhsaTllTHFJaQ?oc=5"
+          "title": "\"나도 에어비앤비 해볼까\"…국내 첫 공유숙박 박람회에 8000명 몰렸다",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOa1lhM3JDLWwyTW9KVmJKdTNuME5OOTBBdWt3eFlFY25ZRXU3T0RnYkZQMzFCc3g2OUpoU0hWdFU5Q3Z3S3ZKTk50UmNuclEtRHlhQ2J6YmczeW5heUFPZQ?oc=5"
         },
         {
-          "title": "공유숙박도 ‘산업’ 됐다…‘K-Stay EXPO 2026’ 첫날 사전등록 8000명 몰려",
-          "source": "뉴스탭",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qb3pfbmFvR0pONVdqQmVGMFFLWnl2QUljQXdWVnlkU2Yyc19JWndRbWxCdE5SLU9XQzF2SmpnRG5IRE00aER1Z1FjakR2NGZUeTVZd29yVTdJQ1h1RXE1eG9zYUhIUGtoTGc4aA?oc=5"
+          "title": "‘K-Stay EXPO 2026’ 서울서 개막…국내 첫 대규모 공유숙박 박람회",
+          "source": "퍼블릭뉴스통신",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1alQ2UnF1cFBmU1pfYnh0U3dmRVA5SnFTR3Nkc0drclA4VzZEcHB2WnZsenM3X0t3OWltM21mZE9uZ2RkSjlwSzRfRHY1ZmR0eFQyTzV6ODNfaDRneTNYcDFHUUp1aDNKZzRJ?oc=5"
         },
         {
-          "title": "내년 메가 이벤트 쏟아지는데…공유숙박, 숙소 대란 막을 카드로 부상",
-          "source": "헤럴드경제",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tTThmdW5kbzRwdGo3bldVUUkyazdCa3AtSW5TUjhHbHFSYlNnVzJhbzl6Nm50QkY3SG9BUG5TX0VxT0FNV0xnVV9yWmdtclViLU9wcGh3?oc=5"
-        },
-        {
-          "title": "국내 첫 공유숙박 박람회 ‘K-Stay EXPO 2026’ DDP서 개막… 관광 인프라 및 제도 개선 논의",
-          "source": "디스커버리뉴스(DISCOVERYNEWS)",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TOTBwQ0pVLXh1b29jSy02eFVZRGVwLXAtYWwzSGpyenVqTVpHN0Y2b1NtMzRKNHFqVmdYeG5hNlZDbmJrV1dPNnVaOEFkNWZ4OEFla1UzdXh5OXBRbi00YWVFT1FxZ0V4TnV2Tko5V3padw?oc=5"
-        },
-        {
-          "title": "게스트하우스는 ‘길벗쉼터’, 쿠키영상은 ‘꼬리영상’…울산 학생들이 바꾼 우리말",
-          "source": "한겨레",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56dTVmMzN1QS1nWnZBVVZSdFVLTExtcHFMN0M1SGVQbF91MlMzWUtFeTV6SlhIS2JwcFNFWlVwcEM0TE5FTzZVMGk5c0lBajVOWHpZZXlJb0pwa0tTZ3U5X3lUdWQ?oc=5"
+          "title": "하얏트부터 료칸·도시민박까지…대구 관광 `묵고 싶은 숙소`가 관건",
+          "source": "매일신문",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UMnk3eG1GX29FVjZPT1UyVVYtZ0poQW4yX1p2RkZ1d3NfZFQ0SV9HQ2JjeWZteVluN3NSTkpaNXRxaVIxMFVSTm8yZ005dU5FUzNRbWFHZE10aGNaTy1hV0Nn?oc=5"
         }
       ]
     },
@@ -36,29 +26,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "[맛집 리뷰] 언주역 BBQ 빌리지 논현점, 겉은 바삭 속은 촉촉한 황금올리브… K-치킨 찾는 외국인 발길 잇는 서울 BBQ",
-          "source": "CEO경제신문",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Wbzl2eGNFV1p6VldvajA1WEktRlRsQWJ5bExnaVdKdGhyS204bklDMnd0OWdxRmt6eTdwV0ppTHIxNndZTjAtek1fNkU3N1BJaVB5emp4RXJlY1JtNkluSnJ1QnRORlowd2F5Ug?oc=5"
+          "title": "매운 것만 찾는 줄 알았는데…외국인 관광객이 서울역서 가장 많이 산 라면",
+          "source": "세계일보",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jUkhTUllzajk0QU9QaUt4LXJHbEZnejFSNDI5MVRMUDdCWmlMNmdQNkFwUjdqemdoYlBQMHluekRfZ2xiX2c0V3hMaTdzdjNp0gFUQVVfeXFMT1ktb2xoTTFQczFubnpiWFF0b2VFNGY1UWdnUkNsVElIWndFOFpkSUlIV3lWTU9Ic3h4ZE5lLVk0TWRpZnFpY0lQY3JrV19QUlcyLWlS?oc=5"
         },
         {
-          "title": "서울 방문한 외국인, 지난해보다 22% 증가…카드 소비는 60% 증가",
-          "source": "위키트리",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04NHIwNzhLSVhBbnozRXBjWVVscWNsYk5WWkFzaTBvSXo3N3JBWlZZTzkyQTR6V1k0WXI5QThhSTI0bEtqcW5kUU53dl9fbEJUblB3WFRR?oc=5"
+          "title": "익산시, K-푸드 체험·축제 연계해 외국인 관광객 유치",
+          "source": "전북도민일보",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYVE4dmFuZEFyT0Q2dVpNaklDYjVxdG8yOXNBUXhZZHVhTWRoQXU1Slh6bmhPQkQ5R1k3UENLY2QyR2RzT1lEQ2YyOEZMbVY2ZXotblZaMkhsNXBmN1NqNS0yUEpLZzhHcFlubERRUzlCbmxsZ3hzZTNJek9TdzBaZzhMOFc0bkE?oc=5"
         },
         {
-          "title": "외국인 관광객도 반한 상어 '부캉이'…주둥이 상처에 걱정도",
-          "source": "콜뉴스24",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vNUJ3NGQzU21lb3hmQ1NnWGFTa3h5ZkozaHJSbVBsaFpBd3gtc3RLSDhkUno5OGFqNXBSWHdDeEJWODVfX2NEU1FLTnN1VjQydndkeWpMeVJqSkdPNnFZU0hhTkRCdXEtSWJ1Qw?oc=5"
+          "title": "\"문 좀 잡아주면 안 되나요?\"... 한국 여행 온 외국인 관광객들이 당황했다는 의외의 순간",
+          "source": "발품뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zTExUXzRCY2ZTQW4yNm40NF9LSHBLQUJIRmdUUmF5ODN3VkUtU2s5WlctVjV1VmN0X1NLRWUyMVBQaU1xdVMzVncxb3JtMXo0anExY2ZVTkxRSzczSDFrd1FJdG9TUdIBbkFVX3lxTE0zbHZGLTk1QnFKcVNfRUM4cE5ISkVXUGdscnQ2aGlKbS1aZzM1YWJMNUhPX3NibDFsRVB1TGcweXNjTmo4ZkR0TWtFVlNKX2xiQzM5b1l1MmFmeGRWU1E4TDF5RlhxN3YweWRQUnN3?oc=5"
         },
         {
-          "title": "경복궁에서 휴일 즐기는 시민들과 외국인 관광객",
+          "title": "가을, 한복 대여점 골목 외국인 관광객 북적",
           "source": "뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2WVBpQUUxWER2Z1VJR2ZuazgxUEJDSElrcm9BRlZ6VDkzdy1wVmVPVXUyY2piSlVSZTNmYVF1OTh5MUlPQkxtbHgxel9DZVBteTRyeFhfNnRac0pUbTl5Rg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wLXR5b214dWJ2WThaV1FMMkl6NTVVWTQyVXZJRkpMbUZOcTZHTHFfZnBrM3YzMXMzSEt2LVpRMjdEUm1TM0MzTHUyWDZTU3JqbjhhYW9zSjVOYkZsckU1MnFzblZoUQ?oc=5"
         },
         {
-          "title": "[문상윤의 미식관광 산업 읽기] ① 먹으러 와서 덜 쓰고 간다",
-          "source": "프레시안",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpRGhNTnJrUGZHblp6cWZUMU1VeVJYZnJYeTMwMXI1UXp1S1lkV2xoQTFlS0d1dlJYQmlyenZRTnBHZ3pnMmtlUTQxaHVNbGdmWlZxdFVhQVZQT3ZGWjRRWTdhOGlrTE9ObmJn?oc=5"
+          "title": "쓰레기 줍는 시민들에 외국인 관광객도 호응…목포 평화광장 ‘깨끗하게’",
+          "source": "더파워",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93a25weTAxcmQ0QkpIYkhhMC1rdzRpZGZ3NDNpc1h4WEtBQXBFWmI2QjFfRkoySlJIUDVYVkdIcUduZEVTdVdaZXdWZ2U1VkFVSUllTHRYSDNUeEMyLWN3WjJsRXFpb3pFbkJETWh2Z0Uwem9ld09QMDhjeHJSZw?oc=5"
         }
       ]
     },
@@ -66,14 +56,19 @@
       "name": "🏢 부동산·정책",
       "items": [
         {
-          "title": "호텔업 稅개편 직격탄 …\"상속세 0 → 109억\"",
-          "source": "매일경제",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PM0xFRng4eDdrMnVsVXRldTR5bTEtZkxVbkVJRGprdDhxSFhaX2t0aG56Z0hiU2p5emZjM242U2YtRWxwYkp1cHdaOGVFcHFESllHQQ?oc=5"
+          "title": "대물림 막으려다 장수 기업까지 흔드나…상속세 개편의 역설, 호텔·병원 ‘발칵’",
+          "source": "더퍼블릭",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lS19fQlp2WGxaWFQtWkJveTY2N2xWd25KdUxLRFF0Y2pxTXh4LXU5a1JOYjdVNzIwRU9QSEhiTVI3UFZRR1AzaS1vTTI4akpZU29Ba2ZzbFhtQlZXM2VIMG9CUnpZNF9KTElj0gFvQVVfeXFMT2FGdDJGaGI5dXlLVGt1NWdZSmYzT2dHamRnMFBraDhUbTJ1U0lWZ0x5eXI3T0VzTnFaLWFmRkVFbGZtaUhVLU5kUTg3bGVqOVpwekdaNE5zYU5xcjJ4MFBacUpCcVdkaEkzTWVnQzlR?oc=5"
         },
         {
-          "title": "[강화군청, 이렇게 일한다③] 관광만 있는 게 아니다…문화·복지·환경까지 책임지는 문화복지국",
-          "source": "한국뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBranJpS3ZjdDBDWGFTTDZpeHB6cFcxV1VMcmlSZlNrQ0t1NDB0ZnlKMjBEdHF6V3RkRGEtd0dSaUEtWjNveXR6bVphUVZPSTFkN2FYVG5vOC1MV2lDZERXQXRPLVpiZnfSAWtBVV95cUxQbHNVVG9ic2EtMkpvTU1MdjdzX3VlTDhpZmtkY3ppbmFENVZLaE9nVWYxMUkwSmRTdFFYREJvT3FoUzRYU3lWdWtiYzd6aFN3TWpGRlJzNkY1RDFLQTZhN3M5QndYNGxrVkNYOA?oc=5"
+          "title": "'1박에 3성급은 98만원, 5성급은 200만원'…10만원짜리 부산 불꽃축제 자리, 호텔서 보면 또 '바가지'",
+          "source": "아시아경제",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcmhaWkRYM0k2UkNrVi1vc09MTk1MWDc0TzlMZUxKWlNPeDVEZ1MwcUc3YU5XQ3BGQjRDdmlIbUJPOXBwbUNkLTcwcG5hemV1azJ6Q1NQc0VUeTlTcTllRVdmMkZBMWFwd3Uyc3VzdURqaUNRV0RQZ09Sb1U3ZFlDNzZ3?oc=5"
+        },
+        {
+          "title": "부산불꽃축제 앞두고 숙박비 최대 10배 폭등…바가지 논란 반복",
+          "source": "진일보",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxLUxnQVg2dzFtRjhjOUR1b1BPQ3gyeWNWT3ZPbURiRW54ZEpnNHNHWDQtRi1GRWlwV3RPRXZqU1psczJMUTJjRkU0VTBvbDZxTHVvazl6aFRBWGdyREtzU0dGcWFqT3dQMnJHV2JBRQ?oc=5"
         }
       ]
     }
