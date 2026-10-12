@@ -1,24 +1,34 @@
 {
-  "date": "2026-10-11",
-  "updated": "2026-10-11T14:30:36Z",
+  "date": "2026-10-13",
+  "updated": "2026-10-12T15:09:25Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "\"나도 에어비앤비 해볼까\"…국내 첫 공유숙박 박람회에 8000명 몰렸다",
-          "source": "뉴스1",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOa1lhM3JDLWwyTW9KVmJKdTNuME5OOTBBdWt3eFlFY25ZRXU3T0RnYkZQMzFCc3g2OUpoU0hWdFU5Q3Z3S3ZKTk50UmNuclEtRHlhQ2J6YmczeW5heUFPZQ?oc=5"
-        },
-        {
-          "title": "‘K-Stay EXPO 2026’ 서울서 개막…국내 첫 대규모 공유숙박 박람회",
-          "source": "퍼블릭뉴스통신",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1alQ2UnF1cFBmU1pfYnh0U3dmRVA5SnFTR3Nkc0drclA4VzZEcHB2WnZsenM3X0t3OWltM21mZE9uZ2RkSjlwSzRfRHY1ZmR0eFQyTzV6ODNfaDRneTNYcDFHUUp1aDNKZzRJ?oc=5"
+          "title": "국내 최초 공유숙박 박람회, 서울 DDP에서 개최",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00TEl3YUlwUHZiUHRXWEtBaTFwVWJ4TlJ4N2hnVkxESnhxMGhoUWkwTE5oSWpmVUsxbEFLZElKOXQ0N2I4Z19PUUExTHdkUG9EbG44YUtEYVJOTGduN2k0aUloRlYyckdYQ3VtVXV6R081QQ?oc=5"
         },
         {
           "title": "하얏트부터 료칸·도시민박까지…대구 관광 `묵고 싶은 숙소`가 관건",
           "source": "매일신문",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UMnk3eG1GX29FVjZPT1UyVVYtZ0poQW4yX1p2RkZ1d3NfZFQ0SV9HQ2JjeWZteVluN3NSTkpaNXRxaVIxMFVSTm8yZ005dU5FUzNRbWFHZE10aGNaTy1hV0Nn?oc=5"
+        },
+        {
+          "title": "[분양 NOW] 골프·스파에 24시간 건강관리…호텔 닮은 남판교 더힐",
+          "source": "매일경제",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBFOERVbVdRV09pR0Z0Q0ktcjNNMnd0dkRobXJBcmc5WjM5MUpsMmNHSzlaQWN2ZGZISlh5ZllGQ1ZFZEtfQmc?oc=5"
+        },
+        {
+          "title": "글로우스페이스, 숙소 체크아웃하면 청소 인력 연결…‘체크아웃히어로’ 연말까지 무료 운영",
+          "source": "벤처스퀘어",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82aVljbExHVXRCR0pUV2Y1VTVJZHNqVnJhbDJrd3FzX2MzdkR2RzFmdG1HWHNPRTZNa2lKLWpTWHNYNGdFemVwVWxiUC1td2c?oc=5"
+        },
+        {
+          "title": "전북경찰청, 외식·숙박업계와 노쇼 사기 예방 맞손",
+          "source": "전민일보",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhNnNkNWxKM0piWVpZWHgwWTB3M01Vb2FYRVpyejQyMUV1dFA3ZXJibmZoYU5ER0RiY2pGR0xhMENKdHd1YTk2QjZicmliVHNaRm1FTUsyZVdsRXQyVUN1T1ZxcU5Gdw?oc=5"
         }
       ]
     },
@@ -26,29 +36,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "매운 것만 찾는 줄 알았는데…외국인 관광객이 서울역서 가장 많이 산 라면",
-          "source": "세계일보",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jUkhTUllzajk0QU9QaUt4LXJHbEZnejFSNDI5MVRMUDdCWmlMNmdQNkFwUjdqemdoYlBQMHluekRfZ2xiX2c0V3hMaTdzdjNp0gFUQVVfeXFMT1ktb2xoTTFQczFubnpiWFF0b2VFNGY1UWdnUkNsVElIWndFOFpkSUlIV3lWTU9Ic3h4ZE5lLVk0TWRpZnFpY0lQY3JrV19QUlcyLWlS?oc=5"
+          "title": "황금연휴 외국인 관광객, 서울이 맞았다",
+          "source": "여행신문",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoRjg4OERyZnBXeDlLVVFMdUxFZVJLUW05TGtyMW01Q0xzNnhDSEtscE5abWFaSV9MclZjQ1JKdllLX043X1JiTkR4Rk9yaTA4SnFLdVdEelNQTWpReFNRbkg5TFM3U1pLelZjNUNfTUVLUQ?oc=5"
         },
         {
-          "title": "익산시, K-푸드 체험·축제 연계해 외국인 관광객 유치",
-          "source": "전북도민일보",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYVE4dmFuZEFyT0Q2dVpNaklDYjVxdG8yOXNBUXhZZHVhTWRoQXU1Slh6bmhPQkQ5R1k3UENLY2QyR2RzT1lEQ2YyOEZMbVY2ZXotblZaMkhsNXBmN1NqNS0yUEpLZzhHcFlubERRUzlCbmxsZ3hzZTNJek9TdzBaZzhMOFc0bkE?oc=5"
+          "title": "서울시관광협회, ‘2026 서울환대주간’ 대장정 성료…“명동부터 남산 K-축제까지”",
+          "source": "비즈월드",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PbEtpVXUxamg1ZWg2WVVYNmJ4dHRJLUdvUFlaTHVxX2NpcmNhYTBaMTh5U0NYTmJXb0N3dDNsWE10cVYyMEJZMk9aUjhpMi1MNEtiSTM4cVRGbUFlNUxkdlhGaVZlZ2cydEE?oc=5"
         },
         {
-          "title": "\"문 좀 잡아주면 안 되나요?\"... 한국 여행 온 외국인 관광객들이 당황했다는 의외의 순간",
-          "source": "발품뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zTExUXzRCY2ZTQW4yNm40NF9LSHBLQUJIRmdUUmF5ODN3VkUtU2s5WlctVjV1VmN0X1NLRWUyMVBQaU1xdVMzVncxb3JtMXo0anExY2ZVTkxRSzczSDFrd1FJdG9TUdIBbkFVX3lxTE0zbHZGLTk1QnFKcVNfRUM4cE5ISkVXUGdscnQ2aGlKbS1aZzM1YWJMNUhPX3NibDFsRVB1TGcweXNjTmo4ZkR0TWtFVlNKX2xiQzM5b1l1MmFmeGRWU1E4TDF5RlhxN3YweWRQUnN3?oc=5"
+          "title": "[외국인이 더 많은 K-패션 매장 ④] 서울 정체성 담은 K-패션 거점 '무신사스탠다드 명동중앙점'",
+          "source": "패션비즈",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11QlJrVDFHM19ubFFNazhndmJSVFdvLUFfNm5Cd0pKNFdEdjE3RFg4Z0xxc0ZqS3ZXOGhJdmdJbWxCSnhGTmIzajhKQU9hbkFw?oc=5"
         },
         {
-          "title": "가을, 한복 대여점 골목 외국인 관광객 북적",
-          "source": "뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wLXR5b214dWJ2WThaV1FMMkl6NTVVWTQyVXZJRkpMbUZOcTZHTHFfZnBrM3YzMXMzSEt2LVpRMjdEUm1TM0MzTHUyWDZTU3JqbjhhYW9zSjVOYkZsckU1MnFzblZoUQ?oc=5"
+          "title": "세계 최고 관광 인기 도시 1위 서울…명동은 지금 세계인의 축제장",
+          "source": "한국시민기자협회 뉴스포털1",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YWmZFOWRyZEtxN1N3dnlNbm04ejJwQU1LbFlUUzI5REZMSmhvT28zVWMyRG9mVDg4OTh2SF9ObXpFWTg2OFU1QUpNNmk4ZTNDSFhleER3Tkx6cWxlYkVBemE5bGJVWjlyTno0S2RjQzFsZDDSAXdBVV95cUxPb3R0WkRaa1FNaVdVSWtXdkpjbjJ0eWRWcG4xb2xwQkJoUFptVkMzT1pXMnkwVGdRcnpMdHpaaFpGVjZNckxyZk1hMzBBd2JqRlZfQU1xVEhtZEpSS3hmQm9WRmpDV1JMRFRLYzVTSDhuSGRlcGtKSQ?oc=5"
         },
         {
-          "title": "쓰레기 줍는 시민들에 외국인 관광객도 호응…목포 평화광장 ‘깨끗하게’",
-          "source": "더파워",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93a25weTAxcmQ0QkpIYkhhMC1rdzRpZGZ3NDNpc1h4WEtBQXBFWmI2QjFfRkoySlJIUDVYVkdIcUduZEVTdVdaZXdWZ2U1VkFVSUllTHRYSDNUeEMyLWN3WjJsRXFpb3pFbkJETWh2Z0Uwem9ld09QMDhjeHJSZw?oc=5"
+          "title": "“해외 카드로 결제 OK”…서울스마트, 외국인 전용 택시 플랫폼 출시",
+          "source": "서울경제",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40TkZCemEtczAtZDJ0bmUxSGRvSU1FTUhOc0Rib0Z4VkRpTnFfT3hsVXU5V19sYmNKYTk3U2g1dGxVd0hSZnhQang0M3lDNTM4Y3fSAVNBVV95cUxQTEJadlEwODE0X0p0YlJuLWpGSVlYNElEa3AwNjYySVp2dUFLb0Y2WGpfdU9nSXVLT2ZiaGtsNDlFand6MWZ2Q0w3cFlYODlPc3lnYw?oc=5"
         }
       ]
     },
@@ -56,19 +66,19 @@
       "name": "🏢 부동산·정책",
       "items": [
         {
-          "title": "대물림 막으려다 장수 기업까지 흔드나…상속세 개편의 역설, 호텔·병원 ‘발칵’",
-          "source": "더퍼블릭",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lS19fQlp2WGxaWFQtWkJveTY2N2xWd25KdUxLRFF0Y2pxTXh4LXU5a1JOYjdVNzIwRU9QSEhiTVI3UFZRR1AzaS1vTTI4akpZU29Ba2ZzbFhtQlZXM2VIMG9CUnpZNF9KTElj0gFvQVVfeXFMT2FGdDJGaGI5dXlLVGt1NWdZSmYzT2dHamRnMFBraDhUbTJ1U0lWZ0x5eXI3T0VzTnFaLWFmRkVFbGZtaUhVLU5kUTg3bGVqOVpwekdaNE5zYU5xcjJ4MFBacUpCcVdkaEkzTWVnQzlR?oc=5"
+          "title": "“음식점은 되는데 호텔은 왜 안되나”…문턱 높아진 가업상속공제 논란",
+          "source": "중앙일보",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCbDBJZW4waWhCTDZXeF9xSVZxVDU1M0dCdkRBbW9rOXI3NmwxQ3IweFhpR1NIb0Y0NVhqeV83T2lrV29OaGY3R004d0RUR2VUdjVkTDhn?oc=5"
+        },
+        {
+          "title": "[KMI공동기획] 머무르지 않는 어촌체험…규제혁신으로 ‘체류형 관광’으로 전환할 때",
+          "source": "농수축산신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kVE52azhTRmFHYThodS1faWN0ZE0wQnZSMzJTY1czMmRneVU5cXB1YzNYT013TXhRdC1ndUpNUEtUWUN0aUdfZnZZdlFqMnVLNk1Sdnd6TE4tcDlGOE9hSkk1Yld4LUZjUEg3TA?oc=5"
         },
         {
           "title": "'1박에 3성급은 98만원, 5성급은 200만원'…10만원짜리 부산 불꽃축제 자리, 호텔서 보면 또 '바가지'",
           "source": "아시아경제",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcmhaWkRYM0k2UkNrVi1vc09MTk1MWDc0TzlMZUxKWlNPeDVEZ1MwcUc3YU5XQ3BGQjRDdmlIbUJPOXBwbUNkLTcwcG5hemV1azJ6Q1NQc0VUeTlTcTllRVdmMkZBMWFwd3Uyc3VzdURqaUNRV0RQZ09Sb1U3ZFlDNzZ3?oc=5"
-        },
-        {
-          "title": "부산불꽃축제 앞두고 숙박비 최대 10배 폭등…바가지 논란 반복",
-          "source": "진일보",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxLUxnQVg2dzFtRjhjOUR1b1BPQ3gyeWNWT3ZPbURiRW54ZEpnNHNHWDQtRi1GRWlwV3RPRXZqU1psczJMUTJjRkU0VTBvbDZxTHVvazl6aFRBWGdyREtzU0dGcWFqT3dQMnJHV2JBRQ?oc=5"
         }
       ]
     }
