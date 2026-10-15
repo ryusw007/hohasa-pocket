@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson42",
+    "title": "입지를 이기는 숙소 기획 — 웨일로 숙소챗",
+    "date": "2026-10-15",
+    "cover": "lessons/lesson42/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson41",
     "title": "매물은 받는 게 아니라 찾아내는 것",
     "date": "2026-10-14",
