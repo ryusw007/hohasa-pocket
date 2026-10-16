@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 호스텔 도전기</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .bar{ position:sticky; top:0; z-index:5; background:rgba(11,14,20,.92); backdrop-filter:blur(6px);
+    display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px 14px; }
+  .bar a{ color:#c9ccd3; text-decoration:none; font-weight:800; font-size:13px; background:var(--card); padding:7px 12px; border-radius:20px; white-space:nowrap; }
+  .bar .ttl{ font-size:13px; font-weight:800; color:#e9eaee; text-align:center; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .head{ max-width:760px; margin:14px auto 0; padding:0 16px; }
+  .head .a{ color:var(--accent); font-weight:800; font-size:13px; }
+  .head h1{ margin:6px 0 2px; font-size:18px; line-height:1.4; }
+  .head .d{ color:#8b8e96; font-size:12px; font-weight:700; }
+  .page{ max-width:760px; margin:14px auto 0; }
+  .page img{ width:100%; display:block; }
+  .nav{ max-width:760px; margin:18px auto 0; padding:0 16px 50px; display:flex; gap:10px; }
+  .nav a{ flex:1; text-align:center; color:#fff; text-decoration:none; font-weight:800; font-size:14px; background:var(--card); padding:12px; border-radius:14px; }
+  .nav a.next{ background:var(--accent); }
+  .nav a.off{ opacity:.35; pointer-events:none; }
+  .empty{ margin:60px 16px; text-align:center; color:#9a9da4; }
+</style>
+</head>
+<body>
+  <div class="bar"><a href="challenge.html">← 도전기 목록</a><div class="ttl" id="ttl"></div><a href="index.html">🏠</a></div>
+  <div id="main"><div class="empty">불러오는 중…</div></div>
+<script>
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  const q=new URLSearchParams(location.search), sid=q.get('s'), epNo=+(q.get('ep')||1);
+  fetch('challenge/challenge_index.json',{cache:'no-cache'}).then(r=>r.json()).then(all=>{
+    const s=all.find(x=>x.id===sid), main=document.getElementById('main');
+    if(!s){ main.innerHTML='<div class="empty">연재를 찾을 수 없습니다.</div>'; return; }
+    const eps=[...s.episodes].sort((a,b)=>a.ep-b.ep), i=eps.findIndex(e=>e.ep===epNo);
+    if(i<0){ main.innerHTML='<div class="empty">해당 편을 찾을 수 없습니다.</div>'; return; }
+    const e=eps[i], prev=eps[i-1], next=eps[i+1];
+    document.getElementById('ttl').textContent=e.ep+'편 · '+e.title;
+    document.title='호스텔 도전기 · '+s.title+' '+e.ep+'편';
+    const link=x=>'challenge_viewer.html?s='+encodeURIComponent(sid)+'&ep='+x.ep;
+    main.innerHTML='<div class="head"><div class="a">@'+esc(s.author)+'</div><h1>'+esc(s.title)+' — '+e.ep+'편</h1>'
+      +'<div class="d">'+esc(e.title)+' · '+esc(e.date.replace(/-/g,'.'))+'</div></div>'
+      +'<div class="page"><img src="'+e.img+'" alt=""></div>'
+      +'<div class="nav"><a class="'+(prev?'':'off')+'" href="'+(prev?link(prev):'#')+'">‹ 이전 편</a>'
+      +'<a class="next '+(next?'':'off')+'" href="'+(next?link(next):'#')+'">다음 편 ›</a></div>';
+    scrollTo(0,0);
+  }).catch(()=>{ document.getElementById('main').innerHTML='<div class="empty">불러오지 못했습니다.</div>'; });
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>

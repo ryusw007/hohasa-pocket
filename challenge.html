@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 호스텔 도전기</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="호하사 호스텔 도전기">
+<meta property="og:title" content="호하사 호스텔 도전기">
+<meta property="og:description" content="매물 찾기부터 임장, 계약, 인허가까지 — 호하사 회원들의 진짜 호스텔 도전 연재">
+<meta property="og:image" content="https://ryusw007.github.io/hohasa-pocket/og2.png">
+<meta property="og:url" content="https://ryusw007.github.io/hohasa-pocket/challenge.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:960px; margin:0 auto; padding:24px 16px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
+  .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
+  .home{ color:#9a9da4; text-decoration:none; font-weight:700; font-size:13px; background:var(--card); padding:7px 12px; border-radius:20px; }
+  .lead{ margin-top:18px; color:#c9ccd3; font-size:14px; line-height:1.6; }
+  .series{ margin-top:26px; background:var(--card); border-radius:16px; padding:16px; box-shadow:0 8px 22px rgba(0,0,0,.35); }
+  .s-head{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  .s-title{ font-size:17px; font-weight:800; line-height:1.4; }
+  .s-meta{ color:#9a9da4; font-size:12px; font-weight:700; }
+  .s-author{ display:inline-block; margin-top:6px; color:var(--accent); font-size:13px; font-weight:800; }
+  .eps{ margin-top:12px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  @media (min-width:600px){ .eps{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
+  @media (min-width:900px){ .eps{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+  .ep{ display:block; color:#e9eaee; text-decoration:none; min-width:0; }
+  .ep .thumb{ border-radius:12px; overflow:hidden; background:#0b0e14; }
+  .ep img{ width:100%; aspect-ratio:4/5; object-fit:cover; object-position:top; display:block; }
+  .ep .t{ margin-top:7px; font-size:13px; font-weight:700; line-height:1.4; }
+  .ep .d{ margin-top:2px; color:#8b8e96; font-size:11px; font-weight:700; }
+  .ep .new{ display:inline-block; margin-left:6px; background:var(--accent); color:#fff; font-size:10px; font-weight:800; padding:1px 6px; border-radius:8px; }
+  .empty{ margin-top:40px; color:#9a9da4; text-align:center; padding:20px; }
+  .foot{ margin-top:40px; text-align:center; color:#6b6e76; font-size:12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand"><span class="dot"></span><span>호하사 호스텔 도전기</span></div>
+      <a class="home" href="index.html">🏠 다이제스트</a>
+    </div>
+    <div class="lead">매물 찾기, 임장, 협상, 계약, 인허가까지 — 호하사 회원들이 직접 겪은 호스텔 도전 과정을 웹툰으로 연재합니다.</div>
+    <div id="list"><div class="empty">불러오는 중…</div></div>
+    <div class="foot">Hostel Up People · 호스텔 도전기</div>
+  </div>
+<script>
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  const series = [{"id": "chowon", "episodes": [{"ep": 1, "title": "매물챗 다음 날 밤, 재재 임장 출동", "date": "2026-10-15", "img": "challenge/chowon/ep01.jpg"}, {"ep": 2, "title": "세입자 이사비, 예상을 벗어난 답장", "date": "2026-10-16", "img": "challenge/chowon/ep02.jpg"}], "author": "건대/초원", "title": "호스텔 매물 보러 갔다가 재재 임장 다녀온 썰", "updated": "2026-10-16"}];   // 빌드 시 주입 — 최근 업데이트된 연재 먼저
+  (function(){
+    const box=document.getElementById('list');
+    if(!series.length){ box.innerHTML='<div class="empty">아직 연재가 없습니다.</div>'; return; }
+    box.innerHTML = series.map(s=>{
+      const eps=[...s.episodes].sort((a,b)=>a.ep-b.ep);
+      const latest=Math.max(...eps.map(e=>e.ep));
+      return '<div class="series"><div class="s-head"><div class="s-title">'+esc(s.title)+'</div>'
+        +'<div class="s-meta">총 '+eps.length+'편</div></div>'
+        +'<span class="s-author">@'+esc(s.author)+'</span>'
+        +'<div class="eps">'+eps.map(e=>
+          '<a class="ep" href="challenge_viewer.html?s='+encodeURIComponent(s.id)+'&ep='+e.ep+'">'
+          +'<div class="thumb"><img src="'+e.img+'" alt="" loading="lazy"></div>'
+          +'<div class="t">'+e.ep+'편 · '+esc(e.title)+(e.ep===latest?'<span class="new">NEW</span>':'')+'</div>'
+          +'<div class="d">'+esc(e.date.replace(/-/g,'.'))+'</div></a>').join('')
+        +'</div></div>';
+    }).join('');
+  })();
+  if('serviceWorker' in navigator){ addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
