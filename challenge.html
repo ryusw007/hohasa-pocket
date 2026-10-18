@@ -56,7 +56,7 @@
   </div>
 <script>
   function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-  const series = [{"id": "chowon", "episodes": [{"ep": 1, "title": "매물챗 다음 날 밤, 재재 임장 출동", "date": "2026-10-15", "img": "challenge/chowon/ep01.jpg"}, {"ep": 2, "title": "세입자 이사비, 예상을 벗어난 답장", "date": "2026-10-16", "img": "challenge/chowon/ep02.jpg"}], "author": "건대/초원", "title": "호스텔 매물 보러 갔다가 재재 임장 다녀온 썰", "updated": "2026-10-16"}];   // 빌드 시 주입 — 최근 업데이트된 연재 먼저
+  const series = [{"id": "chowon", "episodes": [{"ep": 1, "title": "매물챗 다음 날 밤, 재재 임장 출동", "date": "2026-10-15", "img": "challenge/chowon/ep01.jpg"}, {"ep": 2, "title": "세입자 이사비, 예상을 벗어난 답장", "date": "2026-10-16", "img": "challenge/chowon/ep02.jpg"}, {"ep": 3, "title": "등기·건축물대장·네이버부동산으로 알게 된 사실들", "date": "2026-10-19", "img": "challenge/chowon/ep03.jpg"}], "author": "건대/초원", "title": "호스텔 매물 보러 갔다가 재재 임장 다녀온 썰", "updated": "2026-10-19"}];   // 빌드 시 주입 — 최근 업데이트된 연재 먼저
   (function(){
     const box=document.getElementById('list');
     if(!series.length){ box.innerHTML='<div class="empty">아직 연재가 없습니다.</div>'; return; }
