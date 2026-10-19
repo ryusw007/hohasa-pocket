@@ -1,8 +1,16 @@
 {
-  "updated": "2026-10-15T00:29:15Z",
+  "updated": "2026-10-19T00:12:01Z",
   "source": "https://data.seoul.go.kr/dataList/OA-23063/S/1/datasetView.do",
   "note": "서울시보 목차에서 추출한 고시·공고. 분류는 제목 키워드 기준이라 누락·오분류 가능. 원문 확인 필수.",
   "issues": [
+    {
+      "no": "제4187호",
+      "date": "2026-10-19",
+      "pdf": "https://www.seoul.go.kr/func/seoulsibo/fileDownload.do?fileName=seoulsibo_20261016225041_74441.pdf",
+      "mb": 392,
+      "pages": 1395,
+      "items": []
+    },
     {
       "no": "제4186호",
       "date": "2026-10-15",
@@ -1237,42 +1245,6 @@
           "page": 1049,
           "cats": [],
           "stage": "기타",
-          "gu": null,
-          "rel": "none"
-        }
-      ]
-    },
-    {
-      "no": "제4179호",
-      "date": "2026-09-11",
-      "pdf": "https://www.seoul.go.kr/func/seoulsibo/fileDownload.do?fileName=seoulsibo_20260910153107_77021.pdf",
-      "mb": 3,
-      "pages": null,
-      "items": [
-        {
-          "section": "자치법규등",
-          "title": "자치법규 등 [조 례] 제10165호 서울특별시의회의원 공무국외활동에 관한 조례 일부개정조례",
-          "page": 2,
-          "cats": [],
-          "stage": "기타",
-          "gu": null,
-          "rel": "none"
-        },
-        {
-          "section": "자치법규등",
-          "title": "[규 칙] 제4797호 서울특별시 행정기구 설치 조례 시행규칙 일부개정규칙",
-          "page": 5,
-          "cats": [],
-          "stage": "기타",
-          "gu": null,
-          "rel": "none"
-        },
-        {
-          "section": "공고",
-          "title": "토지거래허가구역 지정 공고",
-          "page": 7,
-          "cats": [],
-          "stage": "지정",
           "gu": null,
           "rel": "none"
         }
