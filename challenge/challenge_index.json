@@ -1,25 +1,5 @@
 [
   {
-    "id": "moment",
-    "episodes": [
-      {
-        "ep": 1,
-        "title": "월 100만 원 벌려다 건물을 사기로 했다",
-        "date": "2026-10-19",
-        "img": "challenge/moment/ep01.jpg"
-      },
-      {
-        "ep": 2,
-        "title": "남들은 모텔 하라는데, 나는 호스텔을 샀다",
-        "date": "2026-10-20",
-        "img": "challenge/moment/ep02.jpg"
-      }
-    ],
-    "author": "서울/모먼트맨션",
-    "title": "월 100만 원 벌려다 건물을 사기로 했다",
-    "updated": "2026-10-20"
-  },
-  {
     "id": "chowon",
     "episodes": [
       {
@@ -39,10 +19,36 @@
         "title": "등기·건축물대장·네이버부동산으로 알게 된 사실들",
         "date": "2026-10-19",
         "img": "challenge/chowon/ep03.jpg"
+      },
+      {
+        "ep": 4,
+        "title": "세입자의 추가 요구, 그리고 부동산이 알려 준 시장 상황",
+        "date": "2026-10-21",
+        "img": "challenge/chowon/ep04.jpg"
       }
     ],
     "author": "건대/초원",
     "title": "호스텔 매물 보러 갔다가 재재 임장 다녀온 썰",
-    "updated": "2026-10-19"
+    "updated": "2026-10-21"
+  },
+  {
+    "id": "moment",
+    "episodes": [
+      {
+        "ep": 1,
+        "title": "월 100만 원 벌려다 건물을 사기로 했다",
+        "date": "2026-10-19",
+        "img": "challenge/moment/ep01.jpg"
+      },
+      {
+        "ep": 2,
+        "title": "남들은 모텔 하라는데, 나는 호스텔을 샀다",
+        "date": "2026-10-20",
+        "img": "challenge/moment/ep02.jpg"
+      }
+    ],
+    "author": "서울/모먼트맨션",
+    "title": "월 100만 원 벌려다 건물을 사기로 했다",
+    "updated": "2026-10-20"
   }
 ]
