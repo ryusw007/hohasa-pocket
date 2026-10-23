@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson48",
+    "title": "수건이 숙소의 첫인상, 냄새 없는 린넨 관리",
+    "date": "2026-10-21",
+    "cover": "lessons/lesson48/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson47",
     "title": "완강기와 다인실, 구청·소방서에 먼저 묻는다",
     "date": "2026-10-20",
@@ -249,7 +256,7 @@
     "title": "실내흡연 손님, 이렇게 대응하세요",
     "date": "2026-09-10",
     "cover": "lessons/lesson12/00_cover.jpg",
-    "count": 7
+    "count": 6
   },
   {
     "id": "lesson11",
