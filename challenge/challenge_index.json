@@ -19,11 +19,17 @@
         "title": "잔금 한 달 전, 대출 불가 통보",
         "date": "2026-10-22",
         "img": "challenge/moment/ep03.jpg"
+      },
+      {
+        "ep": 4,
+        "title": "돈이 부족했던 게 아니라, 구조가 틀렸다",
+        "date": "2026-10-26",
+        "img": "challenge/moment/ep04.jpg"
       }
     ],
     "author": "서울/모먼트맨션",
     "title": "월 100만 원 벌려다 건물을 사기로 했다",
-    "updated": "2026-10-22"
+    "updated": "2026-10-26"
   },
   {
     "id": "chowon",
