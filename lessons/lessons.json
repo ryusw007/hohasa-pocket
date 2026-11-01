@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson59",
+    "title": "가동률은 청소 순서에서, 매출은 정책에서",
+    "date": "2026-11-01",
+    "cover": "lessons/lesson59/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson58",
     "title": "미성년 투숙, 금지는 혼숙·방어는 확인 기록",
     "date": "2026-10-31",
@@ -246,7 +253,7 @@
   },
   {
     "id": "lesson23",
-    "title": "호스텔 100개 늘었는데 왜 아직도 부족할까 — 숫자로 보는 진짜 수급",
+    "title": "호스텔 숫자, 개수보다 객실 수로 본다",
     "date": "2026-09-21",
     "cover": "lessons/lesson23/00_cover.jpg",
     "count": 6

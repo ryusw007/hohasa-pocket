@@ -31,11 +31,17 @@
         "title": "건물은 샀는데, 공사를 시작할 수 없었다",
         "date": "2026-10-28",
         "img": "challenge/moment/ep05.jpg"
+      },
+      {
+        "ep": 6,
+        "title": "돈을 아끼지 않은 곳은 사진에 보이지 않는 부분",
+        "date": "2026-11-01",
+        "img": "challenge/moment/ep06.jpg"
       }
     ],
     "author": "서울/모먼트맨션",
     "title": "월 100만 원 벌려다 건물을 사기로 했다",
-    "updated": "2026-10-28"
+    "updated": "2026-11-01"
   },
   {
     "id": "chowon",
