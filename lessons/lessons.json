@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson60",
+    "title": "예쁜 건 나중에, 첫 세팅은 기본부터",
+    "date": "2026-11-02",
+    "cover": "lessons/lesson60/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson59",
     "title": "가동률은 청소 순서에서, 매출은 정책에서",
     "date": "2026-11-01",
@@ -246,7 +253,7 @@
   },
   {
     "id": "lesson24",
-    "title": "공매 낙찰부터 만실까지 — 신도림 아늑호텔로 배우는 6단계",
+    "title": "공매로 산 건물, 명도가 진짜 시작이다",
     "date": "2026-09-22",
     "cover": "lessons/lesson24/00_cover.jpg",
     "count": 6
