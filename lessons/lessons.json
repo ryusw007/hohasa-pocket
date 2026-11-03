@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson61",
+    "title": "매매냐 임대냐, 연면적 평당가로 기준선 긋기",
+    "date": "2026-11-03",
+    "cover": "lessons/lesson61/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson60",
     "title": "예쁜 건 나중에, 첫 세팅은 기본부터",
     "date": "2026-11-02",
@@ -246,7 +253,7 @@
   },
   {
     "id": "lesson25",
-    "title": "행복부자 강의툰 25화: 관광숙박업, OEM 제조업 겸업으로 벤처인증 받는 법",
+    "title": "숙박업도 벤처기업이 될 수 있을까",
     "date": "2026-09-23",
     "cover": "lessons/lesson25/00_cover.jpg",
     "count": 6
