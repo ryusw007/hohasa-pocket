@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson62",
+    "title": "호스텔 대출, 심사가 깐깐해진다",
+    "date": "2026-11-04",
+    "cover": "lessons/lesson62/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson61",
     "title": "매매냐 임대냐, 연면적 평당가로 기준선 긋기",
     "date": "2026-11-03",
@@ -246,7 +253,7 @@
   },
   {
     "id": "lesson26",
-    "title": "길대표 강의툰 26화: 재개발×경매×숙박업, 중첩 투자법",
+    "title": "재개발 예정지 빌라, 짓기 전에 확인할 두 가지 규칙",
     "date": "2026-09-27",
     "cover": "lessons/lesson26/00_cover.jpg",
     "count": 6
