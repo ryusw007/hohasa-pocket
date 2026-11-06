@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson64",
+    "title": "게스트는 무엇을 물어볼까 — 컨시어지 두 달 운영기",
+    "date": "2026-11-06",
+    "cover": "lessons/lesson64/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson63",
     "title": "객실이 부서졌을 때, 플랫폼마다 다르다",
     "date": "2026-11-05",
@@ -246,7 +253,7 @@
   },
   {
     "id": "lesson28",
-    "title": "길대표·행복부자 호텔·호스텔 매물시장, 지금 무슨 일이 벌어지고 있나",
+    "title": "호텔·호스텔 매물 뉴스, 이렇게 읽자",
     "date": "2026-09-29",
     "cover": "lessons/lesson28/00_cover.jpg",
     "count": 6
