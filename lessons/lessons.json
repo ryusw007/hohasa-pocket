@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson66",
+    "title": "AI 비서, 한 놈만 패라",
+    "date": "2026-11-08",
+    "cover": "lessons/lesson66/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson65",
     "title": "공사 중, 원하는 마감으로 바꾸는 법",
     "date": "2026-11-07",

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<title>호하사 참여 대시보드</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="호하사 참여 대시보드">
+<meta property="og:description" content="호하사 단톡방 참여 회원 TOP10·TOP50·TOP100과 월별 변화">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root{ --accent:#f5701e; --accent2:#4f8cff; --bg:#0b0e14; --card:#161922; --line:#262a35; --muted:#9a9da4; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:960px; margin:0 auto; padding:24px 16px 60px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
+  .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
+  .home{ color:var(--muted); text-decoration:none; font-weight:700; font-size:13px; background:var(--card); padding:7px 12px; border-radius:20px; }
+  .lead{ margin-top:14px; color:var(--muted); font-size:13px; line-height:1.6; }
+  .kpis{ margin-top:16px; display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+  @media (min-width:700px){ .kpis{ grid-template-columns:repeat(4,1fr); } }
+  .kpi{ background:var(--card); border-radius:14px; padding:14px; }
+  .kpi .l{ color:var(--muted); font-size:12px; font-weight:700; }
+  .kpi .v{ margin-top:6px; font-size:24px; font-weight:900; }
+  .kpi .s{ margin-top:2px; font-size:12px; font-weight:700; }
+  .up{ color:#3ecf8e; } .down{ color:#ff6b6b; }
+  .card{ margin-top:16px; background:var(--card); border-radius:16px; padding:16px; box-shadow:0 8px 22px rgba(0,0,0,.35); }
+  .h{ display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  .h h2{ margin:0; font-size:16px; font-weight:800; }
+  .tabs{ display:flex; gap:6px; flex-wrap:wrap; }
+  .tab{ border:0; background:#0f1219; color:#c9ccd3; font-weight:800; font-size:12px; padding:7px 12px; border-radius:16px; cursor:pointer; }
+  .tab.on{ background:var(--accent); color:#fff; }
+  .legend{ display:flex; gap:14px; margin-top:8px; color:var(--muted); font-size:12px; font-weight:700; }
+  .legend i{ display:inline-block; width:10px; height:10px; border-radius:3px; margin-right:5px; vertical-align:-1px; }
+  svg text{ fill:#9a9da4; font-size:11px; font-weight:700; }
+  table{ width:100%; border-collapse:collapse; margin-top:10px; font-size:13px; }
+  th{ text-align:left; color:var(--muted); font-size:11px; font-weight:800; padding:6px 4px; border-bottom:1px solid var(--line); }
+  td{ padding:8px 4px; border-bottom:1px solid var(--line); vertical-align:middle; }
+  td.r{ width:34px; font-weight:900; color:#c9ccd3; }
+  td.r.g1{ color:#ffd34d; } td.r.g2{ color:#d7dbe4; } td.r.g3{ color:#e0965b; }
+  td.n{ font-weight:800; word-break:keep-all; }
+  td.num{ text-align:right; font-weight:800; white-space:nowrap; }
+  td.sp{ width:90px; }
+  .sub{ color:var(--muted); font-size:11px; font-weight:700; }
+  .hide-sm{ display:none; } @media (min-width:600px){ .hide-sm{ display:table-cell; } }
+  .bars .row{ display:flex; align-items:center; gap:8px; margin:7px 0; font-size:13px; }
+  .bars .rk{ width:22px; font-weight:900; color:#c9ccd3; }
+  .bars .nm{ width:42%; font-weight:800; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .bars .bar{ flex:1; height:12px; background:#0f1219; border-radius:6px; overflow:hidden; }
+  .bars .bar b{ display:block; height:100%; background:linear-gradient(90deg,var(--accent),#ffb36b); border-radius:6px; }
+  .bars .c{ width:52px; text-align:right; font-weight:800; }
+  .note{ margin-top:10px; color:#6b6e76; font-size:11px; line-height:1.6; }
+  .foot{ margin-top:30px; text-align:center; color:#6b6e76; font-size:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand"><span class="dot"></span><span>호하사 참여 대시보드</span></div>
+    <a class="home" href="index.html">🏠 다이제스트</a>
+  </div>
+  <div class="lead" id="lead"></div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="card">
+    <div class="h"><h2>📈 월별 변화</h2></div>
+    <div class="legend"><span><i style="background:var(--accent)"></i>메시지 수</span><span><i style="background:var(--accent2)"></i>활동 회원 수</span><span><i style="background:#3ecf8e"></i>새로 참여</span></div>
+    <div id="chart"></div>
+  </div>
+
+  <div class="card">
+    <div class="h"><h2>🏆 누적 참여 순위</h2>
+      <div class="tabs" id="topTabs">
+        <button class="tab on" data-n="10">TOP 10</button>
+        <button class="tab" data-n="50">TOP 50</button>
+        <button class="tab" data-n="100">TOP 100</button>
+      </div>
+    </div>
+    <table>
+      <thead><tr><th>#</th><th>닉네임</th><th class="num" style="text-align:right">메시지</th><th class="num hide-sm" style="text-align:right">활동일</th><th class="hide-sm">월별 흐름</th></tr></thead>
+      <tbody id="rank"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <div class="h"><h2>🗓 월별 TOP 10</h2><div class="tabs" id="monthTabs"></div></div>
+    <div class="bars" id="monthTop"></div>
+  </div>
+
+  <div class="note" id="note"></div>
+  <div class="foot">Hostel Up People · 참여 대시보드</div>
+</div>
+<script>
+const D = {"updated": "2026-11-08", "since": "2026-06-30", "months": ["2026-06", "2026-07", "2026-08", "2026-09", "2026-10", "2026-11"], "monthMsgs": [944, 21183, 26582, 33801, 43720, 8719], "monthActive": [66, 207, 220, 233, 254, 226], "monthNew": [66, 141, 33, 26, 33, 4], "monthDays": [1, 31, 31, 30, 31, 8], "totalMembers": 303, "totalMsgs": 134949, "members": [{"rank": 1, "name": "내일팩토리 길대표", "total": 12963, "days": 130, "first": "2026-06-30", "byMonth": [155, 2785, 3310, 3100, 2996]}, {"rank": 2, "name": "서울 / 묵연", "total": 12940, "days": 132, "first": "2026-06-30", "byMonth": [134, 2595, 2022, 2974, 4423]}, {"rank": 3, "name": "종로/찰나", "total": 7635, "days": 128, "first": "2026-07-01", "byMonth": [0, 985, 1762, 1767, 2609]}, {"rank": 4, "name": "수원/서울/행복부자", "total": 4299, "days": 126, "first": "2026-06-30", "byMonth": [1, 376, 1388, 687, 1471]}, {"rank": 5, "name": "서울 중구/엘리나", "total": 4047, "days": 125, "first": "2026-06-30", "byMonth": [51, 916, 757, 720, 1363]}, {"rank": 6, "name": "종로/그리닝", "total": 3313, "days": 114, "first": "2026-07-01", "byMonth": [0, 392, 957, 790, 987]}, {"rank": 7, "name": "서울/SJK", "total": 3255, "days": 108, "first": "2026-06-30", "byMonth": [5, 165, 558, 984, 1008]}, {"rank": 8, "name": "중구/린기린", "total": 3044, "days": 98, "first": "2026-07-31", "byMonth": [0, 2, 415, 944, 1442]}, {"rank": 9, "name": "서울/호텔감사♡ /F", "total": 2610, "days": 106, "first": "2026-06-30", "byMonth": [75, 921, 702, 418, 348]}, {"rank": 10, "name": "종로,명동,홍대/ 공간디옥 PARK", "total": 2536, "days": 79, "first": "2026-06-30", "byMonth": [2, 226, 334, 821, 1001]}], "monthTop": {"2026-06": [{"name": "내일팩토리 길대표", "n": 155}, {"name": "서울 / 묵연", "n": 134}, {"name": "서울/호텔감사♡ /F", "n": 75}, {"name": "서울/반짝/건물", "n": 61}, {"name": "서울 / 쿠시먼", "n": 57}, {"name": "서울 중구/엘리나", "n": 51}, {"name": "서울/네오알파", "n": 45}, {"name": "서울 중구/유주", "n": 25}, {"name": "서울/홍런", "n": 24}, {"name": "성수/투대", "n": 21}], "2026-07": [{"name": "내일팩토리 길대표", "n": 2785}, {"name": "서울 / 묵연", "n": 2595}, {"name": "종로/찰나", "n": 985}, {"name": "서울/호텔감사♡ /F", "n": 921}, {"name": "서울 중구/엘리나", "n": 916}, {"name": "서울/반짝/건물", "n": 748}, {"name": "강남/ ARN", "n": 495}, {"name": "서울/네오알파", "n": 401}, {"name": "종로/그리닝", "n": 392}, {"name": "수원/서울/행복부자", "n": 376}], "2026-08": [{"name": "내일팩토리 길대표", "n": 3310}, {"name": "서울 / 묵연", "n": 2022}, {"name": "종로/찰나", "n": 1762}, {"name": "수원/서울/행복부자", "n": 1388}, {"name": "종로/그리닝", "n": 957}, {"name": "서울 중구/엘리나", "n": 757}, {"name": "서울/반짝/건물", "n": 704}, {"name": "서울/호텔감사♡ /F", "n": 702}, {"name": "서울/사브리나", "n": 661}, {"name": "서울/SJK", "n": 558}], "2026-09": [{"name": "내일팩토리 길대표", "n": 3100}, {"name": "서울 / 묵연", "n": 2974}, {"name": "종로/찰나", "n": 1767}, {"name": "서울/SJK", "n": 984}, {"name": "중구/린기린", "n": 944}, {"name": "종로,명동,홍대/ 공간디옥 PARK", "n": 821}, {"name": "종로 호린이(공사중)", "n": 800}, {"name": "종로/그리닝", "n": 790}, {"name": "서울 중구/엘리나", "n": 720}, {"name": "수원/서울/행복부자", "n": 687}], "2026-10": [{"name": "서울 / 묵연", "n": 4423}, {"name": "내일팩토리 길대표", "n": 2996}, {"name": "종로/찰나", "n": 2609}, {"name": "수원/서울/행복부자", "n": 1471}, {"name": "중구/린기린", "n": 1442}, {"name": "서울 중구/엘리나", "n": 1363}, {"name": "중구 /아일", "n": 1167}, {"name": "서울/SJK", "n": 1008}, {"name": "종로,명동,홍대/ 공간디옥 PARK", "n": 1001}, {"name": "종로/그리닝", "n": 987}]}, "private": false, "memberMonths": ["2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]};
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+const fmt = n => Number(n).toLocaleString('ko-KR');
+const mLabel = ym => { const [y,m]=ym.split('-'); return (+m)+'월'; };
+const M = D.months, L = M.length-1;
+
+document.getElementById('lead').textContent =
+  `${D.since.replace(/-/g,'.')} ~ ${D.updated.replace(/-/g,'.')} 단톡방 대화 기준 · 매일 자동 갱신`;
+
+// KPI — 진행 중인 달은 '하루 평균'으로 전월과 비교 (일부 기간이라 총량 비교는 왜곡됨)
+(function(){
+  const avg=i=>D.monthMsgs[i]/Math.max(1,D.monthDays[i]);
+  const cur=avg(L), prev=L>0?avg(L-1):0;
+  const d=(a,b)=>!b?'':(a>=b?'<span class="up">▲ ':'<span class="down">▼ ')+Math.abs(Math.round((a-b)/b*100))+'%</span> 전월 대비';
+  const k=[['누적 참여 회원',fmt(D.totalMembers)+'명',''],['누적 메시지',fmt(D.totalMsgs)+'건',''],
+           [mLabel(M[L])+' 활동 회원',fmt(D.monthActive[L])+'명',D.monthDays[L]+'일간 집계'],
+           [mLabel(M[L])+' 하루 평균 메시지',fmt(Math.round(cur))+'건',d(cur,prev)]];
+  document.getElementById('kpis').innerHTML=k.map(x=>`<div class="kpi"><div class="l">${x[0]}</div><div class="v">${x[1]}</div><div class="s">${x[2]}</div></div>`).join('');
+})();
+
+// 월별 차트 (막대 = 메시지, 선 = 활동 회원, 점 = 새로 참여)
+(function(){
+  const W=900,H=260,pl=44,pr=44,pt=16,pb=30, n=M.length, bw=(W-pl-pr)/n;
+  const maxM=Math.max(...D.monthMsgs)*1.1, maxA=Math.max(...D.monthActive,...D.monthNew)*1.15;
+  const y1=v=>pt+(H-pt-pb)*(1-v/maxM), y2=v=>pt+(H-pt-pb)*(1-v/maxA), cx=i=>pl+bw*i+bw/2;
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="margin-top:8px">`;
+  for(let g=0;g<=4;g++){ const yy=pt+(H-pt-pb)*g/4; s+=`<line x1="${pl}" x2="${W-pr}" y1="${yy}" y2="${yy}" stroke="#262a35"/>`;
+    s+=`<text x="${pl-6}" y="${yy+4}" text-anchor="end">${fmt(Math.round(maxM*(1-g/4)))}</text>`;
+    s+=`<text x="${W-pr+6}" y="${yy+4}">${Math.round(maxA*(1-g/4))}</text>`; }
+  D.monthMsgs.forEach((v,i)=>{ s+=`<rect x="${cx(i)-bw*0.3}" y="${y1(v)}" width="${bw*0.6}" height="${H-pb-y1(v)}" rx="6" fill="#f5701e" opacity=".85"><title>${mLabel(M[i])} 메시지 ${fmt(v)}건</title></rect>`;
+    s+=`<text x="${cx(i)}" y="${y1(v)-6}" text-anchor="middle" style="fill:#e9eaee">${fmt(v)}</text>`;
+    s+=`<text x="${cx(i)}" y="${H-10}" text-anchor="middle">${mLabel(M[i])}</text>`; });
+  s+=`<polyline fill="none" stroke="#4f8cff" stroke-width="3" points="${D.monthActive.map((v,i)=>cx(i)+','+y2(v)).join(' ')}"/>`;
+  D.monthActive.forEach((v,i)=>{ s+=`<circle cx="${cx(i)}" cy="${y2(v)}" r="4.5" fill="#4f8cff"><title>${mLabel(M[i])} 활동 회원 ${v}명</title></circle>`; });
+  D.monthNew.forEach((v,i)=>{ s+=`<circle cx="${cx(i)}" cy="${y2(v)}" r="4" fill="#3ecf8e"><title>${mLabel(M[i])} 새로 참여 ${v}명</title></circle>`; });
+  s+='</svg>';
+  const t='<table><thead><tr><th>월</th>'+M.map(m=>`<th class="num" style="text-align:right">${mLabel(m)}</th>`).join('')+'</tr></thead><tbody>'
+    +'<tr><td class="sub">메시지</td>'+D.monthMsgs.map(v=>`<td class="num">${fmt(v)}</td>`).join('')+'</tr>'
+    +'<tr><td class="sub">활동 회원</td>'+D.monthActive.map(v=>`<td class="num">${v}</td>`).join('')+'</tr>'
+    +'<tr><td class="sub">하루 평균</td>'+D.monthMsgs.map((v,i)=>`<td class="num">${fmt(Math.round(v/Math.max(1,D.monthDays[i])))}</td>`).join('')+'</tr>'
+    +'<tr><td class="sub">새로 참여</td>'+D.monthNew.map(v=>`<td class="num">${v}</td>`).join('')+'</tr></tbody></table>';
+  document.getElementById('chart').innerHTML=s+'<div style="overflow-x:auto">'+t+'</div>';
+})();
+
+// 누적 순위
+function spark(arr){ const w=86,h=22,mx=Math.max(...arr,1),bw=w/arr.length;
+  return `<svg width="${w}" height="${h}">`+arr.map((v,i)=>`<rect x="${i*bw+1}" y="${h-v/mx*h}" width="${bw-2}" height="${v/mx*h}" rx="2" fill="${i===arr.length-1?'#f5701e':'#4f8cff'}"/>`).join('')+'</svg>'; }
+function renderRank(n){
+  document.getElementById('rank').innerHTML=D.members.slice(0,n).map(m=>
+    `<tr><td class="r ${m.rank<=3?'g'+m.rank:''}">${m.rank}</td><td class="n">${esc(m.name)}<div class="sub">${m.first.slice(0,7).replace('-','.')}부터</div></td>`+
+    `<td class="num">${fmt(m.total)}</td><td class="num hide-sm">${m.days}일</td><td class="sp hide-sm">${spark(m.byMonth)}</td></tr>`).join('');
+}
+document.getElementById('topTabs').addEventListener('click',e=>{ const b=e.target.closest('.tab'); if(!b) return;
+  document.querySelectorAll('#topTabs .tab').forEach(x=>x.classList.toggle('on',x===b)); renderRank(+b.dataset.n); });
+renderRank(10);
+if(!D.private){  // 공개 페이지: TOP50·100 탭 숨김
+  document.querySelectorAll('#topTabs .tab').forEach(b=>{ if(b.dataset.n!=='10') b.style.display='none'; });
+  document.getElementById('rank').insertAdjacentHTML('afterend','');
+  document.getElementById('topTabs').insertAdjacentHTML('beforeend','<span class="sub">TOP 50·100은 운영자 전용</span>');
+} else {
+  document.querySelector('.brand span:last-child').textContent='호하사 참여 대시보드 (운영자 전용 · 업로드 금지)';
+}
+
+// 월별 TOP10
+function renderMonth(ym){ const list=D.monthTop[ym]||[], mx=list.length?list[0].n:1;
+  document.getElementById('monthTop').innerHTML=list.map((x,i)=>`<div class="row"><span class="rk">${i+1}</span><span class="nm">${esc(x.name)}</span><span class="bar"><b style="width:${x.n/mx*100}%"></b></span><span class="c">${fmt(x.n)}</span></div>`).join('');
+  document.querySelectorAll('#monthTabs .tab').forEach(t=>t.classList.toggle('on',t.dataset.m===ym)); }
+const MT=M.filter(m=>D.monthTop[m]);
+document.getElementById('monthTabs').innerHTML=MT.map(m=>`<button class="tab" data-m="${m}">${mLabel(m)}</button>`).join('');
+document.getElementById('monthTabs').addEventListener('click',e=>{ const b=e.target.closest('.tab'); if(b) renderMonth(b.dataset.m); });
+renderMonth(MT[MT.length-1]);
+if(!D.private){ document.getElementById('monthTabs').insertAdjacentHTML('beforeend','<span class="sub">'+mLabel(M[L])+'은 월말 집계 후 공개</span>'); }
+
+document.getElementById('note').innerHTML='※ 단톡방에 남긴 메시지(사진·이모티콘 포함) 수를 닉네임별로 센 것입니다. 삭제된 메시지·입퇴장 알림·봇은 제외했고, 닉네임이 조금 바뀐 경우는 같은 사람으로 묶었습니다. '+mLabel(M[0])+'과 '+mLabel(M[L])+'은 일부 기간만 포함됩니다.';
+</script>
+<!-- hohasa-analytics --><script>window.goatcounter={path:function(){var p=location.pathname.replace(/\/index\.html$/,'/').replace(/\/$/,'')||'/';return p+location.search}};</script><script data-goatcounter="https://ryusw007.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><!-- /hohasa-analytics --></body>
+</html>
