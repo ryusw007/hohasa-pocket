@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson67",
+    "title": "욕실 냄새는 물로 다스린다",
+    "date": "2026-11-09",
+    "cover": "lessons/lesson67/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson66",
     "title": "AI 비서, 한 놈만 패라",
     "date": "2026-11-08",
@@ -246,7 +253,7 @@
   },
   {
     "id": "lesson31",
-    "title": "메이저가 소형 호스텔로 내려온다",
+    "title": "대형 브랜드가 소형 호스텔로 내려온다",
     "date": "2026-10-04",
     "cover": "lessons/lesson31/00_cover.jpg",
     "count": 6
