@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson69",
+    "title": "숙소 보험은 가격보다 내용",
+    "date": "2026-11-11",
+    "cover": "lessons/lesson69/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson68",
     "title": "누수는 혼자 잡지 않는다",
     "date": "2026-11-10",
