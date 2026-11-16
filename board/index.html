@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e14">
+<meta name="robots" content="noindex, nofollow">
+<title>호하사 회원 게시판</title>
+<style>
+  :root{ --accent:#f5701e; --bg:#0b0e14; --card:#161922; --line:#2c313d; --dim:#9a9da4; --ok:#2fb36b; --bad:#e5534b; }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; background:var(--bg); color:#e9eaee;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+  .wrap{ max-width:760px; margin:0 auto; padding:18px 16px 70px; }
+  .top{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  a{ color:inherit; }
+  .home{ display:inline-flex; align-items:center; gap:6px; text-decoration:none; font-weight:800; font-size:14px;
+    background:var(--card); padding:8px 12px; border-radius:20px; }
+  .who{ color:var(--dim); font-size:13px; font-weight:700; text-align:right; }
+  .who button{ margin-left:6px; }
+  h1{ font-size:23px; margin:16px 0 4px; }
+  h1 .b{ background:var(--accent); color:#fff; border-radius:8px; padding:0 8px; }
+  .sub{ color:var(--dim); font-size:13px; line-height:1.55; }
+  .box{ background:var(--card); border-radius:16px; padding:18px; margin-top:16px; }
+  .box h2{ margin:0 0 8px; font-size:18px; }
+  label{ display:block; font-size:13px; font-weight:700; color:#c9ccd3; margin:12px 0 6px; }
+  input,textarea,select{ width:100%; background:#0f1219; color:#e9eaee; border:1px solid var(--line); border-radius:10px;
+    padding:11px 12px; font-size:15px; font-family:inherit; }
+  textarea{ min-height:180px; resize:vertical; line-height:1.6; }
+  button{ font-family:inherit; cursor:pointer; }
+  .btn{ background:var(--accent); color:#fff; border:0; border-radius:999px; padding:11px 18px; font-size:14px; font-weight:800; }
+  .btn.ghost{ background:transparent; color:#e9eaee; border:1px solid var(--line); }
+  .btn.sm{ padding:6px 12px; font-size:12.5px; }
+  .btn.ok{ background:var(--ok); } .btn.bad{ background:var(--bad); }
+  .btn:disabled{ opacity:.5; cursor:default; }
+  .row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .tabs{ position:sticky; top:0; z-index:5; background:var(--bg); display:flex; gap:8px; overflow-x:auto; padding:12px 0 8px; scrollbar-width:none; }
+  .tabs::-webkit-scrollbar{ display:none; }
+  .pill{ flex:0 0 auto; background:var(--card); color:#c9ccd3; border:1px solid var(--line); border-radius:999px;
+    padding:8px 14px; font-size:14px; font-weight:800; white-space:nowrap; }
+  .pill.on{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .list .it{ display:block; text-decoration:none; background:var(--card); border-radius:14px; padding:13px 15px; margin-top:9px; cursor:pointer; }
+  .it .t{ font-weight:800; font-size:15px; line-height:1.45; word-break:keep-all; overflow-wrap:anywhere; }
+  .it .m{ color:var(--dim); font-size:12.5px; margin-top:5px; display:flex; gap:8px; flex-wrap:wrap; }
+  .pin{ color:var(--accent); font-weight:800; }
+  .grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-top:10px; }
+  .grid .g{ position:relative; aspect-ratio:1/1; background:#20242e; border-radius:10px; overflow:hidden; cursor:pointer; }
+  .grid .g img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .grid .g span{ position:absolute; left:0; right:0; bottom:0; padding:16px 7px 6px; font-size:11.5px; font-weight:700;
+    background:linear-gradient(transparent,rgba(0,0,0,.75)); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .post h2{ font-size:20px; margin:4px 0 6px; line-height:1.4; }
+  .post .body{ font-size:15px; line-height:1.75; white-space:pre-wrap; word-break:keep-all; overflow-wrap:anywhere; margin-top:14px; }
+  .post .imgs img{ width:100%; border-radius:12px; margin-top:10px; display:block; }
+  .files a{ display:flex; gap:8px; align-items:center; background:#0f1219; border:1px solid var(--line); border-radius:10px;
+    padding:10px 12px; margin-top:8px; text-decoration:none; font-size:14px; }
+  .cmt{ border-top:1px solid var(--line); padding:10px 0; font-size:14px; line-height:1.6; }
+  .cmt b{ font-size:13px; } .cmt small{ color:var(--dim); margin-left:6px; }
+  .msg{ padding:30px 10px; text-align:center; color:var(--dim); line-height:1.7; }
+  .notice{ background:rgba(245,112,30,.12); border:1px solid rgba(245,112,30,.4); color:#ffc49c; border-radius:12px;
+    padding:11px 13px; font-size:13.5px; line-height:1.6; margin-top:12px; }
+  .tag{ font-size:11.5px; font-weight:800; padding:2px 8px; border-radius:6px; background:#20242e; color:#c9ccd3; }
+  .tag.pending{ background:rgba(245,112,30,.18); color:#ffa56b; } .tag.active{ background:rgba(47,179,107,.18); color:#7fe0a9; }
+  .tag.left,.tag.blocked{ background:rgba(229,83,75,.18); color:#ff9f99; }
+  table{ width:100%; border-collapse:collapse; font-size:13.5px; margin-top:8px; }
+  td,th{ border-bottom:1px solid var(--line); padding:9px 6px; text-align:left; vertical-align:middle; }
+  .foot{ margin-top:36px; color:#6b6e76; font-size:12px; line-height:1.7; text-align:center; }
+  .hidden{ display:none !important; }
+  .lightbox{ position:fixed; inset:0; background:rgba(0,0,0,.92); display:flex; align-items:center; justify-content:center; z-index:50; }
+  .lightbox img{ max-width:96vw; max-height:92vh; border-radius:8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="home" id="homeLink" href="#">← 호하사 데일리</a>
+    <div class="who" id="who"></div>
+  </div>
+  <h1>호하사 <span class="b">회원 게시판</span></h1>
+  <div class="sub">호하사 카톡방 회원만 볼 수 있는 공간입니다. 카톡방에서 나가면 자동으로 이용이 제한됩니다.</div>
+  <div id="view"><div class="msg">불러오는 중…</div></div>
+  <div class="foot">닉네임과 이메일만 저장합니다 · 개인정보·계좌·연락처는 글에 올리지 마세요<br>문의: 카톡방 운영진</div>
+</div>
+<div class="lightbox hidden" id="lb" onclick="this.classList.add('hidden')"><img id="lbimg" alt=""></div>
+
+<script src="config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const C = window.HOHASA_BOARD;
+document.getElementById('homeLink').href = C.APP_URL;
+const sb = supabase.createClient(C.SUPABASE_URL, C.SUPABASE_PUBLISHABLE_KEY);
+const $view = document.getElementById('view'), $who = document.getElementById('who');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = d => { const t = new Date(d); return `${t.getFullYear()}.${String(t.getMonth()+1).padStart(2,'0')}.${String(t.getDate()).padStart(2,'0')}`; };
+const normKey = n => n.replace(/\(.*?\)/g,'').trim().replace(/\/\s*[FMfm]\s*$/,'').replace(/\s+/g,'');
+const regionOf = n => { const p = n.split('/').map(x=>x.trim()).filter(Boolean); return p.length >= 2 ? p[0] : null; };
+let ME = null, BOARDS = [], CUR = null, NAMES = {};
+
+// ---------------- 진입 ----------------
+let STARTED = false;
+async function start(){
+  const { data:{ session } } = await sb.auth.getSession();
+  if(!session) return showLogin();
+  if(STARTED) return; STARTED = true;
+  const user = session.user;
+  $who.innerHTML = esc(user.email) + ' <button class="btn ghost sm" id="out">로그아웃</button>';
+  document.getElementById('out').onclick = async () => { await sb.auth.signOut(); location.hash=''; location.reload(); };
+  const { data, error } = await sb.from('members').select('*').eq('external_auth_id', user.id).maybeSingle();
+  if(error) return fail(error);
+  ME = data;
+  if(!ME) return showSignup(user);
+  if(ME.status === 'pending') return showMsg('⏳ 승인 대기 중', `<b>${esc(ME.nickname)}</b> 님, 가입 신청이 접수됐어요.<br>운영진이 카톡방 회원인지 확인한 뒤 승인하면 바로 이용할 수 있어요.`);
+  if(ME.status === 'left') return showMsg('🚪 이용이 제한됐어요', '호하사 카톡방에서 나간 것으로 확인되어 게시판 이용이 제한됐어요.<br>다시 들어오셨다면 운영진에게 알려 주세요.');
+  if(ME.status === 'blocked') return showMsg('⛔ 이용 제한', '운영 정책에 따라 이용이 제한된 계정입니다. 운영진에게 문의해 주세요.');
+  $who.innerHTML = `<b>${esc(ME.nickname)}</b>` + (ME.role==='admin'?' · 관리자':'') + ' <button class="btn ghost sm" id="out">로그아웃</button>';
+  document.getElementById('out').onclick = async () => { await sb.auth.signOut(); location.hash=''; location.reload(); };
+  const r = await sb.from('boards').select('*').order('sort');
+  if(r.error) return fail(r.error);
+  BOARDS = r.data;
+  window.onhashchange = route; route();
+}
+function fail(e){ console.error(e); $view.innerHTML = `<div class="notice">오류가 났어요: ${esc(e.message||e)}</div>`; }
+function showMsg(t, html){ $view.innerHTML = `<div class="box"><h2>${t}</h2><div class="sub" style="font-size:14px">${html}</div></div>`; }
+
+// ---------------- 로그인 / 가입 ----------------
+function showLogin(){
+  $view.innerHTML = `<div class="box"><h2>🔐 로그인</h2>
+    <div class="sub">이메일을 입력하면 로그인 링크를 보내 드려요. 비밀번호는 필요 없어요.</div>
+    <label>이메일</label><input id="em" type="email" placeholder="you@example.com" autocomplete="email">
+    <div class="row" style="margin-top:14px"><button class="btn" id="go">로그인 링크 받기</button></div>
+    <div id="lm" class="sub" style="margin-top:12px"></div></div>`;
+  document.getElementById('go').onclick = async () => {
+    const em = document.getElementById('em').value.trim(), lm = document.getElementById('lm');
+    if(!/^\S+@\S+\.\S+$/.test(em)) { lm.textContent = '이메일 주소를 확인해 주세요.'; return; }
+    const b = document.getElementById('go'); b.disabled = true;
+    const { error } = await sb.auth.signInWithOtp({ email: em, options:{ emailRedirectTo: location.origin + location.pathname } });
+    b.disabled = false;
+    lm.innerHTML = error ? '보내지 못했어요: ' + esc(error.message) : '📩 메일함을 확인해 주세요. 메일 속 링크를 누르면 이 화면으로 돌아와 로그인됩니다.<br>(메일이 안 보이면 스팸함도 확인)';
+  };
+}
+function showSignup(user){
+  $view.innerHTML = `<div class="box"><h2>📝 가입 신청</h2>
+    <div class="sub">호하사 카톡방에서 쓰는 닉네임을 <b>그대로</b> 적어 주세요. 운영진이 카톡방 명단과 맞춰 본 뒤 승인합니다.</div>
+    <label>카톡방 닉네임</label><input id="nk" placeholder="예) 수원/서울/행복부자" maxlength="40">
+    <label class="row" style="font-weight:600"><input type="checkbox" id="ag" style="width:auto"> 닉네임·이메일을 회원 확인과 게시판 운영에만 쓰는 데 동의합니다.</label>
+    <div class="row" style="margin-top:14px"><button class="btn" id="go">신청하기</button></div><div id="sm" class="sub" style="margin-top:10px"></div></div>`;
+  document.getElementById('go').onclick = async () => {
+    const nk = document.getElementById('nk').value.trim(), sm = document.getElementById('sm');
+    if(nk.length < 2) return sm.textContent = '닉네임을 입력해 주세요.';
+    if(!document.getElementById('ag').checked) return sm.textContent = '동의에 체크해 주세요.';
+    const { error } = await sb.from('members').insert({ nickname:nk, nickname_key:normKey(nk), region:regionOf(nk),
+      email:user.email, external_auth_id:user.id });
+    if(error) return sm.textContent = '신청하지 못했어요: ' + error.message;
+    location.reload();
+  };
+}
+
+// ---------------- 라우팅: #b/slug  #p/id  #w/slug  #admin ----------------
+function tabs(active){
+  const t = BOARDS.map(b => `<a class="pill ${active===b.slug?'on':''}" href="#b/${b.slug}">${esc(b.name)}</a>`).join('');
+  const a = ME.role==='admin' ? `<a class="pill ${active==='admin'?'on':''}" href="#admin">🛡 회원 승인</a>` : '';
+  return `<div class="tabs">${t}${a}</div>`;
+}
+function route(){
+  const h = location.hash.slice(1).split('/');
+  if(h[0]==='p' && h[1]) return showPost(+h[1]);
+  if(h[0]==='w' && h[1]) return showWrite(h[1]);
+  if(h[0]==='admin' && ME.role==='admin') return showAdmin();
+  const slug = (h[0]==='b' && h[1]) ? h[1] : (BOARDS[1]||BOARDS[0]).slug;
+  showBoard(slug);
+}
+async function names(ids){
+  const need = [...new Set(ids.filter(id => id && !NAMES[id]))];
+  if(need.length){ const { data } = await sb.rpc('member_names', { ids: need }); (data||[]).forEach(r => NAMES[r.id] = r.nickname); }
+}
+const nameOf = id => esc(NAMES[id] || '탈퇴 회원');
+async function signed(paths){
+  if(!paths.length) return {};
+  const { data } = await sb.storage.from('board').createSignedUrls(paths, 3600);
+  const m = {}; (data||[]).forEach(x => m[x.path] = x.signedUrl); return m;
+}
+
+// ---------------- 목록 ----------------
+async function showBoard(slug){
+  const b = BOARDS.find(x => x.slug===slug) || BOARDS[0]; CUR = b;
+  $view.innerHTML = tabs(b.slug) + '<div class="msg">불러오는 중…</div>';
+  const { data:posts, error } = await sb.from('posts').select('id,title,author_id,pinned,created_at,view_count')
+    .eq('board_id', b.id).order('pinned',{ascending:false}).order('created_at',{ascending:false}).limit(60);
+  if(error) return fail(error);
+  await names(posts.map(p => p.author_id));
+  const canWrite = b.write_role==='member' || ME.role==='admin' || (b.write_role==='staff' && ME.role==='staff');
+  let html = tabs(b.slug) + `<div class="row" style="justify-content:space-between;margin-top:6px"><div class="sub">${esc(b.name)} · ${posts.length}개</div>`
+    + (canWrite ? `<a class="btn sm" href="#w/${b.slug}" style="text-decoration:none">✏️ 글쓰기</a>` : '') + '</div>';
+  if(!posts.length) html += '<div class="msg">아직 글이 없어요. 첫 글을 남겨 주세요!</div>';
+  else if(b.kind==='gallery'){
+    const { data:files } = await sb.from('post_files').select('post_id,storage_path,sort').in('post_id', posts.map(p=>p.id)).eq('kind','image').order('sort');
+    const first = {}; (files||[]).forEach(f => { if(!first[f.post_id]) first[f.post_id] = f.storage_path; });
+    const urls = await signed(Object.values(first));
+    html += '<div class="grid">' + posts.map(p => `<div class="g" onclick="location.hash='p/${p.id}'">${first[p.id]?`<img src="${urls[first[p.id]]}" loading="lazy" alt="">`:''}<span>${esc(p.title)}</span></div>`).join('') + '</div>';
+  } else {
+    html += '<div class="list">' + posts.map(p => `<a class="it" href="#p/${p.id}"><div class="t">${p.pinned?'<span class="pin">📌 </span>':''}${esc(p.title)}</div>
+      <div class="m"><span>${nameOf(p.author_id)}</span><span>${fmt(p.created_at)}</span><span>조회 ${p.view_count}</span></div></a>`).join('') + '</div>';
+  }
+  $view.innerHTML = html;
+}
+
+// ---------------- 글 보기 ----------------
+async function showPost(id){
+  const { data:p, error } = await sb.from('posts').select('*').eq('id', id).maybeSingle();
+  if(error) return fail(error);
+  if(!p) return $view.innerHTML = tabs('') + '<div class="msg">글을 찾을 수 없어요.</div>';
+  const b = BOARDS.find(x => x.id===p.board_id) || {};
+  const [{ data:files }, { data:cmts }] = await Promise.all([
+    sb.from('post_files').select('*').eq('post_id', id).order('sort'),
+    sb.from('comments').select('*').eq('post_id', id).order('created_at')]);
+  await names([p.author_id, ...(cmts||[]).map(c=>c.author_id)]);
+  const urls = await signed((files||[]).map(f => f.storage_path));
+  const imgs = (files||[]).filter(f=>f.kind==='image'), docs = (files||[]).filter(f=>f.kind==='file');
+  const mine = p.author_id===ME.id || ME.role==='admin';
+  $view.innerHTML = tabs(b.slug) + `<div class="box post">
+    <a href="#b/${b.slug}" class="sub" style="text-decoration:none">← ${esc(b.name||'목록')}</a>
+    <h2>${p.pinned?'📌 ':''}${esc(p.title)}</h2>
+    <div class="sub">${nameOf(p.author_id)} · ${fmt(p.created_at)}</div>
+    <div class="body">${esc(p.body)}</div>
+    <div class="imgs">${imgs.map(f=>`<img src="${urls[f.storage_path]}" alt="" onclick="lbopen(this.src)">`).join('')}</div>
+    <div class="files">${docs.map(f=>`<a href="${urls[f.storage_path]}" target="_blank" rel="noopener" download="${esc(f.file_name)}">📎 ${esc(f.file_name)}</a>`).join('')}</div>
+    ${mine ? `<div class="row" style="margin-top:16px">${ME.role==='admin'?`<button class="btn ghost sm" id="pinb">${p.pinned?'고정 해제':'📌 상단 고정'}</button>`:''}<button class="btn bad sm" id="delb">삭제</button></div>` : ''}
+  </div>
+  <div class="box"><h2>💬 댓글 ${(cmts||[]).length}</h2>
+    ${(cmts||[]).map(c=>`<div class="cmt"><b>${nameOf(c.author_id)}</b><small>${fmt(c.created_at)}</small><div>${esc(c.body)}</div></div>`).join('') || '<div class="sub">첫 댓글을 남겨 보세요.</div>'}
+    <textarea id="ct" style="min-height:70px;margin-top:10px" placeholder="댓글 쓰기"></textarea>
+    <div class="row" style="margin-top:8px"><button class="btn sm" id="cb">등록</button></div></div>`;
+  sb.from('posts').update({ view_count: p.view_count + 1 }).eq('id', id).then(()=>{});   // 본인 글/관리자만 반영(RLS) — 참고용
+  document.getElementById('cb').onclick = async () => {
+    const t = document.getElementById('ct').value.trim(); if(!t) return;
+    const { error } = await sb.from('comments').insert({ post_id:id, author_id:ME.id, body:t });
+    if(error) return alert(error.message); showPost(id);
+  };
+  if(mine){
+    document.getElementById('delb').onclick = async () => {
+      if(!confirm('이 글을 삭제할까요? (운영진은 복구할 수 있어요)')) return;
+      const { error } = await sb.from('posts').update({ is_deleted:true }).eq('id', id);
+      if(error) return alert(error.message); location.hash = 'b/' + b.slug;
+    };
+    const pb = document.getElementById('pinb');
+    if(pb) pb.onclick = async () => { await sb.from('posts').update({ pinned:!p.pinned }).eq('id', id); showPost(id); };
+  }
+}
+window.lbopen = src => { document.getElementById('lbimg').src = src; document.getElementById('lb').classList.remove('hidden'); };
+
+// ---------------- 글쓰기 ----------------
+function shrink(file){
+  return new Promise(res => {
+    if(!file.type.startsWith('image/') || file.type==='image/gif') return res({ blob:file, w:null, h:null });
+    const img = new Image(); img.onload = () => {
+      const max = C.IMAGE_MAX_SIDE, r = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement('canvas'); c.width = Math.round(img.width*r); c.height = Math.round(img.height*r);
+      c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+      c.toBlob(b => res({ blob:b, w:c.width, h:c.height, jpg:true }), 'image/jpeg', 0.85);   // 다시 그리면 위치정보(EXIF)도 빠짐
+    };
+    img.onerror = () => res({ blob:file, w:null, h:null }); img.src = URL.createObjectURL(file);
+  });
+}
+function showWrite(slug){
+  const b = BOARDS.find(x => x.slug===slug); if(!b) return route();
+  const accept = b.kind==='gallery' ? 'image/*' : (b.kind==='file' ? '' : 'image/*,.pdf,.xlsx,.xls,.docx,.pptx,.hwp,.hwpx,.zip');
+  $view.innerHTML = tabs(b.slug) + `<div class="box"><h2>✏️ ${esc(b.name)} 글쓰기</h2>
+    <label>제목</label><input id="tt" maxlength="120">
+    <label>내용</label><textarea id="bd" placeholder="개인정보·계좌·연락처는 쓰지 마세요"></textarea>
+    <label>${b.kind==='gallery'?'사진 (여러 장 가능)':'첨부 (사진·파일, 여러 개 가능)'}</label><input id="fl" type="file" multiple accept="${accept}">
+    <div class="row" style="margin-top:16px"><button class="btn" id="sv">올리기</button><a class="btn ghost" href="#b/${b.slug}" style="text-decoration:none">취소</a></div>
+    <div id="wm" class="sub" style="margin-top:10px"></div></div>`;
+  document.getElementById('sv').onclick = async () => {
+    const tt = document.getElementById('tt').value.trim(), bd = document.getElementById('bd').value.trim();
+    const fl = [...document.getElementById('fl').files], wm = document.getElementById('wm'), sv = document.getElementById('sv');
+    if(!tt) return wm.textContent = '제목을 입력해 주세요.';
+    if(b.kind==='gallery' && !fl.length) return wm.textContent = '사진을 한 장 이상 올려 주세요.';
+    sv.disabled = true; wm.textContent = '올리는 중…';
+    const { data:p, error } = await sb.from('posts').insert({ board_id:b.id, author_id:ME.id, title:tt, body:bd }).select('id').single();
+    if(error){ sv.disabled = false; return wm.textContent = '실패: ' + error.message; }
+    for(let i = 0; i < fl.length; i++){
+      wm.textContent = `파일 올리는 중… (${i+1}/${fl.length})`;
+      const f = fl[i], isImg = f.type.startsWith('image/'), s = await shrink(f);
+      const ext = s.jpg ? 'jpg' : (f.name.split('.').pop() || 'bin').toLowerCase();
+      const path = `${p.id}/${crypto.randomUUID()}.${ext}`;
+      const up = await sb.storage.from('board').upload(path, s.blob, { contentType: s.jpg ? 'image/jpeg' : (f.type || 'application/octet-stream') });
+      if(up.error){ wm.textContent = '파일 업로드 실패: ' + up.error.message; continue; }
+      await sb.from('post_files').insert({ post_id:p.id, storage_path:path, file_name:f.name, mime_type:s.jpg?'image/jpeg':f.type,
+        kind:isImg?'image':'file', width:s.w, height:s.h, size_bytes:s.blob.size, sort:i });
+    }
+    location.hash = 'p/' + p.id;
+  };
+}
+
+// ---------------- 관리자: 회원 승인 ----------------
+async function showAdmin(){
+  $view.innerHTML = tabs('admin') + '<div class="msg">불러오는 중…</div>';
+  const { data:ms, error } = await sb.from('members').select('id,nickname,email,status,role,tier,created_at,kakao_left_at').order('created_at',{ascending:false});
+  if(error) return fail(error);
+  const order = { pending:0, active:1, left:2, blocked:3 };
+  ms.sort((a,b) => order[a.status]-order[b.status]);
+  const cnt = s => ms.filter(m=>m.status===s).length;
+  $view.innerHTML = tabs('admin') + `<div class="box"><h2>🛡 회원 승인</h2>
+    <div class="sub">대기 ${cnt('pending')} · 활성 ${cnt('active')} · 퇴장 ${cnt('left')} · 차단 ${cnt('blocked')}<br>
+    카톡방 닉네임과 같은지 확인한 뒤 승인하세요. 퇴장 처리는 매일 밤 카톡 파일 기준으로 자동 반영됩니다.</div>
+    <table><tr><th>닉네임</th><th>상태</th><th>신청일</th><th></th></tr>
+    ${ms.map(m => `<tr><td><b>${esc(m.nickname)}</b><div class="sub">${esc(m.email||'')}${m.role!=='member'?' · '+m.role:''}</div></td>
+      <td><span class="tag ${m.status}">${({pending:'대기',active:'활성',left:'퇴장',blocked:'차단'})[m.status]}</span></td>
+      <td class="sub">${fmt(m.created_at)}</td>
+      <td style="text-align:right;white-space:nowrap">${m.id===ME.id?'':
+        (m.status!=='active'?`<button class="btn ok sm" data-a="active" data-i="${m.id}">승인</button> `:'')+
+        (m.status==='active'?`<button class="btn bad sm" data-a="blocked" data-i="${m.id}">차단</button>`:'')}</td></tr>`).join('')}
+    </table></div>`;
+  $view.querySelectorAll('button[data-a]').forEach(bt => bt.onclick = async () => {
+    const st = bt.dataset.a, id = bt.dataset.i, m = ms.find(x=>x.id===id);
+    if(!confirm(`${m.nickname} 님을 ${st==='active'?'승인':'차단'}할까요?`)) return;
+    const patch = st==='active' ? { status:'active', approved_at:new Date().toISOString(), approved_by:ME.id } : { status:'blocked' };
+    const { error } = await sb.from('members').update(patch).eq('id', id);
+    if(error) return alert(error.message);
+    await sb.from('membership_events').insert({ member_id:id, nickname:m.nickname, event: st==='active'?(m.status==='pending'?'approve':'restore'):'block',
+      source:'admin', event_date:new Date().toISOString().slice(0,10) });
+    showAdmin();
+  });
+}
+
+sb.auth.onAuthStateChange((ev) => { if(ev==='SIGNED_IN' && !ME) start(); });
+start();
+</script>
+</body>
+</html>
