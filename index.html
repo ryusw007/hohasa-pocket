@@ -23,7 +23,8 @@
   html,body{ margin:0; background:var(--bg); color:#e9eaee;
     font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
   .wrap{ max-width:720px; margin:0 auto; padding:24px 18px 60px; }
-  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:15px; color:#c9ccd3; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:800; font-size:18px; color:#e9eaee; }
+  .brand .ver{ margin-left:auto; font-size:12.5px; font-weight:800; color:#fff; background:var(--accent); border-radius:999px; padding:3px 10px; letter-spacing:.3px; }
   .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
   .hero{ margin-top:16px; border-radius:20px; overflow:hidden; background:var(--card);
     box-shadow:0 16px 44px rgba(0,0,0,.5); }
@@ -38,10 +39,11 @@
   /* 메뉴: 맨 위 '오늘의 다이제스트'는 한 줄 전체, 나머지는 가로 2개씩 */
   .menu{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
   .menu a{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px;
-    min-height:76px; text-align:center; text-decoration:none; font-weight:800; font-size:15px;
+    min-height:86px; text-align:center; text-decoration:none; font-weight:800; font-size:17.5px;
     border-radius:14px; padding:12px 8px; color:#e9eaee; background:#20242e; border:1px solid #2c313d; word-break:keep-all; }
-  .menu a .i{ font-size:22px; line-height:1; }
-  .menu a.main{ background:var(--accent); border-color:var(--accent); color:#fff; grid-column:1 / -1; }
+  .menu a .i{ font-size:27px; line-height:1; }
+  .menu a.board{ grid-column:1 / -1; flex-direction:row; gap:8px; background:#1d2a3a; border-color:#2f4a6b; color:#cfe6ff; }
+  .menu a.main{ background:var(--accent); border-color:var(--accent); color:#fff; grid-column:1 / -1; font-size:19px; }
   .menu a:active{ transform:scale(.97); }
   .sec{ margin-top:34px; font-weight:800; font-size:15px; color:#c9ccd3; display:flex; align-items:center; gap:8px; }
   .sec::before{ content:""; width:4px; height:16px; background:var(--accent); border-radius:2px; }
@@ -64,12 +66,12 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="brand"><span class="dot"></span><span>호하사 데일리 다이제스트</span></div>
+    <div class="brand"><span class="dot"></span><span>호하사 데일리 다이제스트</span><span class="ver">ver 4.0</span></div>
     <div id="hero"></div>
     <div class="sec">회차 넘겨보기</div>
     <div class="hint">← 좌우로 밀어 지난 회차를 보세요</div>
     <div class="strip" id="strip"><div class="empty">불러오는 중…</div></div>
-    <div class="foot">웹툰처럼 좌우로 넘겨 보세요 · Hostel Up People</div>
+    <div class="foot">웹툰처럼 좌우로 넘겨 보세요 · Hostel Up People · ver 4.0</div>
   </div>
 <script>
   function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
@@ -93,6 +95,7 @@
       + '<a href="sibo.html"><span class="i">🏛</span>서울시보</a>'
       + '<a href="hohasa-web-dashboard.html"><span class="i">📊</span>참여 대시보드</a>'
       + '<a href="ai.html"><span class="i">🤖</span>AI 챗봇</a>'
+      + '<a class="board" href="board/"><span class="i">🔒</span>회원 전용 게시판</a>'
       + '</div></div></div>';
 
     // 가로 스트립: 과거→오늘(오름차순), 오늘 강조 + 가운데 정렬
