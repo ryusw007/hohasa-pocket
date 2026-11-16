@@ -1,24 +1,29 @@
 {
-  "date": "2026-11-15",
-  "updated": "2026-11-15T14:56:02Z",
+  "date": "2026-11-17",
+  "updated": "2026-11-16T16:03:47Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
+        {
+          "title": "정치행사 금지 지침에도 유스호스텔서 출판기념회…서울시의회 최유희, 대관 경위 질의",
+          "source": "미디어이슈",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53UkxTSGkybkIxSTVSTWt6OHlFUlpGdlJ3Wk1HQUx2UTNKdnNfZkszNTZGWHMtMnlra0pBMXdpWm1ZaHFFVDZKWg?oc=5"
+        },
         {
           "title": "문화·교육·숙박 거점 ‘진주남강하모 유스호스텔’ 준공",
           "source": "경남신문",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jNVV4VkFRTk5sN3BxN0JUQUl4M1ZlZE0wSTRyczJ3ang4ZUNrdk8wQW1uTXZZMmZ0TzdweWl4UjZaTGhINmlJZ1J1bEMteHJpUGxOSndkN0ZTUQ?oc=5"
         },
         {
-          "title": "수원유스호스텔, 한국마사회 수원지사와 청소년 안전 역량 강화 위한 기부금 전달",
-          "source": "웹이코노미",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kZDRKbUZzdVhJRjhTOU5qNzhLSUd6d1I1dlVTM3NvWDVHOThKOGgzWlJUTUpBU0M0YnpfeVB3N2thcVRLRmw0RVdlbnBZazl2ajJVdXVzMDJEUWpZcjRLUm1fdW8wVlk0MXJfVU51dkV2UQ?oc=5"
+          "title": "수원유스호스텔, 한국마사회 기부금 사업 ‘청소년 안전 원정대의 1박 2일 ’ 1차 성료… 13일부터 2차 캠프 진행",
+          "source": "비전21뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Gc09sVFl0UnRPZDRIN2Q3LUJhM3FDcjVFVEdMMU1IdnhSaWpucF9ERkZMLXFzdlZneWd6NHBIVTZQckVoNU5sRTM2UGp5RmNsdHdBTDlkMU1IR2dVRWxoZg?oc=5"
         },
         {
-          "title": "수원유스호스텔, ‘청소년 안전 원정대의 1박 2일’ 1차 캠프 성료… 2차 캠프 13일부터 진행",
-          "source": "웹이코노미",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QOEtwRk4tTFo4cllFU0VISkpFdHpSTWNyR2ZFYU1paEdMQ3hxMEFBSENMT01CcmNGSjdNZmxUYW5tYzVxdHJXZGZPaWh1QmRuYTQ4VkM3UmdwdWxtNUtYaWFsbHpEamljbTNkN1c1WFQ0Zw?oc=5"
+          "title": "수원유스호스텔, 한국마사회 수원지사와 지역 청소년의 안전 역량 강화를 위한 기부금 전달식 개최",
+          "source": "비전21뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ha0hEcm1mUklJejMxMTVIa05hTTZiUjV0QUY1SjY1NGhTMjlqTE1Nc2daTjlFeWVITDg3QlcteTVabi0zN1VPZjVyYXZLb1VfaXdlX1NBZHRoZklGTkIzNQ?oc=5"
         },
         {
           "title": "육아공간·게스트하우스·예술인마을…청주 도심 흉물 빈집의 변신",
@@ -31,29 +36,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "방한 외국인 관광객 사상 첫 2000만명 돌파… 14년 만에 두 배",
-          "source": "진일보 | 전남일보",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BLVB1cXRvdlNkcFNmTkg5V1V5TEk0NUI4bU9iSlhrdVdMamx3eTBZcDdfeTlnZHhsT3NibXZTY0pXN2c4WjllZ1JNRGxqSlg5LTUwX05zUmhicEJpQWVYX2RVNVkycnZDazd3V0FMOA?oc=5"
+          "title": "관광객 밀려드는 서울…야간관광 활성화·숙박업 강화 모색",
+          "source": "연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaNjVKN0ttM1c2YnFCNUctX2VBWnlWcWo3MTBZeXN2cXExeFlDTzdDZnhpMTZHODgtNHZyNVBaWFdBZ254SzJHc3dmZnBHQmJWTXZYcU5VOHpUYWt5YU9sMNIBYEFVX3lxTFBaNjVKN0ttM1c2YnFCNUctX2VBWnlWcWo3MTBZeXN2cXExeFlDTzdDZnhpMTZHODgtNHZyNVBaWFdBZ254SzJHc3dmZnBHQmJWTXZYcU5VOHpUYWt5YU9sMA?oc=5"
         },
         {
-          "title": "\"역대 최다 관광객… 체류·소비 늘린 서울시 노력 숨어있죠\" [서울을 움직이는 사람들]",
-          "source": "파이낸셜뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lbjJ3X0JkSHo4Q2pMX2dDWE1zNDVNbjJmMlUxdF9fUTVOOW5DcXFzQkNfclZva01aQk1wc1hWRWlCSllqT2l3Q0ZpTUd1WkZ5M0hpRmY1dGdsdw?oc=5"
+          "title": "K콘텐츠 타고 외국인 몰린 성수·명동 … 상가 임대료 1년 새 최대 19% 상승",
+          "source": "Queen 이코노미퀸",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53aFk3NEtkRmE1QTY2SFdyZTQ3b24zZ2JwWjY1ZHJsVmxwaDRmYXNHR1dXNC1lUjZzZnFPanFTazlnWUlQcHBSajZnUUpFVmx6QXRwZzJNMGxud1I3QVA2Q3JBTWZreXlN?oc=5"
         },
         {
-          "title": "[사설] 외국인 관광객 2천만 시대, TK 체류 늘려야",
-          "source": "경북일보",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyekRfM21zYUJqZjRQNWt0S0pMU1Y0cEcyUk9hM1pPTWFxQUk2WDJMWWl1ckE4NlFubDRiODk4WEZGYTRiekk3emZ1N3BRZU9senE1ZkZUY21EY1hsaGQyQmZKUnFTMkNQY0M5eHNuOA?oc=5"
+          "title": "중국 강소성 전통문화, 서울 명동서 만난다…21~22일 관광 홍보 행사",
+          "source": "디지틀조선일보",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4SzZLS1IwNWwtT3kzUm1OX1UxVmlUU0g0R0VNYk9fV0hPdjAyZHZrNzM0amdMOTM2SlVCVmtrV0RRQjN0UW80NTlYVi1lMFg5N2RvRnBMSnV2WmJEOXM4VUVLMzZJWGxWX091dm5wd2FkSExtaGNLa3hLRdIBe0FVX3lxTFB4SzZLS1IwNWwtT3kzUm1OX1UxVmlUU0g0R0VNYk9fV0hPdjAyZHZrNzM0amdMOTM2SlVCVmtrV0RRQjN0UW80NTlYVi1lMFg5N2RvRnBMSnV2WmJEOXM4VUVLMzZJWGxWX091dm5wd2FkSExtaGNLa3hLRQ?oc=5"
         },
         {
-          "title": "가을날 경복궁 즐기는 외국인 관광객들",
-          "source": "뉴스1",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9YeEhnQWp5WnlYQkQzN1hCRElFY3UyeXJ1eFR4UTBsSDl6alo1OUk1NDNYTzgydFp3SkQtX2wwbDdDWnAzQzBFNlFLYw?oc=5"
+          "title": "\"환전소 찾아 헤맬 필요 없다\"…모인, 외국인 관광객 위한 선불카드 17일 출시",
+          "source": "뉴스탭",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xcEtUSDJHMFZnWWlVWW1vXzJETmwwVnpSTXpYQ25DengxREpDY3BUSmQ4eG92N0J3OEk5eF9rQlVoZzVUcFVjTUhLclZRQVQ2OTFkNXZ2MUtBRlFMa0hwbnI3MUs4ZnBTUW9FYg?oc=5"
         },
         {
-          "title": "지역까지 외국인 관광객 늘어나는데…숙박 수요 이어갈 인프라는 부족",
-          "source": "전자신문",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wN3Y1MFQ5QVJTamVmS2JtOHhVbzRPaS10ZkZKdnhUSzhoTmZpY1hhMjA0OHBwNGg5UWs4SWluQTVwNlhjUjZYREJtWHQ0Zw?oc=5"
+          "title": "조용우 \"외국인 관광객 400만 시대…공중화장실 안내체계 개선 시급\"",
+          "source": "국제뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00akhWUkJ1Z1FzS3F1Y0M5Q0F6ZmtoRVlJMDFLc0gtbUxZejNIdlA2VjhwYnljaWk1M1JxYzhFdklLMHFXSmtnTTF1R1lSUXAwVEhuQU1LZmN1aVdMRmpUN3NZdXc5Qnh4TnVQQU13?oc=5"
         }
       ]
     },
@@ -61,9 +66,29 @@
       "name": "🏢 부동산·정책",
       "items": [
         {
-          "title": "[공간혁신] 도산대로 하이마트 부지 ‘2000억 거래설’의 진짜 의미…신영증권 컨소시엄, 평당 3억 땅에 고급 호텔·오피스텔?",
-          "source": "뉴스스페이스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lb25RR3JEaDZYQVB3aXEtNC15R0RsTVJUUzZlMm0yM1N0X0xFdnZpMnJDSWhpS2RvOWUyMUUzdHhIb1NiQkxuWXZJaFJSRjllLVZVUjQzSnNlV3MxQkd0Xw?oc=5"
+          "title": "국토부, 생숙 1객실 숙박업 허용 포상",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qb3FCUDEzM01UZmNMQ2FoZXJyODlkblhEX195MGNrRGhaSXcyQXJhNWlrWXN6UWk2bWs0YzdIbHFzdFdnSjlFMFBGRFZnc0R4Nk1iQVd6a0ZmT004THhEY2xWVlVpOV83dHEwemVpM0FHdw?oc=5"
+        },
+        {
+          "title": "서울관광재단·한국관광학회, 관광 경쟁력 포럼 성료",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CUlpaekg1dUlmdzZXSENaYkkyQlQxQURWRTU2TGlzQ3BNbTFrRmNoTmZlM0RwNXlORDNTeTkyMzdUYWdaWHJqblhSdENGZGR4ZWpLZTQ1R2c1elBlb3F1eDNZMnA1Z1NRdVU0Uk12UEY3UQ?oc=5"
+        },
+        {
+          "title": "서울관광재단, 서울의 밤을 붙잡을 22가지 고민 [PS]",
+          "source": "스포츠동아",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0cktoZkRrOGNoZmhROGFVMXVzX25HZmw2bUcyMS1HTzZSaEVWY292QXdDc29PUmtrbmVQS3FRUnh2MmFPN3VFYXdiOUFmcUdaRE5DZ21vR1pCZzNtS0MwUXdUSzZoUVNZTE4zSHlkVQ?oc=5"
+        },
+        {
+          "title": "호스트 호텔스 앤 리조츠의 제임스 리솔레오 사장이 보유 지분의 25%를 매각했다",
+          "source": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaTREQjBadDFyZmZxSUhwbUxHSDZqZHR6Z2RpTTVscGdndThsM2gyWnFQUWctQXZGb1RucGlDOExKc3V1XzFNMmVQbFE3TEhlc0Z6SUc4dklqQWhURHZPdmZxWm9qRjIwYWNaWVJzaDJveGJtZ3dhcG1aQkxRMVVJRU0xUEFLck9YOU1ieGxXS2FpOWRkNFNDWDlZSzkyYVc2THVNWGp30gGmAUFVX3lxTE5pNERCMFp0MXJmZnFJSHBtTEdINmpkdHpnZGlNNWxwZ2d1OGwzaDJacVBRZy1BdkZvVG5waUM4TEpzdXVfMU0yZVBsUTdMSGVzRnpJRzh2SWpBaFREdk92ZnFab2pGMjBhY1pZUnNoMm94Ym1nd2FwbVpCTFExVUlFTTFQQUtyT1g5TWJ4bFdLYWk5ZGQ0U0NYOVlLOTJhVzZMdU1Yanc?oc=5"
+        },
+        {
+          "title": "롯데쇼핑, 호텔롯데 김해 땅 635억 매입…유통단지 재편 속도 내나",
+          "source": "블로터",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhRmh2bDJJVGJKakdmLUpSYXhWem1QckYwZ2xuUlN5QmFfTWpKLWI0VWdqSFpEQ3laYTFpbHIxbmktUHlBZHp5WGd1R0tSYjRsQ1Y0Z01zZkp0QktfVXdaQlk3MFkxa3g3dlNxa9IBbEFVX3lxTFBhRmh2bDJJVGJKakdmLUpSYXhWem1QckYwZ2xuUlN5QmFfTWpKLWI0VWdqSFpEQ3laYTFpbHIxbmktUHlBZHp5WGd1R0tSYjRsQ1Y0Z01zZkp0QktfVXdaQlk3MFkxa3g3dlNxaw?oc=5"
         }
       ]
     }
