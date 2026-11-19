@@ -1,5 +1,12 @@
 [
   {
+    "id": "lesson78",
+    "title": "숙소를 넘길 때, 예약도 함께 넘긴다",
+    "date": "2026-11-19",
+    "cover": "lessons/lesson78/00_cover.jpg",
+    "count": 6
+  },
+  {
     "id": "lesson77",
     "title": "첫 손님 받는 날이 데드라인",
     "date": "2026-11-18",
