@@ -1,34 +1,24 @@
 {
-  "date": "2026-11-20",
-  "updated": "2026-11-19T16:04:42Z",
+  "date": "2026-11-21",
+  "updated": "2026-11-20T16:02:39Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
-        {
-          "title": "서울유스호스텔 도미토리, 성인도 침대별 이용",
-          "source": "비건뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01WnRJWEJGQVI5aEtfeUxjdUNxdjFQNFNnYmQ2Q1V3aXktQjVFa1R4SjJmOHN0bGhYakh4QzRpTjNTNWZ6cmFydjBUc2V4OFp0N2RqRy1mVC1Zb3ZzSWZCMHhfVE13bmhO?oc=5"
-        },
-        {
-          "title": "화성서해마루 유스호스텔·화성시지속가능발전협의회 맞손… ‘생태·관광 연계 청소년 교육’ 활성화",
-          "source": "뉴스팍",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoajUzYUtSek9HZTRXSTgxNUh5bVNpT3ZGWHhScVFpLVRyZVpQVU05Q0UwUmZDSl8yS0Q3NHppQXpRWlk2dGtZMldHNlk4YjdSRnFLMlpKZWx4RmwwQ2UzQWVkbw?oc=5"
-        },
         {
           "title": "공공주택도 특화설계 경쟁… 남광토건 ‘부천대장 하우스토리 디센트’ 계절창고·게스트하우스 먼저 도입",
           "source": "리얼캐스트",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTRUk3RWNqNUF4NHluQ1h3YktUTS0wZmFjLXViYkRFOTQ0c0IzVGhYUXp6MHd1b2tWQWNiZWlHZ0hONFFMcUVVNlFGbEdpVW11dnZqTUVzNWRwS21fZ2J6VzhPMFF0T05D0gFsQVVfeXFMUGlqZ1ZBV0l1Ry1kMDVQRXpIMzZkdW9WS01fRVBxYTBGa2NsV1hmZGJtNWs2NnBJX1JOZGFLSmpST3ZBeEljSzdJNkZrQnRyRHhqUXpjYkp2dmx2S183bWtjeVRHTkpxSXFncTZ4?oc=5"
         },
         {
-          "title": "K-관광이 바꾼 부동산 시장…오피스도 호텔로 변신",
-          "source": "아주경제",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01YlpET1ZSd1o3RFBjTGJXZ1pDMVV3Z0VBRzBmZTB4dXZzdHUySC1OWVhyaGo2SGFCWVlhOWhUcUxPOUc0R1I2alZfN2FQSW9qVWM5aFBYdHfSAVhBVV95cUxNNWJaRE9WUndaN0RQY0xiV2daQzFVd2dFQUcwZmUweHV2c3R1MkgtTllYcmhqNkhhQllZYTloVHFMTzlHNEdSNmpWXzdhUElvalVjOWhQWHR3?oc=5"
+          "title": "숙박시설 화재 때 외국인 대피 도운 시민에 표창",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JTGN2Q1ZqOUk5T0FTWVIxbGJvcDRhREkwRlM5VGl1enRkNVhBZHRZRzhDcktyN2k5b08tZ3hkZ2I5emN2RUdLQnRXdlA0dWxVdk1kLWgtbllaUTRsblNUODItU0lQQ3JybEx3VjRYQXZsZw?oc=5"
         },
         {
-          "title": "경남, 내년부터 축제 음식값·숙박요금 매주 공개",
+          "title": "라쿠텐 트래블, 일본 숙소 블랙프라이데이 할인",
           "source": "숙박매거진",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nY29wOVc5QURCNXNzSTdrNVU5MnFLRHhlRktWRTQyekJ1Y01ZOTdDNjlQWXBZbnZXbXRwR2pkbndWb2tOUVNMRXgxSVVlb1JSY0NDbGN2dTNJdUNycDJNWXZ4Q3hJZFVtajItUC10SGw3dw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oZkI2eUNxNlJUdmdham9pMmRoSml1RVA4SV9IeWdzN3p6ZHBQYVJyNFhjUnJBQkhSYU5kSU5YbGx4TFl1MHBMRkVZN1owSFM1UWdTUm9rWmNXRS1xS3BpNlFRTk5lSmZfSFdZaGZzcjM?oc=5"
         }
       ]
     },
@@ -36,29 +26,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "관광객 몰리니 임대료도 쑥...서울 명동 상가 임대료, 세계 9번째로 비싸",
-          "source": "생생비즈플러스",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JbTNtVFdQbWowRklGSlFwSEF3cy01di0yclZQX2ZkbVRfSFVIakdkdGdVY2llQkQ4VlF1eHAxYUJuLUNwWlpGNzFJOXZiaUVfYlZrTEMyMHlkbWNnUkJSQnRvUDlmMXllQmdmcQ?oc=5"
+          "title": "​제너시스BBQ, ‘방한객 2000만 시대’ 날개 달았다…홍대·명동 매장 매출 43% 껑충",
+          "source": "스포츠서울",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RWFJDMmtEbWVsaUpiYVBYOFZYTzdrTWtQbkF6bHNWZGFBMWVUQm02U19INTNjWXVXQzFCb243VlBicXhSc0dMZFBqUmU3aF9Ec0J3VzlvazU?oc=5"
         },
         {
-          "title": "외국인 관광객 ‘탈서울’ 가속…춘천·경주·가평 등 여행지 다변화",
-          "source": "헤럴드경제",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWUGNEc3phMWp2NGV0M1ZWQTVheGdRVnFxcWRReEJ2QU5rRWVIeGNnenYwMjY0YjFqQjB4SzMxVU9UaG85dzNQdWhLSXppXzNhUTBJXzln?oc=5"
+          "title": "숙박시설 화재서 외국인 관광객 16명 대피시킨 시민…서울시, 용감한 의인 표창",
+          "source": "서울뉴스통신",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wX0huUXcyYkpXZjNGbG10UnNVVjZfdWxPamRhYWNVV20yS3hvaXFGY253eDBHclVHcFF0Nl9rbU1hMjFVcE80V3BzWW1aLXBIUUxlbWxucDhPWkpYS3NwV2I3ZUd3ZkVfNGZndg?oc=5"
         },
         {
-          "title": "방한 외국인 관광객 2000만명 돌파…이제는 관광대국으로",
-          "source": "경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xb2pmTDFvdEZKMjJNVVhMMEgzUVhTa0I2U3dIVElsNzE2dUdST3F5ZmFJOGVKT1dLR2tLLWEyT1pod0xZUmtWUkVMOWdGMVA4cHNHOE93WWJHQdIBX0FVX3lxTFBOZ0plTHh4eFlORDhXaTJFTGZUME1DUnlzM3BrX1pkSERtdHJpclNoOVRhLTJxY1lUNWFKLTBjNjg0eU4tSEZ0LVdsLWNoZDIwSGNJT2sxTW9ha01GOEZB?oc=5"
+          "title": "명동 상권 임대료 세계 9위, 외국인 관광객 효과 [뉴스Q]",
+          "source": "스포츠Q",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIZGU3RTBBTE1hYUUzRk5TbnpaWWxKWUlDLXpWVWgyRm91Qjg4QllTLXJ4MC1sYTR5aUp0OGcxd09KMjc3TFpCYjVfSEtybWV5aXg5cThMcWh1UDNPc0xFcXFQSC1WM1ZqS3c?oc=5"
         },
         {
-          "title": "외국인 2000만명 ‘올다무’ 즐기지만…서울에 갇혔다",
-          "source": "중앙일보",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16aWl0VlVBXzZhOTBnX0FOQ18xS0Y0c0FZeVpwSmxub0Q0WG1EdnJ0SmI2ZDU2bzZReTVsVmIwU0VlaHlNRjFuRlRidUlCa0xhYl9hNm5R?oc=5"
+          "title": "밀양시, 외국인 관광객 유치 전략 모색…관광 콘텐츠 발굴 논의",
+          "source": "브레이크뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1TN25QMHllUnZuVTJTYTM3d1J5a3k1Z05VSDI3VkY4c3NLTkhRU3BXTDlkMFVaOHI3OG1LaU1rS21wZzFFZF80?oc=5"
         },
         {
-          "title": "‘2026 서울관광 프롬프톤’ 참가자 모집",
-          "source": "트래블데일리",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JRkxaTFk5aWsxSzRZLXI5R09OUEU0VWxJZnpRSmdZZm1yMFYwRl81V05FTUp0U3h3NXdrb0gwVW56SjdlMHRCSVFJMi1yUUhnUzVGZTU4a0ZoT2g1YmV5YXNFbUVEUzVNTTdMdGtHRHg?oc=5"
+          "title": "외신이 주목한 K-관광…서울 넘어 지역·일상으로 '깊어진 여행'",
+          "source": "한국방송뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpT3RPdDd0b0tUMWFYOHExYl9VQ1lCR2U5ZWRFcWtBcHNueEpqSThEc2VqRlZYUTJxVmxLZm1YNzN3X2UzM0hWX0ZfN3pta3VfTGRNY3k0SXZ4Mkx4OHc?oc=5"
         }
       ]
     },
@@ -71,24 +61,24 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qN2ZrRDExYlVXdVdtd29Cb0E4YjN5RTVFRldrWHRsNzNYczhla3FTN2dyWWloVUgtOENMRTR4UFV2M3FicFVqdy1WaFllZ2JtN2UzVkc1LVU3ZHp4aUdCUjZTYTZvSHR4OGRScjBIN0I?oc=5"
         },
         {
-          "title": "김학홍, 문경 관광의 체질 바꾼다…420억 원 호텔 투자 본격화",
+          "title": "김학홍, 문경 관광의 체질 바꾼다…420억 호텔 투자 본격화",
           "source": "뉴스투데이",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTeTBBcWh3ZlF5S3RQTXczbHl1d2Z0Smxrbi1ydkp3X2pOUjc1dmdvV0EzSWIwdjB4YnI5bUhhWHZxb3dqWWNLY0pnNFprWG9YcmNIODdDbjhfNmUzWGc?oc=5"
         },
         {
-          "title": "[기획취재] 국립공원 24.6%의 도시, 영주 소백산의 선택은⑦ 산 하나를 ‘여행’으로 만들었다…필라투스의 360도 관광전략",
-          "source": "영주시민신문",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mQ3dpQjNWbmUyd2dBcmt0TUlha25KMWJ3Wk94cllmRHVUREs5bGRaR3pfeFdva05DNUdRNWpKZGxKUC1oc0VDdWRqaW5kQktlTXRjQzRlYzhEQmY1d0s2V1gxdHJwRzEz?oc=5"
+          "title": "“韓 호텔 미쳤다” 이러니 400만 원씩 쓰지…성형하고 임플란트까지 놀라운 ‘변신’",
+          "source": "서울경제",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pNkxKMzlJeEtHSXdzRk5YOXNsSVA4T1NtT1VlcnF0XzhFaWNkZDAyaldqb1NIVkZaMWh0WkJDRW8yeGQ5d25KVnlCRnJNOFlyMUHSAVNBVV95cUxPWkNYUmhwczJrdEVMSUhVdzVJQ0pZSW1ienlkeFptdW1QaU1QSFp5dHJHT25Bd0s2cFRyTEVNQ3hROE5MbFVKX1hqR3FuOTMybGlNWQ?oc=5"
         },
         {
-          "title": "수원시의회 이동엽 의원, 4개 구 특성 살린 관광발전 전략 촉구",
-          "source": "아주경제",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pVVc4ZXdKTWRIUjBwZ2k1TXpsU0cwT2tBODhFV0ZVdXNVZkhWXzlYOVZ6NUluZjEwRVJDWTlweFJHNExGXzAzbWh2QXZrczJOWnZKNnF5Z1TSAVhBVV95cUxPaVVXOGV3Sk1kSFIwcGdpNU16bFNHME9rQTg4RVdGVXVzVWZIVl85WDlWejVJbmYxMEVSQ1k5cHhSRzRMRl8wM21odkF2a3MyTlp2SjZxeWdU?oc=5"
+          "title": "연말 여행 수요 살아나나…강원랜드·파라다이스 상승, 호텔·리조트주는 혼조",
+          "source": "핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BWkNOWk5SSW92T3BBbksyUzdaNU5IVTZEY09wVGZVVXRpSVFBSHR3dWlHTXJITnZCRkhRWElqVGw2dlE3QkxuUDdBZmtZcGpTLXlSWDhfR3hiVUNnVzg4TjAxTS11SUhmR3VldHpURl9JUlh4aWpF0gF3QVVfeXFMTUFaQ05aTlJJb3ZPcEFuSzJTN1o1TkhVNkRjT3BUZlVVdGlJUUFIdHd1aUdNckhOdkJGSFFYSWpUbDZ2UTdCTG5QN0Fma1lwalMteVJYOF9HeGJVQ2dXODhOMDFNLXVJSGZHdWV0elRGX0lSWHhpakU?oc=5"
         },
         {
-          "title": "이동엽 수원시의원, 권선구 체험형 레저관광 육성 촉구",
-          "source": "이뉴스투데이",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53VllnOUJUQ3hGNXJaMFJYeTZPYndLc3UxRnpCdkQ5RUk0Z3hWclZvREN5Vk82eVVqa0JHdlR3cEdsTE5Sc1h0dEd1Tm56a3BkTTlMV1pSTVZjcGppNTV1VW5JaUhGSGhQS0NuVjA5bF9JVERp0gF0QVVfeXFMTndWWWc5QlRDeEY1clowUlh5Nk9id0tzdTFGekJ2RDlFSTRneFZyVm9EQ3lWTzZ5VWprQkd2VHdwR2xMTlJzWHR0R3VObnprcGRNOUxXWlJNVmNwamk1NXVVbklpSEZIaFBLQ25WMDlsX0lURGk?oc=5"
+          "title": "제주 대형 관광숙박시설 '에너지 다소비' 여전",
+          "source": "한라일보",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tcEZHS0d4dVVlUjduWjdfcnhEakVISm9Md3owMHJPMnJlN0pfNGtFTWNzd1k3ekF1STVza3p5OXhhb3piNks0QXN6QnJWS01NMjZpaTJ2a2RBLThLNFFPck9mZ3dVS19J?oc=5"
         }
       ]
     }
