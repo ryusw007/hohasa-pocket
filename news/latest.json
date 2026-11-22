@@ -1,19 +1,24 @@
 {
   "date": "2026-11-22",
-  "updated": "2026-11-21T18:18:59Z",
+  "updated": "2026-11-22T14:52:42Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "그랜드모먼트 유스호스텔, 아동복지시설 3곳에 4000만 원 후원",
-          "source": "교육연합신문",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpWC0tSFNkSUtGamlTQWxzalZ6enlRb3hYc3NTNExrVzZBTmZxa0NxaXl6ZzVOMXQwRTFvRmx4Z3FoclZfWXNFYzAwczdYMVp2S1pyT1I5RGhheXFF?oc=5"
+          "title": "그랜드모먼트 유스호스텔, 3~5호 ‘사랑나눔공간’",
+          "source": "국제신문",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxQRFZQLUZYRlh3Q1RMYmxKcm5aYnRZYXFaSGRzcWcyY3p1TlNteTUxNS1wY1ZjT1dRamNEVlN0b0F2X04wUnp0SkFBaDFZNDNpQXlHal9WdTFfYy1TaUVKcEJRX1gyLVFzUUF3RlFwV1o5ck5MNkNVaWtFZl9MNzJkSThiQ3JvUGNfeTdn?oc=5"
         },
         {
-          "title": "뉴욕의 비밀: 비싼 호텔 대신 종교 시설 게스트하우스로",
-          "source": "NYCultureBeat",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00ekZsMC1RaHhhVFlfdUp1ZHRRV01EeUtELU1GRkwzUzBQUkpldkhWeXJrZTVScDJDWHhXX05hVV9samRoYzdHaXdjY3BHSTFFRkdlUTZiRnkxTmR1aDMtYkxWQ2N6RmRnQTJTZy1KcnVuYXdpeHV1ZVR5cElCY2M?oc=5"
+          "title": "[이슈진단]밀양 유스호스텔, 숙박난·지역성장 해결할까",
+          "source": "경남일보",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FNXlVQU9PVFU0NUl6WXJBbjlndG04eW82NDhGTTZkRzBhTE1NdzV6TXVLSjlpYTZCZDliX1d1ODhWQmtXTFNfVlFUUF9vOHcwWldFSDJjWmh5NUdSNFViQW90d3BpbmdJbHM0?oc=5"
+        },
+        {
+          "title": "5성급 호텔 유치 특혜 아닌 공공 일자리 창출",
+          "source": "하남 Times",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CQUFVYTdoUVVQWEtubDBFSnc0bWlnMmF4a2hxQURDdnB3dW1SaE5Cem1TQ3BkcHV6cWlDOGJ3OGZNaS11cFdKdXhBOHRxWklCWWcyUEFMd2NaOGpVODRUR3UtaFZaUmdS?oc=5"
         }
       ]
     },
@@ -21,39 +26,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "서울 외국인 관광객 3000만명 시대 되면 쓰레기는 얼마나",
-          "source": "뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zaWwwNDEyQjBEbm56RWw4WENGRU1CTnlFcjZSdXh4NllzZ3Q3T1cxbHUweFFXN082LWk2eHBEbDkxTjRWbmJ6VXQwOEU1VFlETTlQaENwWXVpVEdCb1NqM9IBeEFVX3lxTE9QejVUSTFUR2F0ODZ6b2FlMzBablJzMW9aVFVRWWstTHJabXVpb01VSHBmVTlXeDc3aGxKNUYyZS1pWm94WW9uZzJONTBoMFJZYmlScHVKczJZN2loY2d6VVd4T2IwdVA4b2pzV0F5c3hsd0t3WDhlaw?oc=5"
+          "title": "외국인 관광객은 어떤 치킨을 먹을까…BBQ 홍대·명동 매출 43% 증가",
+          "source": "신아일보",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hc0hLZ1ZCSUMydWxqNkxzcEk0dXEwYndDZXkzVzdBcVNCcWF3ZlZSUnhXSjJHQnRBS1VHdVNvOExzMXJZRWdNNzdqSUFWcFBZRUsyTUVaa0xGY1pfc19PQm51Smt3bHk1SkxvbjQzeFQ?oc=5"
         },
         {
-          "title": "화재 현장서 외국인 관광객 대피 도운 30대 ‘용감한 의인’ 서울시 표창 [오늘, 특별시]",
-          "source": "세계일보",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hNWQ5aEVmYTZ6UFdzcXhsbGZwZ01xR0U4QTJnTzRRNmNXd2NlV3JXeTFYc3NsN3c0UjQ4QVFUczFTbnZocHFTME9wMlBTU0trbFZZSi1BejBhZ21JaXF2bEg4Q3BVWHNXcEVr0gFUQVVfeXFMUHAxV0JpRHMxNlZhMkVlcV9COWRQc2xWeXQ3cFpQWFh0cGJla0tuZVhtai1sN0M3R1p0di1tSTBQT3hiOUk0NDc3Nl9yWkpTOUJKUDhs?oc=5"
+          "title": "서울 찾는 외국인 관광객 역대 최다… 서울시, '관광총괄관' 신설",
+          "source": "한국일보",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HUV8yZU1XcEp1Z19fMlRuOFk0QW9SVGRvaTROdE0yOWpsZDJCRVdvZzlPeFFxbmx6XzZfcGx4T3c1NU1vLTZHdUxYTW5fUkhwZUpzLUk5MHZRYXJ3dlMyendFNlF5Ni1wYzJGOHZnaW9zbzDSAXNBVV95cUxOR1FfMmVNV3BKdWdfXzJUbjhZNEFvUlRkb2k0TnRNMjlqbGQyQkVXb2c5T3hRcW5sel82X3BseE93NTVNby02R3VMWE1uX1JIcGVKcy1JOTB2UWFyd3ZTMnp3RTZReTYtcGMyRjh2Z2lvc28w?oc=5"
         },
         {
-          "title": "[단독] 59년 역사 서울YMCA 관광호텔 문 닫는다…‘더맥파이’로 새출발",
-          "source": "쿠키뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wRExvekRFejlTckF5aGlzbFY4cDl4aVFfT0lqYWNrWDdDV2p4ei1QTXZ5N1JCQ0pVTDNiX3hsNzBCNGp5dUpMYzYxdEs0ams5SDVjcEwyLTk3UG91WFU4M3dnYw?oc=5"
+          "title": "외국인 관광객에 웃는 호텔… 4분기도 호실적 예약",
+          "source": "파이낸셜뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUbGlvLXRWX3Vta0EtNWsya3BadlE2V3ZsRFFRVFJ6bkVncEM3bzFObktZVko3eGk5UEsyN3drMXZDQ0xwOUdCQ3V2Y1FsNDNQMEU5bXJvQ2tIQQ?oc=5"
         },
         {
-          "title": "밀양시, 외국인 관광객 유치 해법 모색… 관광 발전포럼 개최",
-          "source": "아시아경제",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kbVdxM2JRYWxieUNJOWlFVGJ2a0xOQ19rUFRENkdNai10T1FlZ2JySktlamdnUDJvX3JxZmhqRVo2WXFCVFJzLVhoRURydDhxb1p0bzJhbjRYbmZvWF9MVA?oc=5"
+          "title": "방한객 2000만 돌파…'K-일상' 관광 확산에도 서울 쏠림 여전",
+          "source": "한국면세뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40WFlvMEtNWjhmNDY4cnFTeFN6Nm93TDRxaWJPNDAxX3BiR28yRHUtN1VUbnUzejhSd25FMGc3SlkzQ3U5TGlFMkp4OER6Vk1sYm01UDNETlRLS3Zpa3VFY054UXQ3QUdkd2c?oc=5"
         },
         {
-          "title": "한국 찾은 외국인 관광객 첫 2,000만명 돌파",
-          "source": "KNEWSLA",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fSk1SY0YzUjdfM2dyQ3AxUkZsYmVZWjNxTjZpbFVMa1d3bXpRUFB5eVVJTkR6SWdadHluTHhmRF9zZ0xDZnBBZFNDci1laFFLZ3Rn?oc=5"
-        }
-      ]
-    },
-    {
-      "name": "🏢 부동산·정책",
-      "items": [
-        {
-          "title": "제주 대형 관광숙박시설 '에너지 다소비' 여전",
-          "source": "한라일보",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tcEZHS0d4dVVlUjduWjdfcnhEakVISm9Md3owMHJPMnJlN0pfNGtFTWNzd1k3ekF1STVza3p5OXhhb3piNks0QXN6QnJWS01NMjZpaTJ2a2RBLThLNFFPck9mZ3dVS19J?oc=5"
+          "title": "[데이터로 읽는 관광시장] 외국인 관광객, 한국서 ‘짐 보관·현금’ 물었다",
+          "source": "뉴스트래블",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kOGdVSDZmLV9Ba0FEUHlQM190SnI2ZmpINGNWVWRuZzhzanVCckxtWG5WdDNGQ1NkYjZLS0VDVURWQXJDXzlCdjM2LXBraU5SdS1KVllxY3dlMEFzOF9pV1VMeGpadw?oc=5"
         }
       ]
     }
