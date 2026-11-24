@@ -1,24 +1,34 @@
 {
-  "date": "2026-11-22",
-  "updated": "2026-11-22T14:52:42Z",
+  "date": "2026-11-24",
+  "updated": "2026-11-24T00:04:03Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "그랜드모먼트 유스호스텔, 3~5호 ‘사랑나눔공간’",
-          "source": "국제신문",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxQRFZQLUZYRlh3Q1RMYmxKcm5aYnRZYXFaSGRzcWcyY3p1TlNteTUxNS1wY1ZjT1dRamNEVlN0b0F2X04wUnp0SkFBaDFZNDNpQXlHal9WdTFfYy1TaUVKcEJRX1gyLVFzUUF3RlFwV1o5ck5MNkNVaWtFZl9MNzJkSThiQ3JvUGNfeTdn?oc=5"
+          "title": "[원빌딩 시선] K-관광객 급증에 다시 뜨는 숙박업 빌딩투자",
+          "source": "뉴스톱",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCZlJFWHA2VW1pcDJLMl9HTHJxS1FjQ25PTU5mN2xEV0t4T1lydy10bDRRN29RMjF3VEtnem9FNm9venhSaEE3S1JoVUx0MFM1MzdHLUQtN0NFSk9rQUE?oc=5"
         },
         {
-          "title": "[이슈진단]밀양 유스호스텔, 숙박난·지역성장 해결할까",
-          "source": "경남일보",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FNXlVQU9PVFU0NUl6WXJBbjlndG04eW82NDhGTTZkRzBhTE1NdzV6TXVLSjlpYTZCZDliX1d1ODhWQmtXTFNfVlFUUF9vOHcwWldFSDJjWmh5NUdSNFViQW90d3BpbmdJbHM0?oc=5"
+          "title": "워커힐 호텔, ‘러블리 스트로베리’ 프로모션…딸기 디저트·빙수 선보여",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hM3Q2VzFaVUNKUmgyWHB2VEVJLWZrVEpERWtBZzMwV051U2VZRXVZQ19VRmdWMWtWQnQxT1RTcEU3VnNmUzdWQUo5eXZmeHJ0MGhiWm1yZHE0SFRzNWZLRUtDZkJaR21CVC02LW84WWQ?oc=5"
         },
         {
-          "title": "5성급 호텔 유치 특혜 아닌 공공 일자리 창출",
-          "source": "하남 Times",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CQUFVYTdoUVVQWEtubDBFSnc0bWlnMmF4a2hxQURDdnB3dW1SaE5Cem1TQ3BkcHV6cWlDOGJ3OGZNaS11cFdKdXhBOHRxWklCWWcyUEFMd2NaOGpVODRUR3UtaFZaUmdS?oc=5"
+          "title": "[수원시 소식] 수원새빛돌봄 '세계도시 정책공유 온라인플랫폼' 소개·러닝-한옥 숙박 결합 1박 2일 '한옥 런트립' 운영·'수원새빛돌봄(누구나)' 서비스 제공기관 모집",
+          "source": "뉴스웍스",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CeUtUa1gyM0ExdGJSRFdGTjVfYl9vcWM2ZVhLZE5Zazc4bWJLZjd0X2lKUWxsbElOcnh3MjlGRWdzSTZSdmZqYTBOTmUtSzVSN3ljVWh4eVNEeWptREJwSy13UkROdnJabXNZWUNOVdIBc0FVX3lxTE9OdXFfN0J3cVdiXzUyVEJxMkpTWGROSmduQnhKRHdlcWJYZVhQbzJqS3J6ZWhYMzNEUjFHVmo4Qi12Y2tZQVF0UlAtbUttOE90cDg0c3hwQ25fcUVOR0VNaVNSNDJ5bXoxN0VteDdlbzhjc0k?oc=5"
+        },
+        {
+          "title": "LG유플러스, 해외여행 멤버십 '원더조이' 출시… 쇼핑·교통·숙박 할인",
+          "source": "파이낸셜뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xbXB1Si1HTm42TGgwNkZ6N3ZEbzBSS2NIZEphM0Z6MUNHM0pRZ21EYXhEWDQ1R3FLdTdEZnZSc09zMmowSWd6RUE5ck5pUXM1aGNzeC1SbGxGZw?oc=5"
+        },
+        {
+          "title": "충북 최초 관광호텔 ‘레이크힐스 속리산’ 경매 절차",
+          "source": "숙박매거진",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kdE9EdE9tTlZuZ1dQcnZBQmE4Qy1qaldvalZmWFIxTTdrOUZzOTY5UjRRZk1vN3JVSjRpMnh2NFQ1ajlpWDBBOElNNEdPTkY0bG9GUVdRUXQwd2JfZXZUejNBVFEzYklld19ybWo5alY?oc=5"
         }
       ]
     },
@@ -26,29 +36,59 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "외국인 관광객은 어떤 치킨을 먹을까…BBQ 홍대·명동 매출 43% 증가",
-          "source": "신아일보",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hc0hLZ1ZCSUMydWxqNkxzcEk0dXEwYndDZXkzVzdBcVNCcWF3ZlZSUnhXSjJHQnRBS1VHdVNvOExzMXJZRWdNNzdqSUFWcFBZRUsyTUVaa0xGY1pfc19PQm51Smt3bHk1SkxvbjQzeFQ?oc=5"
+          "title": "외국인 관광객 몰리는 용인…에버랜드 밖으로 발길 잇는 교통 부족",
+          "source": "용인시민신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmUXNWNEZSQjl3VXNMV01vazZIa1BwcUlXQ2FzSW5rMUZxWjRMay01Rm9pbWZzM3liNElqd0NUaHFoU2haU3EwczFuWVNEdTJ4MUFOUy1EUGcwdC1BN29zU0N2OHBjRVdPbWZBRA?oc=5"
         },
         {
-          "title": "서울 찾는 외국인 관광객 역대 최다… 서울시, '관광총괄관' 신설",
-          "source": "한국일보",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HUV8yZU1XcEp1Z19fMlRuOFk0QW9SVGRvaTROdE0yOWpsZDJCRVdvZzlPeFFxbmx6XzZfcGx4T3c1NU1vLTZHdUxYTW5fUkhwZUpzLUk5MHZRYXJ3dlMyendFNlF5Ni1wYzJGOHZnaW9zbzDSAXNBVV95cUxOR1FfMmVNV3BKdWdfXzJUbjhZNEFvUlRkb2k0TnRNMjlqbGQyQkVXb2c5T3hRcW5sel82X3BseE93NTVNby02R3VMWE1uX1JIcGVKcy1JOTB2UWFyd3ZTMnp3RTZReTYtcGMyRjh2Z2lvc28w?oc=5"
+          "title": "서울관광재단, 디스커버서울패스 발행 10주년 ‘2026 파트너스데이’ 개최",
+          "source": "이뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LQ0JieEFUWlYyZ0tLY0d2NFQtdU9mbDV0ZE9hTlRnTUV5SWJDcUtVVkVUYXBELUY1d1ZUOWV6dnJIMHdMWk14UmNHdlhpVFVjRVBxMjQ0YS1BSGtpT3psU0puQzJ1ZW9kRjU0QjhpQzTSAXRBVV95cUxNTVJEX3FnS2RHRHpYUFlGalVOVGdtTHNaUHdjbXlwRkF0YTJzYzBUdmR4N1Z2TUl5UjFpdE12NUdJRDZMRThteFJKREVQNUdXOFNKYVV1ZGs1UVpaRi1oS044eE92NmgtcGVWb1VKR2NxTWRORw?oc=5"
         },
         {
-          "title": "외국인 관광객에 웃는 호텔… 4분기도 호실적 예약",
-          "source": "파이낸셜뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUbGlvLXRWX3Vta0EtNWsya3BadlE2V3ZsRFFRVFJ6bkVncEM3bzFObktZVko3eGk5UEsyN3drMXZDQ0xwOUdCQ3V2Y1FsNDNQMEU5bXJvQ2tIQQ?oc=5"
+          "title": "명동·강남 대신 골목으로…외국인 지갑 어디서 열렸나",
+          "source": "중앙일보",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PTHdKVGdZVUVjN3V4dzZ0UC1NY3VCbUZ4WXBGWXF0QjZBTDFMdlM2QWJNdGtXb3BHNWZoOExIalJvSFlaLXB3eUVtVVNCS2Fiekx4WFVB?oc=5"
         },
         {
-          "title": "방한객 2000만 돌파…'K-일상' 관광 확산에도 서울 쏠림 여전",
-          "source": "한국면세뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40WFlvMEtNWjhmNDY4cnFTeFN6Nm93TDRxaWJPNDAxX3BiR28yRHUtN1VUbnUzejhSd25FMGc3SlkzQ3U5TGlFMkp4OER6Vk1sYm01UDNETlRLS3Zpa3VFY054UXQ3QUdkd2c?oc=5"
+          "title": "˝3,000만 외국인 관광객 시대 왜 의료관광이 핵심인가?˝…국회 정책 간담회 개최:동아경제신문 & daenews.co.kr",
+          "source": "동아경제",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE11R0NNd04ySm1XWWVfalFaTnZvS3pjcGNVRWVqM2cyTFI0X2NndnV3T2kwSWhSYTZfWjVnZW5kckJOYjlLdnfSAWJBVV95cUxPTEE2VC1RZ0RqX0lGNm5IMjhiZUVDS194RGNyYVVMaG9zTDR3bUZ6UXQwVi1tdDFvdjI5eUFZVHJ4aGhiREYtQ050QVlHdHF1N1hiWGtBZDhnQzlwX0RDYk8yUQ?oc=5"
         },
         {
-          "title": "[데이터로 읽는 관광시장] 외국인 관광객, 한국서 ‘짐 보관·현금’ 물었다",
-          "source": "뉴스트래블",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kOGdVSDZmLV9Ba0FEUHlQM190SnI2ZmpINGNWVWRuZzhzanVCckxtWG5WdDNGQ1NkYjZLS0VDVURWQXJDXzlCdjM2LXBraU5SdS1KVllxY3dlMEFzOF9pV1VMeGpadw?oc=5"
+          "title": "양평헬스투어, 튀르키예 여행사 관계자 17명 초청… 외국인 관광객 유치 본격 시동",
+          "source": "여성신문",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aaFczcXdFQWRORDZaaEdaTHl6Q1ZheVJtUnNxem4zZzZKUUdzMmY2OFRzYW0wdk9GRzlNaWh0ZU1UeFhHSDNsbGlIVlFGOHAtcTJObTNiUjhSUGRZSG94WHFSNFl0WC1nNUxGSGk1Z9IBc0FVX3lxTE1EcnNpS1d6ZldJaG1pQlFGQ2lWZDB6bDZqQTdpRVJrMWF0ZkNsSzhrMUNIcFE3U2dDNENkZzVFckwyUlhsdmJWYlhmR2RuSTg3SkNaWFVIQVdtYWM4VzVJX0lWWU9lZTVSM3JGQ04ycmdKemM?oc=5"
+        }
+      ]
+    },
+    {
+      "name": "🏢 부동산·정책",
+      "items": [
+        {
+          "title": "서울 호텔 벽에 웬 가짜 창문?…31년 된 규제가 만든 풍경",
+          "source": "중앙일보",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ga3NDS1Y1MDhaUExFYnpoLTFEMjBSelNyZlg5OUUxNmcxem1PSm9OTHREQTY0dnEzRFFCNEtuWHFsMWtfa3IzQzAtSmlQcEZGQzh3TUdR?oc=5"
+        },
+        {
+          "title": "한중 FTA 훈풍에…서울 도심빌딩 '호텔 리포지셔닝' 빨라지나",
+          "source": "이데일리",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWTE1WTN5LUlsaHhweHdVZEZnMjdPTzRuaGVsdFppMHVJYlRFa0l3eGphWEtaNDZQbXBwU0piQUwyNXNmVkU3bFhTV25xMTF1OE1yd29Jbks0c0FENVMzYXo3R0tMTmFZcGIyOTJJcnItODktMGNVcnZTcWFSSlNEYg?oc=5"
+        },
+        {
+          "title": "양평군, 강·산·역사 잇는 관광문화벨트 구축…체류형 관광도시 도약",
+          "source": "https://www.ppss.kr/",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wRGJicFlEM1psY0Z3YVh2dURYYzdWWGlha3MwVUNNNHV4eC0wb2xrNm1xZnJnN0NyM2VvcVdQT1U1R0g2YjVYWDRwMU1vNk9vVHNBdldMT2tsS1VUN21sTU10aEU?oc=5"
+        },
+        {
+          "title": "전진선 양평군수, 관광지도 다시 그린다…동서 잇는 체류경제 승부수",
+          "source": "주간한국",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WWnV5VFVoT2lwamJOXzBfd09Yd2dvTS1SdG5Eb3VzMEZ0dk1XZ0dJcUJnVW9RYkxJcXpFck9KV2JvOXBob29BQjlJWnY2U2hCYkdldHYwWXgwU1ViVTlRbmxrTjI0aHpzUTBjbVFxNXDSAXRBVV95cUxOaTl6Y1V6cUlzUV9MeFJ6MGRWZkpkWXgzcllVWjM4b0R3eUNkMFVna1dSQ0NrVTJXdV91LVdEanV3aVQybVAwSmU3Sm8zWkstLUFmbGExN05IZDA1ZTJwSVNvWlB6QzZZYkRUOWxEUzRsU1FCTA?oc=5"
+        },
+        {
+          "title": "충북 최초이자 대표 관광호텔 '보은 속리산 호텔' 경매 들어간다",
+          "source": "뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CMGxSR29RVDZsemJNRzdncUluVGRDdUw2bkZMVWc5OWp0c3JTYlNQLVVYbk9jRnAxR0hWQ2J0NXlZcEx0QTFVTUJGSHc2VUY1MTRpM09ybnFmUVR6RzlR?oc=5"
         }
       ]
     }
