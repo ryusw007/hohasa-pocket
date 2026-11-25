@@ -1,4 +1,4 @@
-const V='20261124145310'; const C='hohasa-'+V; const IMG='hohasa-img'; const IMG_MAX=250;
+const V='20261125160332'; const C='hohasa-'+V; const IMG='hohasa-img'; const IMG_MAX=250;
 
 self.addEventListener('install', e=>{ self.skipWaiting(); });
 
