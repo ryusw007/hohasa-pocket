@@ -1,29 +1,14 @@
 {
-  "date": "2026-11-28",
-  "updated": "2026-11-27T15:07:01Z",
+  "date": "2026-11-29",
+  "updated": "2026-11-28T16:00:41Z",
   "sections": [
     {
       "name": "🏨 숙박업",
       "items": [
         {
-          "title": "[매경부동산 단신] 성동구 왕십리역세권 호스텔·공유숙박용 건물 14억원",
-          "source": "매일경제",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8yOVNtMDdicmxUdHoxVjUtN2NtR1padVBDMHo2QUVOYjlsYlVhT2tITVdjX21qMk1rYmp5UDFsQzZQeFU3S1B4TklGTUlpME9ObEo0TEY0WGk?oc=5"
-        },
-        {
-          "title": "[K-관광 3000만]⑤\"방한객 숫자보다 질적 성장…공유숙박 확장은 신중해야\"",
-          "source": "아시아경제",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDMmpIX0N1T3lGUVY3XzBvNERvQlNRb2pNai1HUFMtdEE0U2xqc0NsN0ozSWpDNDRMZkJpWWprYW00SmdHY3NmWWs0TUFGZkFVeG53NDgyeUgzVzJKNU5BVlpEVUtDTUxhQUJIQ3JxTGFZWEZuVWtn?oc=5"
-        },
-        {
           "title": "화성서해마루 유스호스텔, 청소년이 만든 AI 영상으로 화성 독립운동의 기억을 잇다.",
-          "source": "매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzVFJ0V3VLWmcwdmNlSlVPWmhKNUs2Ny13U0VKbFlPSWhOWG9IcExTV3oyckhmU2l2djFwRFpyOXJGWjVQRENaU1I2QzIyMTJDWnhFaU9xM2hmX2FVWjlzbW9fSTY?oc=5"
-        },
-        {
-          "title": "진주남강하모 유스호스텔, 입체 영상 체험관 시범 운영",
-          "source": "경남도민일보",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43bDByMmJyR01ncWRkanh3MjRFOTIyeGNBUXFDQk1XaVFMa1Bxa1RQNVZiUzZWd0hVNFZXMnlpSi15N2hsM3p3cUNGUjlheU1MU3FxeG5DZnlqel9MLUNweEEtcXJVdWozbWc?oc=5"
+          "source": "화성시민신문",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55RDB6ZWlvRWVHSmxna1RvUndhV1l3dFl1b25fa216QS1hTzBUY2U3ZGFUSkJkN1BpT1BqZXVTNXhEZGVsVEhDRmIzZVE0cjFVSlV3b3QySmI3TlBmWVVtN0pTMU1QemlfSm84UXFiSE8?oc=5"
         },
         {
           "title": "에어비앤비는 호텔인가, ‘남의 집’인가…퇴실 규정 후폭풍",
@@ -36,29 +21,29 @@
       "name": "✈️ 관광 동향",
       "items": [
         {
-          "title": "강남·명동·홍대 잇는 ‘반딧불이버스’…서울 심야관광 넓힌다",
-          "source": "서울뉴스통신",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44NTVCVGpDVjE5ZEFfOFZrZ2N3QjhaMkVIaG5NNHhzTmY3UzdUUV9vSE11OElJRExlcjh0cFB1ekxQWGFoWUJpcTRPYy1QbnNFQ0p6MUQwTjdiRGRzRFA4dF9HbWhJLUI1Zldv?oc=5"
+          "title": "외국인 관광객 많은 명동 등 관광특구 화장실, QR코드로 확인 가능",
+          "source": "헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OMzNpQm45SXpyUEt3Rl9FaXRuSFQtMVR5R1EzNnJkUElkZHZCZHJ0QV81U0VfVHBTWlVTYnc0TkxmQ1NzRndHSTBIQkFCdWVQa1FULUFR?oc=5"
         },
         {
-          "title": "외국인 관광객 몰리자 서울 호텔값 6년 새 62% 급등…외래객 3000만명 시대, 숙박난 해법은?",
-          "source": "투어코리아",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lb0dRRU5KSHNSZjUxRUt5aU5WMHVDMGs0N250MEswQjJ2ZG5HYnU0eGQ3ekhvenZEQlNqajE0b254amxsX0hkTHhDYXJPZ1hYcHhsaW5STzU0UXhTbHRwVlNKVjZZU3JELUtacXNB?oc=5"
+          "title": "서울 '반딧불이버스' 27일 첫 운행…강남~홍대 잇는 심야 관광노선",
+          "source": "https://www.newscenterkorea.com/",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uQ0pfWTBJVUR5NGtpOC1rNDlZX3Y2ZEk1OGEzNV95SnY3V2liVzVRd2RTUlMtUndGcHlMZkNYVFZhOG1pd1FESGVyRENNZVpOMzhyTnR2YjF6T0RqNzBNNzYwSllTQmR5bENYYmJWVE1DZw?oc=5"
+        },
+        {
+          "title": "'갑자기 한겨울?'...방한용품 중무장한 외국인 관광객들 [TF사진관]",
+          "source": "더팩트",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOZnlWa0xsQVJVVXJpNVUyalZEYzhTZEROTV9aZktlZE5ZQ3JUZWNWcjRKNkpwMGE4RVYzdDl0TVVsbUt6ekptWU82WTRKZkkxenkyLVhlVUtoSldteFHSAVhBVV95cUxNUU82djE5UG9zOVdHOWIwcEU2NVZYM1QxU05GQ2Rzbm91NW1KY2VqeG5jMWdCWGE2UFJaVmxmUXZ6WGV0VXh5ZFVKajFrN0ZYbU1tQ1d1YWZ5?oc=5"
         },
         {
           "title": "10월 방한 외국인 관광객 216만 명…지방 공항·카드 소비도 동반 상승",
           "source": "한국사회복지저널",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FdkxRdXZwWWtpbjl6a2JSdGstbzd6akc5eWdvbkd5M1NmZzVlM0FsdW9JVXg3M0ptb2l0SENKYVNyamJ3UnVLUTN5d0V5WlJZWExHNnAwU0JGbENYZ3FTclIxX0o1bm92TWh3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sVkVfa2hrVnJwcmZIbXpRYlgtdmZOdkg2RE1vbGV1WlZrTkRuTnlCVF9nLUNfcWhmczdEVWYtdEd0ZExUQ3lZOTU0eTl6UTE2TU1tMVV4Qy1MTWpBOVFWU0NzdzNYejlkdEVBZA?oc=5"
         },
         {
           "title": "\"방한 외국인 관광객 3000만 시대 대비해 '숙박 수용력' 높여야\"",
           "source": "이데일리",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVFpPcTZfX0ZlNzVXRGxYY3JxX3VkMDF2d3NxdFo1a1dCYUgyMWNhaG15ZW1RU2hDSXF6QmQtVmJJbTc1QzNXNkgzR2p1cnF5TXN6VTd1UzM2d0tXcE5YV1lnVnBjaDVqMmtmNEZuSW8yN0RzNzBkNXMwSDNwaF8xUw?oc=5"
-        },
-        {
-          "title": "[영상]올해 방한 외국인 관광객 2000만명 돌파…사상 첫 기록",
-          "source": "비즈니스플러스",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFcUNhNU5lZW11Mm9zZG41NUNfSUxPWjN4X0w4T3FXZ002SVUxaHhzeWR0OUJES251Y2tpMkpjbXRpUTBBRHktbEkyNVBEYWdHQkhZODBnbEZfTE5PQ2dra1c1ZGFOc2xlbTItQ0c3cw?oc=5"
         }
       ]
     },
@@ -66,9 +51,19 @@
       "name": "🏢 부동산·정책",
       "items": [
         {
+          "title": "‘뉴블랑 센트럴 명동’ 매각자문에 CBRE·딜로이트안진 .. ‘오크우드 여의도 파크 서울’과 함께 내년 호텔 거래 시장 연다",
+          "source": "SPI - 상업용 부동산 콘텐츠 & 데이터 애널리틱스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10TVhGS2hVdVllYU5SdUdCUjh1OFRkeWp0ejJJRW0ySTMtbTNiMm9kNUhJR2JHb3AwNGk4aWhwdGRXR2hzaFNZcXhKVUNzQm8xR3JKSHZucUdoSTA?oc=5"
+        },
+        {
           "title": "한화갤러리아, 종로 보령빌딩 인수 추진…'호텔 활용' 주목",
           "source": "뉴스톱",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQTDlrMU5HeW9ETkxVajd0VXpoS1R1NG5IZUtZM294WkhXNnozdHMxdG9nVFdQbHFiWk9hSy1UZC00dzZDTmdKRXh6ZkNZS0RheTcyYjFkaEpMaHlYOXc?oc=5"
+        },
+        {
+          "title": "K-컬처 도시 하남 5성급 호텔 유치 시급(1)",
+          "source": "하남일보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00RE1CeTRXcGoxeHFkb3hQb3FPZk1MQXV4NWVpWjhnNW9hUHNCMi0za2J3VTQ3djZ5d21tdU1RQzBYMUJrQ04zUW9jMzd2X3FrUndYT05TWVFTUXJBNXI1cnRXV1ZOVGg1SXc?oc=5"
         },
         {
           "title": "화재 빈발 캡슐호텔은 스프링클러 사각지대",
@@ -76,19 +71,9 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BNjZzdDRWR2FOU0lEeW9FQUU3eDg0YlNQTE52RGZNQmxqSjVmWnlJc1I0TURXVF9JRUp5X251eUxobXJuemlvZm9oa2Rvc3hpdURDeg?oc=5"
         },
         {
-          "title": "야놀자리서치 “외래객 3000만 시대, 호텔 신축보다 기존 객실 깨워야”",
-          "source": "마이데일리",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xRnVrdXJhV01HQlZNaWUtSDNxOUVqNEZybEFQMi14UTUwQTlHVVBIWHVvRmV1U2s1YzZ2ZUU0cFNfd0VhYkJUc1VSU2o3TEdVT3BDUW02b0pxSjk1NmZOcg?oc=5"
-        },
-        {
-          "title": "\"주유소 리츠의 변신\"…코람코라이프인프라, 호텔 2곳 개관",
-          "source": "이데일리",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNUJWQmhxQWRmWHNVSmhiamVPdXE1VUFLZmh6Z2hudzl5QmNySk9ETEEzZWwzSW9hLWdPbjlReVBJdjExb0taNUUtb2pkWGJaalpoX1o3NTRpaWllUU9tdnBBTGJRbS1LZ2pUajlSRjBFZFEtb0l6ZDFodlpoMnNzQg?oc=5"
-        },
-        {
-          "title": "관광객 줄고 비행기 줄면 항공료 또 오른다…양경호 “탐나는전보다 항공료 지원 검토해야”",
-          "source": "뉴스N제주",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01M3pyc3k5bUFRX0daNTF4bG1ta2dqeEtyZmdoWkw2NWhsNHZDMERSaWRaM2tiOS1CVXl5X3ZaQ0IyNkdxSEkycEJRNlhONzZVR3VNX2JzM3NDdUdUT1JaRnN2QzBwUEJnRlNUdg?oc=5"
+          "title": "[기자의 눈] 군위군 관광의 마지막 퍼즐은 숙박...소규모 업소 경쟁력부터 살려야",
+          "source": "프레시안",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92V3JtN1lVMGhfQTMyajdxeVZRenA0SHhhbkFreGVHQjFad0pGbHIwRW9Fd3FDX1h6QXVNQlc1NC11TGtTSjJmdDlWSDEtaDZRYkFMTm1OV19kX3BhZXBvTjlQVWpHaE5GZXV3?oc=5"
         }
       ]
     }
